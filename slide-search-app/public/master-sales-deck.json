@@ -1,0 +1,94 @@
+{
+  "deckId": "sales",
+  "deckName": "Master Sales Deck",
+  "version": "1.0.0",
+  "lastUpdated": "2024-01-15",
+  "slides": [
+    {
+      "slideNumber": 1,
+      "title": "Company Overview",
+      "content": "Welcome to our company. We are a leading provider of innovative solutions that help businesses grow and succeed in today's competitive market.",
+      "type": "overview",
+      "tags": ["company", "overview", "introduction"],
+      "keyPoints": ["Company mission", "Core values", "Market position"]
+    },
+    {
+      "slideNumber": 2,
+      "title": "Problem Statement",
+      "content": "Many businesses struggle with inefficient processes, poor customer engagement, and lack of data-driven insights. These challenges prevent growth and reduce profitability.",
+      "type": "problem",
+      "tags": ["problems", "challenges", "pain-points"],
+      "keyPoints": ["Inefficient processes", "Poor customer engagement", "Lack of insights"]
+    },
+    {
+      "slideNumber": 3,
+      "title": "Our Solution",
+      "content": "Our comprehensive platform addresses these challenges through intelligent automation, advanced analytics, and seamless integration capabilities.",
+      "type": "solution",
+      "tags": ["solution", "platform", "features"],
+      "keyPoints": ["Intelligent automation", "Advanced analytics", "Seamless integration"]
+    },
+    {
+      "slideNumber": 4,
+      "title": "Key Benefits",
+      "content": "Implementing our solution delivers measurable results: 40% increase in efficiency, 60% improvement in customer satisfaction, and 25% reduction in operational costs.",
+      "type": "benefits",
+      "tags": ["benefits", "results", "metrics"],
+      "keyPoints": ["40% efficiency increase", "60% customer satisfaction", "25% cost reduction"]
+    },
+    {
+      "slideNumber": 5,
+      "title": "Market Opportunity",
+      "content": "The market for business optimization solutions is growing rapidly, with a projected CAGR of 15% over the next five years. Early adopters will gain significant competitive advantages.",
+      "type": "market",
+      "tags": ["market", "opportunity", "growth"],
+      "keyPoints": ["15% CAGR", "Rapid growth", "Competitive advantage"]
+    },
+    {
+      "slideNumber": 6,
+      "title": "Competitive Analysis",
+      "content": "Our solution offers unique advantages over competitors: superior technology, better customer support, and more flexible pricing models.",
+      "type": "competitive",
+      "tags": ["competitive", "advantages", "differentiation"],
+      "keyPoints": ["Superior technology", "Better support", "Flexible pricing"]
+    },
+    {
+      "slideNumber": 7,
+      "title": "Customer Success Stories",
+      "content": "Leading companies across industries have transformed their operations with our solution. Here are some of their success stories and measurable outcomes.",
+      "type": "testimonials",
+      "tags": ["success", "stories", "customers"],
+      "keyPoints": ["Industry leaders", "Transformed operations", "Measurable outcomes"]
+    },
+    {
+      "slideNumber": 8,
+      "title": "Implementation Process",
+      "content": "Our proven implementation methodology ensures smooth deployment and rapid value realization. We provide comprehensive support throughout the entire process.",
+      "type": "process",
+      "tags": ["implementation", "process", "deployment"],
+      "keyPoints": ["Proven methodology", "Smooth deployment", "Rapid value"]
+    },
+    {
+      "slideNumber": 9,
+      "title": "Pricing and Packages",
+      "content": "We offer flexible pricing options designed to meet different business needs and budgets. Our packages scale with your growth and requirements.",
+      "type": "pricing",
+      "tags": ["pricing", "packages", "options"],
+      "keyPoints": ["Flexible pricing", "Scalable packages", "Growth support"]
+    },
+    {
+      "slideNumber": 10,
+      "title": "Next Steps",
+      "content": "Ready to transform your business? Let's discuss your specific needs and create a customized implementation plan that delivers immediate value.",
+      "type": "call-to-action",
+      "tags": ["next-steps", "action", "planning"],
+      "keyPoints": ["Discuss needs", "Customized plan", "Immediate value"]
+    }
+  ],
+  "metadata": {
+    "totalSlides": 10,
+    "averageSlideLength": "2-3 minutes",
+    "targetAudience": "Business decision makers",
+    "presentationStyle": "Professional and engaging"
+  }
+}

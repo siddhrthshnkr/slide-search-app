@@ -1,0 +1,12 @@
+[
+  {
+    "displayName": "Master Sales Deck",
+    "fileName": "master-sales-deck.json",
+    "presentationId": "YOUR_PRESENTATION_ID_1"
+  },
+  {
+    "displayName": "Global Case Studies",
+    "fileName": "global-case-studies.json",
+    "presentationId": "YOUR_PRESENTATION_ID_2"
+  }
+]
