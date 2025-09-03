@@ -9,19 +9,45 @@ async function loadAllSlideData() {
   const decksConfigFile = await fs.readFile(path.join(publicDir, 'decks.json'), 'utf8');
   const decks = JSON.parse(decksConfigFile);
 
-  // 2. Read each individual slide deck file
+  // 2. Load index data for global case studies if available
+  let indexData = null;
+  try {
+    const indexFile = await fs.readFile(path.join(publicDir, 'global-case-studies-index.json'), 'utf8');
+    indexData = JSON.parse(indexFile);
+  } catch (err) {
+    console.log('No index file found, proceeding without index data');
+  }
+
+  // 3. Read each individual slide deck file
   const allSlidesPromises = decks.map(async (deck) => {
     const filePath = path.join(publicDir, deck.fileName);
     const fileContents = await fs.readFile(filePath, 'utf8');
     const deckData = JSON.parse(fileContents);
     
-    // 3. Extract slides array and augment each slide with deck info
+    // 4. Extract slides array and augment with deck info and index data
     const slides = deckData.slides || [];
-    return slides.map(slide => ({
-      ...slide,
-      deckDisplayName: deck.displayName,
-      presentationId: deck.presentationId
-    }));
+    return slides.map(slide => {
+      // Find corresponding index data for this slide
+      let slideIndex = null;
+      if (indexData && deck.fileName === 'global-case-studies.json') {
+        slideIndex = indexData.find(index => index.slide_number === slide.slideNumber);
+      }
+      
+      return {
+        ...slide,
+        deckDisplayName: deck.displayName,
+        presentationId: deck.presentationId,
+        // Add index metadata if available
+        ...(slideIndex && {
+          office: slideIndex.office,
+          client: slideIndex.client,
+          indexService: slideIndex.service,
+          businessType: slideIndex.type,
+          industry: slideIndex.industry,
+          indexNotes: slideIndex.notes
+        })
+      };
+    });
   });
 
   const slidesByDeck = await Promise.all(allSlidesPromises);
@@ -36,11 +62,18 @@ async function loadAllSlideData() {
     
     const extractedText = textElements.map(element => element.text).join(' ');
     
-    // Enhanced categorization matching frontend logic
-    const categorizeSlide = (text, notes, deckName, elements) => {
+    // Enhanced categorization with index data integration
+    const categorizeSlide = (text, notes, deckName, elements, indexData) => {
       const content = (text + ' ' + (notes || '') + ' ' + deckName).toLowerCase();
       
-      // Deck-based categorization first
+      // Use index data for more accurate categorization if available
+      if (indexData) {
+        if (indexData.businessType === 'eCommerce') return 'eCommerce';
+        if (indexData.businessType === 'Lead Generation') return 'Lead Generation';
+        if (indexData.industry && indexData.industry.toLowerCase().includes('case stud')) return 'Case Studies';
+      }
+      
+      // Deck-based categorization
       if (deckName.toLowerCase().includes('case stud')) return 'Case Studies';
       if (deckName.toLowerCase().includes('sales')) {
         if (content.includes('pricing') || content.includes('cost') || content.includes('$') || content.includes('price')) return 'Pricing';
@@ -85,10 +118,24 @@ async function loadAllSlideData() {
       return servicesString.split(/[|,&]/).map(s => s.trim()).filter(s => s);
     };
 
+    // Create enriched text for better searchability
+    const enrichText = (baseText, slide) => {
+      let enriched = baseText;
+      if (slide.client) enriched += ` ${slide.client}`;
+      if (slide.industry) enriched += ` ${slide.industry}`;
+      if (slide.indexService) enriched += ` ${slide.indexService}`;
+      if (slide.businessType) enriched += ` ${slide.businessType}`;
+      if (slide.office) enriched += ` ${slide.office}`;
+      return enriched;
+    };
+
+    const enrichedText = enrichText(extractedText, slide);
+
     return {
       ...slide,
       text: extractedText,
-      category: categorizeSlide(extractedText, slide.notes, slide.deckDisplayName, slide.elements),
+      enrichedText: enrichedText,
+      category: categorizeSlide(extractedText, slide.notes, slide.deckDisplayName, slide.elements, slide),
       metrics: extractMetrics(slide.elements),
       services: extractServices(slide.elements),
       elementCount: textElements.length,
@@ -146,7 +193,11 @@ Example response: {"relevantSlides": [{"slideNumber": 15, "deckDisplayName": "Ma
       deckDisplayName: slide.deckDisplayName, 
       text: slide.text, 
       category: slide.category, 
-      services: slide.services, 
+      services: slide.services,
+      client: slide.client,
+      industry: slide.industry,
+      businessType: slide.businessType,
+      office: slide.office,
       notes: slide.notes 
     })))}`;
     
