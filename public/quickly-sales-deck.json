@@ -1,186 +1,10 @@
 {
-  "presentationId": "1ePqBuQDQl6eDLV7ogHlYwu2C1rLRL-ZkZNymv_DEy2U",
-  "presentationName": "Quickly.ai - Master Sales Deck",
+  "presentationId": "18Oz7FkqemdjFNBtK16eyzcVPrE9k4LI5xmm-tBkl8gU",
+  "presentationName": "Quickly.ai - Master Sales Deck - Search App",
   "slides": [
     {
-      "slideId": "p",
-      "slideNumber": 1,
-      "notes": "\n",
-      "elements": [
-        {
-          "objectId": "i0",
-          "type": "SHAPE",
-          "width": 453.4251968503937,
-          "height": 161.6220472440945,
-          "top": 70.06576377952757,
-          "left": 24.543520275590552,
-          "text": "AI that closes deals, crushes support and scales your business"
-        },
-        {
-          "objectId": "i1",
-          "type": "SHAPE",
-          "width": 670.9133858267717,
-          "height": 26.881889763779526,
-          "top": 222.4276212598425,
-          "left": 24.543307086614174,
-          "text": "We set it up, train it and optimise it - so you don’t have to!"
-        },
-        {
-          "objectId": "g32d175f0297_1_105",
-          "type": "IMAGE",
-          "width": 82.98820551181102,
-          "height": 22.25393385826774,
-          "top": 349.4842505905512,
-          "left": 36.54330708661417,
-          "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfdy_zHDsAXRFz_HW54UT1dPoJ-Hsf2uNQZxi5kM2bDxxNacWRH5taoYj1XloIe65LSMiFxmDAsGR-X8dlqxgv10xLbcJAgecZolfdAPOumC5yYGSkB3eFcq0gC9yjLyoVt7qF9cFYIZRLdzMzHEbViRA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
-        }
-      ]
-    },
-    {
-      "slideId": "g32d09ff5266_0_1",
-      "slideNumber": 2,
-      "notes": "\n",
-      "elements": [
-        {
-          "objectId": "g32d175f0297_0_4",
-          "type": "SHAPE",
-          "width": 429.9448818897638,
-          "height": 219.4251968503937,
-          "top": 82.21850393700787,
-          "left": 38.60826771653543,
-          "text": "Hey [Client’s Name],\nBusiness moves fast. Winners move faster.\nThat’s why we built Quickly.ai — AI agents that don’t just work… they hustle. They generate leads, close deals, handle support, and even chase down overdue invoices — all while cutting your costs and scaling your ops.\nNo fluff. No fat. Just AI that scales your business.\nLet’s go all in.\nTo winning,\nNick"
-        },
-        {
-          "objectId": "g32d175f0297_0_5",
-          "type": "SHAPE",
-          "width": 194.38582677165354,
-          "height": 405,
-          "top": 0,
-          "left": 525.6220472440945,
-          "text": ""
-        },
-        {
-          "objectId": "g32d175f0297_0_6",
-          "type": "SHAPE",
-          "width": 188.5511811023622,
-          "height": 61.20472440944882,
-          "top": 216.98925019685038,
-          "left": 528.5391547244094,
-          "text": "Nick Bell\nFounder\n1300 479 226\nnick@quickly.ai"
-        },
-        {
-          "objectId": "g35d3f2352d1_8_4",
-          "type": "IMAGE",
-          "width": 111.66141732283465,
-          "height": 112.7007874015748,
-          "top": 89.80118110236221,
-          "left": 566.9842966535432,
-          "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUchpJgR-Qafq_Fk3c2G2U6oVGqLX_UFM6Rdh8SBu2qoR9YvNdx9JoQxD7rbYGIxZvC9hj47Z4J5BLCOxLFRvt-t3vUb-RIlHWTjVD1UrJAvwzbvM7h0BVktO78rix7G3eZ9bi6cGUgnFyqefwgFrz8=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
-        }
-      ]
-    },
-    {
-      "slideId": "g354c82bd132_0_0",
-      "slideNumber": 3,
-      "notes": "Add your title. \n",
-      "elements": [
-        {
-          "objectId": "g354c82bd132_0_1",
-          "type": "SHAPE",
-          "width": 429.9448818897638,
-          "height": 219.4251968503937,
-          "top": 85.48622047244095,
-          "left": 38.60826771653543,
-          "text": "Hey [Client’s Name],\nBusiness moves fast. Winners move faster.\nThat’s why we built Quickly.ai — AI agents that don’t just work… they hustle. They generate leads, close deals, handle support, and even chase down overdue invoices — all while cutting your costs and scaling your ops.\nNo fluff. No fat. Just AI that scales your business.\nLet’s go all in.\nTo winning,\nGrant"
-        },
-        {
-          "objectId": "g354c82bd132_0_2",
-          "type": "SHAPE",
-          "width": 194.38582677165354,
-          "height": 405,
-          "top": 0,
-          "left": 525.6220472440945,
-          "text": ""
-        },
-        {
-          "objectId": "g3552acd4f7d_1_0",
-          "type": "SHAPE",
-          "width": 188.5511811023622,
-          "height": 61.20472440944882,
-          "top": 216.98925019685038,
-          "left": 528.5391547244094,
-          "text": "Grant Smith\nOperations Manager\n1300 479 226\ngrant@quickly.ai"
-        },
-        {
-          "objectId": "g35d3f2352d1_8_5",
-          "type": "IMAGE",
-          "width": 112.7007874015748,
-          "height": 112.7007874015748,
-          "top": 89.80118110236221,
-          "left": 566.4645669291339,
-          "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeurS6-VsE8l2vI9BO9l1jaOOLagiXsBP_2pw-ApPNdSwfCmrgXfar9nhdksmFeWI2SwS07anJzAbNyyy-u9TzpAAUr3N5ENWw7bhuNnbjb3f25DLYdOuJfMH1hDPuigYVTwegAb61kwMJbZ_XX7CV-Eg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
-        }
-      ]
-    },
-    {
-      "slideId": "g35d6ca73a95_0_0",
-      "slideNumber": 4,
-      "notes": "Add your title. \n",
-      "elements": [
-        {
-          "objectId": "g35d6ca73a95_0_1",
-          "type": "SHAPE",
-          "width": 429.9448818897638,
-          "height": 219.4251968503937,
-          "top": 97.17716535433071,
-          "left": 38.05511811023622,
-          "text": "Hey [Client’s Name],\nBusiness moves fast. Winners move faster.\nThat’s why we built Quickly.ai — AI agents that don’t just work… they hustle. They generate leads, close deals, handle support, and even chase down overdue invoices — all while cutting your costs and scaling your ops.\nNo fluff. No fat. Just AI that scales your business.\nLet’s go all in.\nTo winning,\nJordan"
-        },
-        {
-          "objectId": "g35d6ca73a95_0_2",
-          "type": "SHAPE",
-          "width": 194.38582677165354,
-          "height": 405,
-          "top": 0,
-          "left": 525.6220472440945,
-          "text": ""
-        },
-        {
-          "objectId": "g35d6ca73a95_0_3",
-          "type": "SHAPE",
-          "width": 188.5511811023622,
-          "height": 61.20472440944882,
-          "top": 216.98925019685038,
-          "left": 528.5391547244094,
-          "text": "Jordan \nAi Strategist \n1300 479 226\njordan@quickly.ai"
-        },
-        {
-          "objectId": "g35ec3ea9e3e_0_1",
-          "type": "SHAPE",
-          "width": 112.7007874015748,
-          "height": 112.7007874015748,
-          "top": 89.80118110236221,
-          "left": 566.4645669291339,
-          "text": ""
-        },
-        {
-          "objectId": "g35ec3ea9e3e_0_0",
-          "type": "IMAGE",
-          "width": 109.30708661417323,
-          "height": 109.30708661417323,
-          "top": 91.49825216535433,
-          "left": 568.1609748031495,
-          "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUf0BDOpZ1YFmFRWa3kCVxlltyO1RC3fP9p5Tl4pMEw2h8kz23GIa6d2oKJXRKMwx6sQK8DpDo9ME5ONwD_KqXhMDpW_Sp1Bx58tKUf0Pa8BrpeLc6aOCReePBaQKCzJlfMowY9zfXFglxNRYasdzsyCqQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
-        }
-      ]
-    },
-    {
       "slideId": "g35ec59d507d_3_162",
-      "slideNumber": 5,
+      "slideNumber": 1,
       "notes": "\n",
       "elements": [
         {
@@ -281,7 +105,7 @@
           "top": 137.8740157480315,
           "left": 408.01377952755905,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfpN3D93HzHymihw0ebKNy8GTAZCjJdS1Eatsk-RgXLz8Q1dQeJ4Pp1Pf8qZkG6GW4YTtNLlWsaqN_xeUX8YI_4vTVN4vACXOYu0Hyoxse71nRMxofSf_QuM8LPqBDHT2OMLegQT1aOs5LBUWEUQ_Clyw=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcPhuNkZyhFtxNO9CrGo9V-mt2T2OJnC36T5pLciHQo5zlWp15C6BSQ10EneTqBNlM7xamfV3AoVS3c08UdDT8cyDUpyL9LUDGEqHw0h28BliX8ykEGVYpzjW4UM03nVXKq3rT19r7BYLc1CceAi6R_xw=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g35ec59d507d_3_174",
@@ -291,7 +115,7 @@
           "top": 144.3464566929134,
           "left": 87.6240157480315,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUc6XMSaHFmIMA9rGa4Z3QP2OBzIYN1fuXcm8FCwOPV5Zzxz6Wtf1Go5gCfUJEgG8ZU8cZTk7tv7y-4qAHeVvJvdMBPScEbCidT73ZMyHys_t_ekoNRqRpxMFLzQLd_3kuGenikK-EGU4MJZ5GpA6vwlOQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeLMflKnPLyI9cE8NEuRL6vkRDoHXzyBWzTIYRtyKjeXn2SFG3giuMIvm8t69j5dKZWYEU0BPUi5LWDkIOlAS_fz8S0lF_vL6J0yfaHFQ4-KocQnSkecDraei3E78w7njIl6TNlCHRfjbVok5dpPfyrtw=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g35ec59d507d_3_175",
@@ -301,7 +125,7 @@
           "top": 141.39960551181102,
           "left": 249.96850314960628,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUf7KZb00RJUGMc6S8gVZL3-pHKelmau7GhnfcO44uBCH3LTf2Pe7stsnx5QUhDXq_20nHMPZK23Y5AJdyBc9nSjq8IgeSXC9A01LLnYS7H2ChmlkC3ih0sPZR9FrGY2gUtSJcMYUZ-3fBS_lQpxHY6kig=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdf34RER9JHdfvA_4gPXDfQZnpZ5ylVD81nkySPv65X5ML0JjHEO6ENuOFgM5-52EAZCLsKFT-YRtJPFtaJp-6SnjqBvMLYId_YuGsoORrZciNArPOLx9I8l6RzqwKXjRQsT-WacJ8Lx9GA4dLADqqJAw=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g35ec59d507d_3_176",
@@ -311,13 +135,13 @@
           "top": 132.11220807086613,
           "left": 572.6063011811024,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUecyc3Nom0i1_l9-CqIWBnw7iNzcu68MxRd6lBpur7A16Ligiy-e7nJJ2ndNkZ4yDK30zr1IrHvjfHjXKwrgrKd36yzcx-7AiTYa4orPwjfXoZ_LO_smyn4vjgvUaVHt6Ud-uDjvfkYY8Zr3YV7GTRn7w=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdAUHkX9VXJdQsc6de-0T-PGdfjVTyCkh5qgH1-TpIFMHv5vD73afKK9mOYCk0vWJ1GWYUDqIU-5rsRHhzN7tLJhm3MaeJeZa42TdxeRTbZiRf1gOAMjNIkSemLSzN9n_uS9JR7Nz1ifH2oF1V1zsk2nQ=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         }
       ]
     },
     {
       "slideId": "g352a350047c_1_0",
-      "slideNumber": 6,
+      "slideNumber": 2,
       "notes": "\n",
       "elements": [
         {
@@ -373,7 +197,7 @@
     },
     {
       "slideId": "g3564f5bfdb6_0_0",
-      "slideNumber": 7,
+      "slideNumber": 3,
       "notes": "\n",
       "elements": [
         {
@@ -419,7 +243,7 @@
     },
     {
       "slideId": "g3564f5bfdb6_0_8",
-      "slideNumber": 8,
+      "slideNumber": 4,
       "notes": "\n",
       "elements": [
         {
@@ -455,7 +279,7 @@
     },
     {
       "slideId": "g355fa69fa04_5_15",
-      "slideNumber": 9,
+      "slideNumber": 5,
       "notes": "\n",
       "elements": [
         {
@@ -502,7 +326,7 @@
           "top": 152.1040283464567,
           "left": 372.9475206692913,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUclpUtmFhLgUO0j-W98e43QSXuT-isozMT7nmP2PIXn64QHruz47Egc4lfd5X3lqMQjf4Rlv-jx7glexoeBNMFNQm5QDaVZ3_JNQgaxGJxJSDuCnc26thuvH38_El1ELsIwkxgsJgiowvsm95TnKoo=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUerOCYv0thwldB_s7AKGHkzKSlWUzprm759NlI6yz0T0f89UGRCXzuK8fppcX51UWAdx_f6-mN2C5rYFYePV1Z5lz-Clp9AlD8MEjRZ6Nv711Kt4EmF6CpV8FAESNlkLHuFMtHOHw9qAU8hqJpoiYn8YA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g355fa69fa04_5_23",
@@ -512,7 +336,7 @@
           "top": 152.10433070866142,
           "left": 217.15602637795277,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUc9N1ZREi4FBVbCEWvPt_zWUBlIlLIKIzvk9Va4HOhMd3Nqtjb1DcqZ3lm8BmUyTWGL6sPhQWk8zU8L9EEFl6Hr36mH58ekkOyK_4kuMW5aWiuQBoa_wpaSUIYNHq1IkbeKoGPDxfQEaMwSf0zluYWbZw=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUep7Dwf-FQfXs7RDWW_gHrO-pNR9sm3R53UGuLRCz_xWP-nRf9QniShcqwEqAqoILvqGiA-W8BvYLNlAQ7AwyLucUbnfoUfB5hA8E7wBHbUy2a1WkY-0sqK_WuEpuLdtggKOxF-7kQE_dNIfx-B6_wAAA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g355fa69fa04_5_24",
@@ -522,7 +346,7 @@
           "top": 152.1033529527559,
           "left": 66.85598523622046,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUe9YsW-Kn0w0WceQSunAfPAeq8LP74OinCAF388xBqukE4KI_UMt_7v4pW7m75BSBw4bv3AfY9YEB6PaKn6SgWfm0nDWirO2ltZtCe0nnGPB6hKslS8heLDO0LEwGKVIG6kOea8Bi1dDt9PUGyCgZaZ4w=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfFmHfl7qwx3-CqqDwDKIlW1mc0SbTEv1xzL-rGdKAfEl-YVXfwJwIwEFTbaH37dcg0vbfVE1I2Vjk9JgCsqqh3nfFBwxvHpqrT9Lo731U8gN_bd_MiUd0IDjD26c8_4XkqTmnoQ4Fmx2SSoPsC7Y_WzQ=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g355fa69fa04_5_33",
@@ -572,7 +396,7 @@
     },
     {
       "slideId": "g355fa69fa04_5_38",
-      "slideNumber": 10,
+      "slideNumber": 6,
       "notes": "\n",
       "elements": [
         {
@@ -619,7 +443,7 @@
           "top": 152.1040283464567,
           "left": 372.94759251968503,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUclpUtmFhLgUO0j-W98e43QSXuT-isozMT7nmP2PIXn64QHruz47Egc4lfd5X3lqMQjf4Rlv-jx7glexoeBNMFNQm5QDaVZ3_JNQgaxGJxJSDuCnc26thuvH38_El1ELsIwkxgsJgiowvsm95TnKoo=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUerOCYv0thwldB_s7AKGHkzKSlWUzprm759NlI6yz0T0f89UGRCXzuK8fppcX51UWAdx_f6-mN2C5rYFYePV1Z5lz-Clp9AlD8MEjRZ6Nv711Kt4EmF6CpV8FAESNlkLHuFMtHOHw9qAU8hqJpoiYn8YA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g354723d346a_0_25",
@@ -637,7 +461,7 @@
           "top": 164.30512775590552,
           "left": 79.05843070866142,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUekfHb8-WaPHGLUyHV4GGm7RLsGXmV-xeTbDw6ft47dmVWWpx-M3p1EJxPqlKgUGdmjsi62Yqe0O9JczXUlcPkNul7fjp05c3cFeqx5DLhaGUsj__SH0WC9U8RsspeoPeAm6chCNQ4ktga73YgXY4CBcg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcRDnIZkCjk7KeT-dyHtEGcH6AtwwfFMhP-sFOG9oimBrv71LeEVaBm729rGL9iur-m65EEBkNEPlCCbmXT8vzS-rZ24HPLg8Xn7ie-jLTqU0XtHIoCmoPja4NzJgal8dfv2ELxwW3MtWvaAkxJWsI=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g354723d346a_0_33",
@@ -647,7 +471,7 @@
           "top": 152.10433070866142,
           "left": 217.15602637795277,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUc9N1ZREi4FBVbCEWvPt_zWUBlIlLIKIzvk9Va4HOhMd3Nqtjb1DcqZ3lm8BmUyTWGL6sPhQWk8zU8L9EEFl6Hr36mH58ekkOyK_4kuMW5aWiuQBoa_wpaSUIYNHq1IkbeKoGPDxfQEaMwSf0zluYWbZw=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUep7Dwf-FQfXs7RDWW_gHrO-pNR9sm3R53UGuLRCz_xWP-nRf9QniShcqwEqAqoILvqGiA-W8BvYLNlAQ7AwyLucUbnfoUfB5hA8E7wBHbUy2a1WkY-0sqK_WuEpuLdtggKOxF-7kQE_dNIfx-B6_wAAA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3593a8c04aa_0_0",
@@ -689,7 +513,7 @@
     },
     {
       "slideId": "g355fa69fa04_5_66",
-      "slideNumber": 11,
+      "slideNumber": 7,
       "notes": "\n",
       "elements": [
         {
@@ -735,7 +559,7 @@
           "top": 158.60236377952754,
           "left": 299.08858425196854,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfHQ4LuptShPvBMj9j8Gz8T_-4RDGVvVdFI26QQdPKYh8BNaUGPY5pRxNnW07U-opPW3tiqiQt6rssDUXNHLmkLZbiuwc-GpoAj0OvQQy42pXpao11tbQgXOtQNF1MjUosY1tBd8c9YAKOXImWuleEMnA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdntJIC5H5zP-YFzikgekp_hFN7bx_y7qsdyFSkNO-0Fpt7sbyLz505cUq83Jotg_p9HnDNbUaSng7ZlVCShJDB1dccO2dpH_rdtC-iYT5UOhVxHVLiZtA5NgK3wafVfvb2oYUeDF-IaygWI2fFPsiR6Q=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3593a8c04aa_0_3",
@@ -781,13 +605,13 @@
           "top": 158.60236259842517,
           "left": 146.04334350393702,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUenQm4o6wRgUffG2EuUDVPTwX-GUmKHsomsZphbC_vEU-40y-4g90fTCCkAHf4Uzs5IvJUNOlrw37E3rFdFmY5m76VC7nOksz_vDztsrW8n-aJGxd6Kz2S7YmQWRo-uVpgMI2BNFAV4RV7VvRuGF0siuA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdyulyRa_HK2BCIV3zrtZgDswgFXuIvJp6pDz0q8Dh0GYhPiVkQkpBsIr4cTkEJJ_PsB8v4szIHV6JL5pYnlFNNJ3vno51fHBFNIz_p7IQwxpU0rcNBw316J0ivwecUx6C9B4aEDQp4jY-yp12MFMdnFw=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         }
       ]
     },
     {
       "slideId": "g32d175f0297_0_61",
-      "slideNumber": 12,
+      "slideNumber": 8,
       "notes": "\n",
       "elements": [
         {
@@ -825,7 +649,7 @@
           "top": 202.1555122047244,
           "left": 165.14665314960632,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeh_4zIv_MhRsarkfMvTXxcJQpXoBOPbjVbircRZqFZ8PSnJSbF3dSMUQdgf5991-4a3M2Odqim21_aBKpBj2b7V50l4DqRgkyzUFCZDLD2iW-mcKELLSDBYUgpqmzVh6x_9-AUhn-USXNkn2TesJnbqw=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdCP1TBfvk3PfR-eH_QQrQhkOab9vnchOX33P81n6tb_1lVwzRNAvo1QehxeoCYR5OQxRFlEO4prEVjALlMivzDE8BggupJHoCETIc8qErlbDbHwPGwgSdX2ysQsC-M7LohI-veMckyp_USkuDzvMo=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3696c6c0618_2_1",
@@ -835,7 +659,7 @@
           "top": 202.15747440944884,
           "left": 299.0848494094488,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeUJx8qIxlZ0-k2lcLdXFIGyz8chfMPYmljhmXn6bk-glz23v7VIGhTEta7503KHyBy4aqWCtRfC5w2n4rwP3mesvWYBJltodSObLDUI-7JebE5Peas-gMNPuWx9PNJe1s0uNaud4IRZy9OOyYr_0Em5A=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdknZJkVwkeRuvT-EkEavDoYnFPHwST0UzSYXKsFaRTi0uLdNrJYylVwJDLLxPY5x63xlXiRJnk-o2bwp8-rPZE830xxLvDaPBpRsJXlmH3JG5YjUda4ca05czLbR7MyTMTqQKwg_wkLGkJsBFOOkR9DA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3696c6c0618_2_2",
@@ -845,7 +669,7 @@
           "top": 202.1587712598425,
           "left": 433.0222809055118,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUezuax3qLJ8ewWPSW_8xF1rORYSqiJ7h1XIPMBOd3lNqyE41NhmG-JSc9YH0-Kv16TeasoRbS6MroTmDp9fX7nkBwYHOTcWrHYMbF4GVBahK91I16QIHKs_G41MCrKIqn6ee6TzF9PGnfOCRXIbbLDUKg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeMon9A213XQMiOwJiOp94a1W9ZxeQF41HM89ZedtEHjZxY6IWnIahlM96RxLxPqwCJDTTYaUz8EbbVFrsLz6ephrLEFWlRax8CdwQ3hb-0w14FcE6FXPaNISmyWpoQWHRYVWrrwUkqpx9Yj6-zblkDZA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3696c6c0618_2_3",
@@ -873,7 +697,7 @@
           "top": 202.15747440944884,
           "left": 31.20632283464567,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfSGrKpw-eA9l6qDXi10MOJ5jliesk7FBjcozMq4zE_YHcSmqwyvRemtTPiaRZtbNYvADkbw9k-3KsEiycGGBhR9XpRqYRK7ZQSFjwMWUdN5Gq1YiEMi2BIdt2KpOYp_8ZGd8SCaUgNsIR5DnwdOB4=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdEjbnPQSdCX3IqvdFvEPo8932rNatiD5FlUgKHRPJCLX_R306MT9nDLFks3l5SDug94w6C7Sk-oKVGdm3g9D7wVxLakAEz-IyNnXoSlWsZQ-Bm2B9pQshYrINHj9Ye75CkMLgwbAcjahu16WdPr0fC8g=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3696c6c0618_7_1",
@@ -883,13 +707,13 @@
           "top": 202.1587712598425,
           "left": 566.9587147637795,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdVeOASih0QjPaZUEuBfS3nLC4Ioru-SpCVDyrf44SrVhcr-boSZK9fUQJj-r9l7RkQ91aLAUEf_Vgwkm7SemxdgKUYP_0RA3vQsK5510Puxnnv6Jktc00ltcu43g6QTGU2XtTI29xd1SP-CAZ1wwQvKw=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeIW5n9wsBaUnS_UarVdWYheu7ktFy7JvtMyuKkoxlDhn5EWh-bHcDM4U4YyjuocDu5PPZ8ltHp9LxZXRghBSDOBhEQx8KI-GxPLBNZuhhj_iCOQzsPg5qLawrnHNJw_YGYdI7qlf9MYD-c1YRciakAag=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         }
       ]
     },
     {
       "slideId": "g354c82bd132_0_141",
-      "slideNumber": 13,
+      "slideNumber": 9,
       "notes": "\n",
       "elements": [
         {
@@ -915,7 +739,7 @@
     },
     {
       "slideId": "g354c82bd132_0_212",
-      "slideNumber": 14,
+      "slideNumber": 10,
       "notes": "\n",
       "elements": [
         {
@@ -980,7 +804,7 @@
           "top": 230.53942421259842,
           "left": 519.0391472440945,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUd_odOFLy9eA7IKxEvgJwRUftFPN-zm_5zSr5m-cdrvEUyVo-X36fJBnR9m6GgDWxha9vest3Qv2dvP7lZ1FVXP7t5rx7bw_4YoUnA77rLM3U8QztbZevzzviOkNXOx3iSxb_3j7bihxI3DZdgeevSmmA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcxSk1Az2c62VCtvB3urWqEbe14jDlG-fYG2fTYSOPqd632FBK3IvfCWPuH76v6emqy1adFqFq-wMdq92JMfi6g_EkXWtHhmi_x7NYbLBHZFh5_IJ9oPZqnLRj2bXrXQayBEmcvzoxhmKC61PWEhYONJQ=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3552fba8c4a_16_24",
@@ -990,7 +814,7 @@
           "top": 230.53937972440946,
           "left": 417.317288976378,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUekfHb8-WaPHGLUyHV4GGm7RLsGXmV-xeTbDw6ft47dmVWWpx-M3p1EJxPqlKgUGdmjsi62Yqe0O9JczXUlcPkNul7fjp05c3cFeqx5DLhaGUsj__SH0WC9U8RsspeoPeAm6chCNQ4ktga73YgXY4CBcg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcRDnIZkCjk7KeT-dyHtEGcH6AtwwfFMhP-sFOG9oimBrv71LeEVaBm729rGL9iur-m65EEBkNEPlCCbmXT8vzS-rZ24HPLg8Xn7ie-jLTqU0XtHIoCmoPja4NzJgal8dfv2ELxwW3MtWvaAkxJWsI=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3552fba8c4a_16_25",
@@ -1000,7 +824,7 @@
           "top": 123.33267913385826,
           "left": 477.6740372047244,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdR_Di28v5u2mst3FG6eGXsDaIaICRBxkz_4unfRoO0JFAcR1ZeMvMOVaGmv35aCaflrPhTnuKjutmV30THIzGtwDRN4Zz0ykGk22qas8B16hvkbUAtY-uqJfJecawABvKzeXtRvyXO4yHDKjP6arisUQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeXxBM8X8RouvpldKmfB8kajeAhGhcF380UYGHvLS1RcHh4GHs2eg1RGug_mEajjek4wHRufrGaVtmAHZAaw5zy6LUiDmtc6zZXfrObxifnVOp1lMldVcsRvw7P6NacR9gkTRgqipukrMnztzhD4DMCig=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3552fba8c4a_16_26",
@@ -1010,7 +834,7 @@
           "top": 126.05455787401576,
           "left": 581.7260572834646,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeMnRUM3mmzj8TucKkCjPjSvC8J4m9zaFPfGJUTC3tODD35_rEfAG65UMH6tQ1Uewjvbi5UrLAHZbbFVze16Ob8eg157IWurSc0xFEo0o5UbebmBGuDjRpPD2VzkH0pvEGmVoua4r-s5Ux47rUK62-QFA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcXSZKbtQyQpiISA9bIW0elHNcZmKVjbpZxJsy5ghg7PjHPJjudqwW4t6D9CF-re3OaAjHJ-mMmIqMcPsp0tGQ4F8-hKJlCl-wLujDS1KFAgZd0ba2k747uSc-C6PevrGM7I2mwXcYN1S4k1ZACjDDW8g=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3552fba8c4a_16_27",
@@ -1020,7 +844,7 @@
           "top": 126.05458523622048,
           "left": 371.12992125984255,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUceSJgV9Kz7qbjcaPWlWKp5H_zluoaAu3tbVfhWY3DSwtZBoxA5VWaZTa-XkfQ8CEUwsuqa9aYkxzyLdBVomGcZG4T6oO0YC7aqU6JnMD0iK0S_zcpE8nPaGmrrCufdynD6fWogc5bdgcvrmFMn0-b-jg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcgBLkgTVDv-lzeYpY0SIpjQN1lvHRiliXuZdJv9pTVv59lwGyL7sPX1XIBfIV-CljCAUEKbyD3MrnAID7ut3sVhhAzdXJs1eJI4MQu27zybLj0Cpcn5f_qmn4BH96J95N3w1laPQ5cHfK03btPcco=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3552fba8c4a_16_30",
@@ -1098,7 +922,7 @@
     },
     {
       "slideId": "g3564f5bfdb6_0_15",
-      "slideNumber": 15,
+      "slideNumber": 11,
       "notes": "\n",
       "elements": [
         {
@@ -1109,7 +933,7 @@
           "top": 71.1968501968504,
           "left": 331.744094488189,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcq8wFCWnz8mhUKqIv4za0cnEQS5a472DCIv3cstmDM2Egf3tMJAqpXUbfUrCv-uF-JH5See4dJpfzK8kSiMl1mv6p3Chjb4V-Xxj6bIpO5syJVF-oDBXhumB103nyHWB-bjBguFKr1NoP00lTG1KXpVA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcf34DLfc6HaMBaK2c0aOm4ucsX6lC1F_a4cj4fzrOKlL8v6GJJqQBfo82syvJITS7wLuLlo_CVHw_eRP3xgPi4BafwmuXKQWHW17ZxxIJM-2CcFhRdd4vE7LuJyzEOody-zMIu9FfIOTZaCOX5jA25-Q=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3564f5bfdb6_0_40",
@@ -1119,7 +943,7 @@
           "top": 186.41338543307089,
           "left": 331.744094488189,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcq8wFCWnz8mhUKqIv4za0cnEQS5a472DCIv3cstmDM2Egf3tMJAqpXUbfUrCv-uF-JH5See4dJpfzK8kSiMl1mv6p3Chjb4V-Xxj6bIpO5syJVF-oDBXhumB103nyHWB-bjBguFKr1NoP00lTG1KXpVA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcf34DLfc6HaMBaK2c0aOm4ucsX6lC1F_a4cj4fzrOKlL8v6GJJqQBfo82syvJITS7wLuLlo_CVHw_eRP3xgPi4BafwmuXKQWHW17ZxxIJM-2CcFhRdd4vE7LuJyzEOody-zMIu9FfIOTZaCOX5jA25-Q=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g354723d346a_0_46",
@@ -1161,7 +985,7 @@
     },
     {
       "slideId": "g35ec59d507d_3_0",
-      "slideNumber": 16,
+      "slideNumber": 12,
       "notes": " \nMay be wondering how we do it\u000b \nEmail - domain - Crm and social\u000b This is to give us the best chance and cover all our bases.\u000b\u000bThen we scrape and go through all of your website, cx and sales documentation to train and personalise your ai.\u000b\u000bThis gives us the knowledge base and then from there we can flex it into any role or positioning that you could possibly need. \u000b\u000bAll the agents and numbers are handled for you, \u000bBeta training once the knowledge base is created for each agent we are onboarding with revisions during this process.\n\n",
       "elements": [
         {
@@ -1217,7 +1041,7 @@
           "top": 94.24409448818898,
           "left": 461.08858267716533,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUf7Iz8rYsUJV_lHpPhyqG6zpCykcctw1xFBKXN_se_YdqwMMLBsa8m_p51DgWqraA9FUzgMcSbkGz3JBPOm4Cu8EgZC6oqqS7S9dOZwhZz8drNInLfX8QrswT8OsgQj-icb9yROmD92N03JWAhiJ7Q=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdq5grUASMSQX95sc9Aj3bfl1cQIjKbD9Y-NYI33Fv7nHJVyO8hc9szP7vJ4GSVceNqtrhdzKA66JShzTvd_xtG-kdioFzp9Sq3ydn_pRvvVz0D0r94KzfgoZHmoBEKv8moGNweqd2VGVAz8bmQyW9M-A=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g35ec59d507d_3_7",
@@ -1227,13 +1051,13 @@
           "top": 145.63967381889762,
           "left": 463.4940027559055,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUf7Iz8rYsUJV_lHpPhyqG6zpCykcctw1xFBKXN_se_YdqwMMLBsa8m_p51DgWqraA9FUzgMcSbkGz3JBPOm4Cu8EgZC6oqqS7S9dOZwhZz8drNInLfX8QrswT8OsgQj-icb9yROmD92N03JWAhiJ7Q=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdq5grUASMSQX95sc9Aj3bfl1cQIjKbD9Y-NYI33Fv7nHJVyO8hc9szP7vJ4GSVceNqtrhdzKA66JShzTvd_xtG-kdioFzp9Sq3ydn_pRvvVz0D0r94KzfgoZHmoBEKv8moGNweqd2VGVAz8bmQyW9M-A=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         }
       ]
     },
     {
       "slideId": "g35ec59d507d_3_10",
-      "slideNumber": 17,
+      "slideNumber": 13,
       "notes": "AI Sales Assistants work to lift conversion rate 24/7 wherever your customers are. Answering inquiries, following up, and qualifying leads automatically - so your sales team only focuses on the hottest prospects.\n\u000bInstant Lead Follow-Ups: The AI engages leads within seconds across multiple channels, including SMS, WhatsApp, Facebook Messenger, and Instagram, to improve conversion rates.\nAutomated Lead Nurturing: It keeps prospects engaged through continuous, data-led optimization to improve closing rates.\nInstant Scheduling: The AI seamlessly syncs with your team's calendar and books appointments with your closers in real-time.\nSeamless CRM Integration: It includes a free CRM or can sync with your existing sales process for smooth operations.\nReal-time Objection Handling: The AI tackles FAQs, overcomes hesitations, and provides prospects with the information they need to convert faster.\n\nIncreased leads:  (Monthly leads × 12) × (Average Conversion Rate × 1.65)\nIncreased sales: Increased Annual Leads × Average Value of Signed Lead\nWorkcost saved: (Average Salary x Staff costs ) x 0.40 \n \n\n\n",
       "elements": [
         {
@@ -1289,7 +1113,7 @@
           "top": 69.58970570866143,
           "left": 382.8355714566929,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdWX63gf0owpWRf3jCLdBEwAI7AFWiDuqgx9Tf2X8geVi3Kfw_Lb24VccSy4inoYW-riKWYj9C2orsVz4qaktH0wRDxSfOgOnuQ1S13CqmRsKu_nUDENpbClw3i2eyqDvXiG3RNme5aCcbZq-jVGpN9CQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcjtEPNGeGZNRpBPLQKSztN3hqAkiiR9Ag4BqycJRTxnKmp1Z71pK9i_TgdT2m8IIeedjd6v8w5H5Abi6r54ZPFz5iV18KlqtZ8kvIp8kr29E8iqt6E-t3FwH1McQc37yIu6SzrUoX46J4ZDd7le-o82Q=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3693c96954b_27_1",
@@ -1305,7 +1129,7 @@
     },
     {
       "slideId": "g35ec59d507d_3_21",
-      "slideNumber": 18,
+      "slideNumber": 14,
       "notes": "Ditch Manual Dialing | More leads. Less manual work. Our AI Sales Caller uses your sales knowledge to automatically connect with leads instantly, handling outreach, follow-ups, and sales calls—on autopilot.\u000b\u000bTarget the Right Prospects: The AI identifies high-intent leads based on real-time data.\nPersonalized Outreach at Scale: It customizes messaging for each prospect.\nAutomated Follow-Ups: The AI keeps leads engaged until they are ready to buy.\nCold Call or Qualify: It reaches out, engages prospects, and filters out time-wasters, pre-qualifying users before sales calls.\nPricing: $1,497 AUD + GST per month, with a $997 AUD + GST onboarding investment.\nIncreased Lead: (Monthly leads × 12) × (Average Conversion Rate × 1.65)\u000bIncreased Sales: Increased Annual Leads × Average Value of Signed Lead\u000bWorkforce Cost Saved:  (Average Salary x Staff costs) x 0.40\n\n\n\n",
       "elements": [
         {
@@ -1377,7 +1201,7 @@
     },
     {
       "slideId": "g35ec59d507d_3_31",
-      "slideNumber": 19,
+      "slideNumber": 15,
       "notes": "Intercept Negative Reviews. AI detects unhappy customers and so you can engage them privately\nAutomate building your reputation Boost your reputation without lifting a finger. Our AI Reviews Agent helps you get more 5-star ratings, respond instantly, and manage feedback like a pro.\nAutomated 5-Star Review Generation: Automatically requests and encourages positive reviews from happy customers.\nInstant, Personalized Replies: AI crafts immediate, on-brand responses to reviews.\nIntercept Negative Feedback: Proactively identifies unhappy customers for private resolution before public posting.\nProven Results: Businesses using AI for review management see up to a 25% increase in referrals.\n",
       "elements": [
         {
@@ -1388,7 +1212,7 @@
           "top": 57.68700787401575,
           "left": 386.6929131889764,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcYCtztKeeAQ2VEzGJjmESIhIH2q_t--iXC7PZogg-gGDOSDX-SX7xIawdsCQ_KYn36AETcVvDfP390LJioB0C2cBh38oD8np0KRK5SLxe3sygEPjdupXsAWhiUHzgdgDaf1kJyY-Eesk9Wb8pVpiscdg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUewVDpsprs5UEm9My0hVIv4h1bUDD7vFMVp2lZK7tlw7xmGkj-d7zfN5Lx-CtJ12s3qRu0G1uVu48EjgvlfhLGhm2vNZ77abSr52-LrqC09QNUyASJg-eorH38U3K22xHu6A6EzXWazV_qfxqg2gT8sPQ=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g35ec59d507d_3_32",
@@ -1449,7 +1273,7 @@
     },
     {
       "slideId": "g35ec59d507d_3_42",
-      "slideNumber": 20,
+      "slideNumber": 16,
       "notes": "Elevate your call handling. Elevate your call handling. AI-powered call centers answer all inbound calls promptly,  handle customer inquiries, FAQs and connects to your team seamlessly.\nThe AI Reception agent acts as a 24/7 virtual receptionist, significantly reducing support costs (up to 82% lower support costs for businesses using AI for customer service).\nAnswer Every Call in Seconds: Ensures no wait times and no missed calls.\nHandles 80% of Customer Queries: The AI resolves common issues, freeing up your human team to handle only complex cases.\n24/7 Availability: The AI never takes a break, providing round-the-clock support.\nSeamless Handoff to Human Agents: Ensures a smooth transition when human support is needed.\nPricing: $1,497 AUD + GST per month, with a $997 AUD + GST onboarding investment.\nIncluded Credit: $50 text credit per month. \n\n",
       "elements": [
         {
@@ -1521,7 +1345,7 @@
     },
     {
       "slideId": "g35ec59d507d_3_52",
-      "slideNumber": 21,
+      "slideNumber": 17,
       "notes": "Customer Service 24/7 Faster response times. Happier customers. Lower costs. Turn website visitors into paying customers with an AI-powered live chat that engages, supports, and sells.\n\nThe AI Live Chat agent provides instant, 24/7 customer support on your website, leading to up to 25% higher conversion and 71% increase in customer satisfaction for businesses using AI chatbots.\nInstant Customer Responses: No wait times; AI answers in seconds.\n24/7 Availability: Ensures always-on instant support anytime to drive sales.\nTrained on Your Business: The AI learns from your site and best closers to accurately answer questions and guide visitors.\nSeamless Handoff to Human Agents: The AI can proactively assist, recommend, and upsell in real-time, with a smooth transition to human agents when necessary.\nPricing: $97 AUD + GST per month, with a $997 AUD + GST onboarding investment.\nIncluded Credit: $50 message credit per month.\n\n\n",
       "elements": [
         {
@@ -1577,7 +1401,7 @@
           "top": 72.23622145669292,
           "left": 401.0314960629921,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcWOUjBFwwEy20Vyqdxa6sRc-KMXRjHdsRdQZfdSDF9acBT0nKMucFpoPzmTp8ADPMSP4pZ-bRDVyoUqbH0kFoholENiofMBZAfrSwkz3DNl6cnB1gIT2z9ER7g1Qhi7z-klOdnCPPmhAWgbWBWtbK6RA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUe62bxc9hStRzTqGI3k3tTc-SZ0tG6sx8JZ6CK4zTiLAJfFwinO07KayTZjjDSuUAuYRKwaobc1-2Y2HkNtQZyQ429L-t21ZUqYe60qsxrTikhxt4qwqq6bQ2jLG8_m8Bnx4DFB5S3h3mz17n2-Y1nCmA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3693c96954b_21_13",
@@ -1593,7 +1417,7 @@
     },
     {
       "slideId": "g35ec59d507d_3_62",
-      "slideNumber": 22,
+      "slideNumber": 18,
       "notes": "Add a follow up message on the text. Thank you etc etc\n\n",
       "elements": [
         {
@@ -1604,7 +1428,7 @@
           "top": 51.88385669291338,
           "left": 386.7303149606299,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUf1yn2fWIalkp-6Rw3319HSvaQmkxqR4R1QTwxrxPp8ngMIqRjmSddGv2rCsq4PbYqvRIJuM9k6AFUkD0r7o1ANkpMfU1xgMuaVapcAKL04jWPEG2oB_jL_p6VCNWMJm55wyqnDPqvSSI4Vj4Ogq7Y=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUevwWug_uR9iymyzHBf_TNB-7t1rTHobHhHnDxMWbuQTlIxfKhGdjaDrTVEn7u1AgfmwItyRaSuztpgAUf_ValsV1tIwmrSRUA64Da7OaboeN23etppxFRxQG-kCiR2wxiJihwwCKc5R37zaRlAzAGDKA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g35ec59d507d_3_63",
@@ -1665,7 +1489,7 @@
     },
     {
       "slideId": "g3618d6b0c2a_5_0",
-      "slideNumber": 23,
+      "slideNumber": 19,
       "notes": "Add a follow up message on the text. Thank you etc etc\n\n",
       "elements": [
         {
@@ -1737,7 +1561,7 @@
     },
     {
       "slideId": "g367cd3eed07_0_0",
-      "slideNumber": 24,
+      "slideNumber": 20,
       "notes": "\n",
       "elements": [
         {
@@ -1763,7 +1587,7 @@
     },
     {
       "slideId": "g36af8994e56_4_37",
-      "slideNumber": 25,
+      "slideNumber": 21,
       "notes": "\n",
       "elements": [
         {
@@ -1829,13 +1653,13 @@
           "top": 311.35654074803153,
           "left": 631.7796675196851,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcHWBFxAtNuEENylUopeKCNqzFzvDU5A29Dir06PhLNqGwdgYjdWiGzGmFrBiBW4TneFPNT_2ntFVgoLIzayztpPv3LaMyKFnEkK_1b7CB9Qutl2wrDT3ij0tDPq4IoisN7I9djK9X07m89i2ih8BaN0A=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfAwjGbk6N_bOavaGT2jxFH--15S4rFudjmdKlwz4HsuFSyF4gkW7ShFKWGy19doaupuQu04bd_24eHGVVvFaLpltfsjkJTJcwzhT5wqgXX-dNimH3f056-3GCZGoAMZMZp6WtCfgaHxv9Cyj4pwD42VA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         }
       ]
     },
     {
       "slideId": "g32d09ff5266_0_82",
-      "slideNumber": 26,
+      "slideNumber": 22,
       "notes": "\n",
       "elements": [
         {
@@ -1864,7 +1688,7 @@
           "top": 354.9724413385827,
           "left": 36.54330708661417,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfdy_zHDsAXRFz_HW54UT1dPoJ-Hsf2uNQZxi5kM2bDxxNacWRH5taoYj1XloIe65LSMiFxmDAsGR-X8dlqxgv10xLbcJAgecZolfdAPOumC5yYGSkB3eFcq0gC9yjLyoVt7qF9cFYIZRLdzMzHEbViRA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUc2snwGQ8vbrlmvInixLHyrWzJQbowq2sSYaSJ0Rax0t64KkIv9eEZ9GMpY29XwDx3cE_AKuAWX0gTsr4UPfqktPJAn6_QyZ077gIx6BW-YGZ6BXvAVTv8YkbQaGMrLzQzFpnuFFhi24sP9unS3u4uIKQ=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g32d57dccbdf_0_18",
@@ -1888,7 +1712,7 @@
     },
     {
       "slideId": "g3593a8c04aa_0_18",
-      "slideNumber": 27,
+      "slideNumber": 23,
       "notes": "Whats apps costs are extra\u000b\u000b\n",
       "elements": [
         {
@@ -1941,7 +1765,7 @@
     },
     {
       "slideId": "g36b02e8f0d2_0_0",
-      "slideNumber": 28,
+      "slideNumber": 24,
       "notes": "\n",
       "elements": [
         {
@@ -2115,13 +1939,13 @@
           "top": 254.63188976377953,
           "left": 665.6971655511811,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdTF5I49RgV_hJwKVS3lfh53PquRnU2YIPfA-1iyXudHdwEBAbiHPVv5_IKQPIHklNGlgriTECSBD5QVkj4xnEp3wcPsgv_GzQNoCHJlexXIreMHP8pBSkho2vecRLFpLjxeE3C_O2_4GZ6ocMpjmhEvQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUc289PAAXhsTln6vh_y7hS2tMN-8IUuhqEEAPTlpM2nk1CWctNqfTbxqg-w-u_tOeOLqbc2L33uEiCIArPAQyc-O4Ps9kLHYUzHA6VGZevkaNjrw5liPST9WesuoGrt2oi_aUEn3aLNZph90IJVtXDNiA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         }
       ]
     },
     {
       "slideId": "g354c82bd132_0_634",
-      "slideNumber": 29,
+      "slideNumber": 25,
       "notes": "\n",
       "elements": [
         {
@@ -2236,7 +2060,7 @@
     },
     {
       "slideId": "g3612256b2f1_1_0",
-      "slideNumber": 30,
+      "slideNumber": 26,
       "notes": "\n",
       "elements": [
         {
@@ -2247,7 +2071,7 @@
           "top": 145.3858285433071,
           "left": 52.68700787401575,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfhMnXOnT_618wOn2VmHTbbTEPgp46gM7dbCm5XSn_9KtnjkEYIPgUK5Nw_9r5-Rj7o7KIdHVnafoV_6MqHajLj0yt7UqGUBwfcLFinHacngU_zxM-2GV77tzShsEmv2-jzi6q9iZUixSTCV4Hp3Cg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcByRbRz9p4dE-X-pKf6ho_g0SYMt4kXaDg9h8gZSIe6sTEGaxK5IroNQQqDHy21JuO--ongN4pAHPWn7SaC808qCa9xhffvYWxCVIMd2odGaDE-9GtmR4ZfUws9ZqaRXxmK6x1P82oAQiXRtjJz94=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3612256b2f1_1_2",
@@ -2257,7 +2081,7 @@
           "top": 143.83924783464568,
           "left": 41.0625,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcbuu_3B4OI4TYVDQeJAOCJ7o5l0syQekXOS_-1VsrgSsED97yflznWgAUkAZ3p8rNEa1fAC8AlM511jzGEhu4C3NA4mL-_8zvbGvcsazQgh2csabherjCpzUeNHyho4V2qoanVDVWMrXY77rSmFy4=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcUCnPqFjDim6Sd4iYAXcjsycgXKjvsE4jLqYkVWw-Esz5wuWBuEtR9wiGGp2plR0CkdMKfvSPu8jihoUhZK0lhmtQWnfSRDL9sMPumz0Nh8amc3e-kqREld6MQj-8xc0GgDCy5DgcCH5ZxONg0l3c=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3612256b2f1_1_3",
@@ -2267,7 +2091,7 @@
           "top": 143.6816905511811,
           "left": 250.31968956692913,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUd6iVyyeeYgPQYCftwOM-Xin_BjlYpSHNFgah2RDHi_uUJuGBp_fhvAuAReI43sG7iIy9KIcFRxBtuk0DkLDnfW3r0NLc7YbUgVVsMHyPFHorSWnH5XqNp_o-SNJSSYocteeU1AvPPaUqqmAX5sVFs=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeHwt7q3md4X1C8kOgdVEnOC91-UHS7ZimPz2hnY5lBWl7szzAh3R9whXzM2hMk7GdFvN0fTZ53CKY_A-12CTOFQOdFoywLLDzfIwczyZ36LnvmGm6XC014Wc3w2xOQdV_Za66iNzCWDsCpooygw2WltQ=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3612256b2f1_1_4",
@@ -2277,7 +2101,7 @@
           "top": 207.13757224409449,
           "left": 425.2300919291339,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfW9xUFp_F5hDzcxvRe99co3xbAEK89Yrr8OJDheReoZCi01YNvrkZ-oI_1q2eSfg5jv_4_87hnTQ-fyrUUg7m90j7pFR-siy4rFN1LgRxJj02vJZoLrql82WN-Zo8PpwIWEYrdnmrLw5wXrbmlJyAwTA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcYaDUOVNeNll-fdDXyw4AZeuox8vcxyqHExpgJCE2k8SIEdWvjqzHwzPO_miJHckU1UvPN4HG_87E7eN5J6GKbDzdtHn6SAb5ZcUsvJokTfR3HujXfGEoMmzJ91PEFHLA8ibXUbZU1v4ceSClRv2pGIw=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3612256b2f1_1_6",
@@ -2323,7 +2147,7 @@
           "top": 206.6178872047244,
           "left": 134.25541338582678,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUe_6-r9AapRSfLYfzN8h-RGIArX3vjnwbwGy3X1haBgCA8ldw7UgpMsXX8u8f7IY--FRSNPiklJUlUgka1gXJQFU2-4hS1pWSJBApCYA_K4KMqIVweQaz94SRH0G4cdJ9mL_5Fg9t-DIvDOXyTRTwkAzQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdKHvovZly0O7636OKjKI0ptDHEzixXCR9wr11r8elvb1vI467n-cDjnCONhcHL3isK9HwL-o5_6j77XewPdMs08_4MEvGMImDHPFoEiHUc4EupCk7OEZeRNCy7KqfyEM8movzXySxDDmeEViDkFylcog=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3612256b2f1_1_14",
@@ -2356,7 +2180,7 @@
     },
     {
       "slideId": "g36a15b3cb0b_0_58",
-      "slideNumber": 31,
+      "slideNumber": 27,
       "notes": " \nMay be wondering how we do it\u000b \nEmail - domain - Crm and social\u000b This is to give us the best chance and cover all our bases.\u000b\u000bThen we scrape and go through all of your website, cx and sales documentation to train and personalise your ai.\u000b\u000bThis gives us the knowledge base and then from there we can flex it into any role or positioning that you could possibly need. \u000b\u000bAll the agents and numbers are handled for you, \u000bBeta training once the knowledge base is created for each agent we are onboarding with revisions during this process.\n\n",
       "elements": [
         {
@@ -2412,7 +2236,7 @@
           "top": 94.24409448818898,
           "left": 461.08858267716533,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUf7Iz8rYsUJV_lHpPhyqG6zpCykcctw1xFBKXN_se_YdqwMMLBsa8m_p51DgWqraA9FUzgMcSbkGz3JBPOm4Cu8EgZC6oqqS7S9dOZwhZz8drNInLfX8QrswT8OsgQj-icb9yROmD92N03JWAhiJ7Q=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdq5grUASMSQX95sc9Aj3bfl1cQIjKbD9Y-NYI33Fv7nHJVyO8hc9szP7vJ4GSVceNqtrhdzKA66JShzTvd_xtG-kdioFzp9Sq3ydn_pRvvVz0D0r94KzfgoZHmoBEKv8moGNweqd2VGVAz8bmQyW9M-A=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g36a15b3cb0b_0_65",
@@ -2422,13 +2246,13 @@
           "top": 145.63967381889762,
           "left": 463.4940027559055,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUf7Iz8rYsUJV_lHpPhyqG6zpCykcctw1xFBKXN_se_YdqwMMLBsa8m_p51DgWqraA9FUzgMcSbkGz3JBPOm4Cu8EgZC6oqqS7S9dOZwhZz8drNInLfX8QrswT8OsgQj-icb9yROmD92N03JWAhiJ7Q=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdq5grUASMSQX95sc9Aj3bfl1cQIjKbD9Y-NYI33Fv7nHJVyO8hc9szP7vJ4GSVceNqtrhdzKA66JShzTvd_xtG-kdioFzp9Sq3ydn_pRvvVz0D0r94KzfgoZHmoBEKv8moGNweqd2VGVAz8bmQyW9M-A=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         }
       ]
     },
     {
       "slideId": "g36a15b3cb0b_0_68",
-      "slideNumber": 32,
+      "slideNumber": 28,
       "notes": "Ditch Manual Dialing | More leads. Less manual work. Our AI Sales Caller uses your sales knowledge to automatically connect with leads instantly, handling outreach, follow-ups, and sales calls—on autopilot.\u000b\u000bTarget the Right Prospects: The AI identifies high-intent leads based on real-time data.\nPersonalized Outreach at Scale: It customizes messaging for each prospect.\nAutomated Follow-Ups: The AI keeps leads engaged until they are ready to buy.\nCold Call or Qualify: It reaches out, engages prospects, and filters out time-wasters, pre-qualifying users before sales calls.\nPricing: $1,497 AUD + GST per month, with a $997 AUD + GST onboarding investment.\nIncreased Lead: (Monthly leads × 12) × (Average Conversion Rate × 1.65)\u000bIncreased Sales: Increased Annual Leads × Average Value of Signed Lead\u000bWorkforce Cost Saved:  (Average Salary x Staff costs) x 0.40\n\n\n\n",
       "elements": [
         {
@@ -2500,7 +2324,7 @@
     },
     {
       "slideId": "g36a15b3cb0b_0_78",
-      "slideNumber": 33,
+      "slideNumber": 29,
       "notes": "\n",
       "elements": [
         {
@@ -2526,7 +2350,7 @@
     },
     {
       "slideId": "g36a15b3cb0b_0_83",
-      "slideNumber": 34,
+      "slideNumber": 30,
       "notes": "\n",
       "elements": [
         {
@@ -2641,7 +2465,7 @@
     },
     {
       "slideId": "g335f2006eb3_2_1",
-      "slideNumber": 35,
+      "slideNumber": 31,
       "notes": "\n",
       "elements": [
         {
@@ -2661,7 +2485,7 @@
           "top": 169.39546318897638,
           "left": 98.27656811023621,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcy9nbe2ln4j-lhAQyPUBTGs2Sggx5JA9_MElOQ9qKSsZitOcPqdzXRwoVCidM0BWQyR5UVOwcf5ibL2CO9jAqCgemo6YVpTwFD2puXTlc1r9i85fYtzxyrzQbYBIxO8IGN64GD7cPShy0fyf7SIQdEgQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdD4sexqiXIcfESxOgRxcLIeont_5lUufm4yoGYGslNiO4BHXL1Nz6jjjueDh-iiYs9GYaToo21YRx910_2kpgW1TWGsQpFKKXxcElz_DDhdtT-CLDlcqMXJ8hss-o7nGL6aH4jFA16Qfp12DQyBYgBCA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g335f2006eb3_2_7",
@@ -2680,7 +2504,7 @@
           "top": 292.14560570866144,
           "left": 329.3529246062992,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcy9nbe2ln4j-lhAQyPUBTGs2Sggx5JA9_MElOQ9qKSsZitOcPqdzXRwoVCidM0BWQyR5UVOwcf5ibL2CO9jAqCgemo6YVpTwFD2puXTlc1r9i85fYtzxyrzQbYBIxO8IGN64GD7cPShy0fyf7SIQdEgQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdD4sexqiXIcfESxOgRxcLIeont_5lUufm4yoGYGslNiO4BHXL1Nz6jjjueDh-iiYs9GYaToo21YRx910_2kpgW1TWGsQpFKKXxcElz_DDhdtT-CLDlcqMXJ8hss-o7nGL6aH4jFA16Qfp12DQyBYgBCA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g335f2006eb3_2_9",
@@ -2699,7 +2523,7 @@
           "top": 168.4978253937008,
           "left": 563.5836547244095,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcy9nbe2ln4j-lhAQyPUBTGs2Sggx5JA9_MElOQ9qKSsZitOcPqdzXRwoVCidM0BWQyR5UVOwcf5ibL2CO9jAqCgemo6YVpTwFD2puXTlc1r9i85fYtzxyrzQbYBIxO8IGN64GD7cPShy0fyf7SIQdEgQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdD4sexqiXIcfESxOgRxcLIeont_5lUufm4yoGYGslNiO4BHXL1Nz6jjjueDh-iiYs9GYaToo21YRx910_2kpgW1TWGsQpFKKXxcElz_DDhdtT-CLDlcqMXJ8hss-o7nGL6aH4jFA16Qfp12DQyBYgBCA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g335f2006eb3_2_13",
@@ -2718,7 +2542,7 @@
           "top": 292.14560570866144,
           "left": 98.27656811023621,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcy9nbe2ln4j-lhAQyPUBTGs2Sggx5JA9_MElOQ9qKSsZitOcPqdzXRwoVCidM0BWQyR5UVOwcf5ibL2CO9jAqCgemo6YVpTwFD2puXTlc1r9i85fYtzxyrzQbYBIxO8IGN64GD7cPShy0fyf7SIQdEgQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdD4sexqiXIcfESxOgRxcLIeont_5lUufm4yoGYGslNiO4BHXL1Nz6jjjueDh-iiYs9GYaToo21YRx910_2kpgW1TWGsQpFKKXxcElz_DDhdtT-CLDlcqMXJ8hss-o7nGL6aH4jFA16Qfp12DQyBYgBCA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g335f2006eb3_2_17",
@@ -2737,7 +2561,7 @@
           "top": 292.14560570866144,
           "left": 563.5836547244095,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcy9nbe2ln4j-lhAQyPUBTGs2Sggx5JA9_MElOQ9qKSsZitOcPqdzXRwoVCidM0BWQyR5UVOwcf5ibL2CO9jAqCgemo6YVpTwFD2puXTlc1r9i85fYtzxyrzQbYBIxO8IGN64GD7cPShy0fyf7SIQdEgQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdD4sexqiXIcfESxOgRxcLIeont_5lUufm4yoGYGslNiO4BHXL1Nz6jjjueDh-iiYs9GYaToo21YRx910_2kpgW1TWGsQpFKKXxcElz_DDhdtT-CLDlcqMXJ8hss-o7nGL6aH4jFA16Qfp12DQyBYgBCA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g35db2b95471_4_5",
@@ -2764,7 +2588,7 @@
           "top": 41.011604921259845,
           "left": 504.46595334645673,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcy9nbe2ln4j-lhAQyPUBTGs2Sggx5JA9_MElOQ9qKSsZitOcPqdzXRwoVCidM0BWQyR5UVOwcf5ibL2CO9jAqCgemo6YVpTwFD2puXTlc1r9i85fYtzxyrzQbYBIxO8IGN64GD7cPShy0fyf7SIQdEgQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdD4sexqiXIcfESxOgRxcLIeont_5lUufm4yoGYGslNiO4BHXL1Nz6jjjueDh-iiYs9GYaToo21YRx910_2kpgW1TWGsQpFKKXxcElz_DDhdtT-CLDlcqMXJ8hss-o7nGL6aH4jFA16Qfp12DQyBYgBCA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g35bfc649ae1_1_2",
@@ -2783,13 +2607,13 @@
           "top": 41.011604921259845,
           "left": 157.40296122047243,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcy9nbe2ln4j-lhAQyPUBTGs2Sggx5JA9_MElOQ9qKSsZitOcPqdzXRwoVCidM0BWQyR5UVOwcf5ibL2CO9jAqCgemo6YVpTwFD2puXTlc1r9i85fYtzxyrzQbYBIxO8IGN64GD7cPShy0fyf7SIQdEgQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdD4sexqiXIcfESxOgRxcLIeont_5lUufm4yoGYGslNiO4BHXL1Nz6jjjueDh-iiYs9GYaToo21YRx910_2kpgW1TWGsQpFKKXxcElz_DDhdtT-CLDlcqMXJ8hss-o7nGL6aH4jFA16Qfp12DQyBYgBCA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         }
       ]
     },
     {
       "slideId": "g32d175f0297_0_70",
-      "slideNumber": 36,
+      "slideNumber": 32,
       "notes": "\n",
       "elements": [
         {
@@ -2851,7 +2675,7 @@
     },
     {
       "slideId": "g32d175f0297_2_0",
-      "slideNumber": 37,
+      "slideNumber": 33,
       "notes": "\n",
       "elements": [
         {
@@ -2913,7 +2737,7 @@
     },
     {
       "slideId": "g32d175f0297_2_11",
-      "slideNumber": 38,
+      "slideNumber": 34,
       "notes": "\n",
       "elements": [
         {
@@ -2975,7 +2799,7 @@
     },
     {
       "slideId": "g32d175f0297_2_26",
-      "slideNumber": 39,
+      "slideNumber": 35,
       "notes": "\n",
       "elements": [
         {
@@ -3010,7 +2834,7 @@
     },
     {
       "slideId": "g32d57dccbdf_0_20",
-      "slideNumber": 40,
+      "slideNumber": 36,
       "notes": "Need steps 1, 2 etc etc\n",
       "elements": [
         {
@@ -3057,7 +2881,7 @@
           "top": 151.10629921259843,
           "left": 52.261810629921264,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfvYjmnw2_-ckSzd1mXiGt-vWib70E5RnWDYEiTGJVpB_K8iHNSAg_Jgj3LUFqR54H0kY3l0h9Ke7G6xmIYvRFKTBd4Zmqyb17M0d-ls5liOLFFZhqQ-qY-AtiorJI5hZZ1RLGs0AoT9RubDnI-Ly3Y9w=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcgr0xOZsN03qdwAfKNq_-Qfv4zTxr5Zg-Zrq72a7DftOfFgEtx91Q4gGJqSNVL0zEV6pOc1BjphxKXEOmsGjSmeuKdRWyBdUj9nHUT7QTV4_1D8rR1O9XcVAbSYWLqCa8E6s5KPugUyyVQ-0dH1jXxiQ=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g354723d346a_0_112",
@@ -3101,7 +2925,7 @@
           "top": 151.10531496062993,
           "left": 497.9186177165354,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcYAltMn0WYbnFu6c8W3lBJOW7FHvbBg06GRAvWBgqVUmJuhllFZAQfWB67usU3AKvtCK8_Ng5uKJnaNQ0sEyS01nhaVRiqyCbY_wBIRpzIek92jHN7l3ihMhp-GzB8pUJvzPdRUWDlqRv5FEUzeeo=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUemSdQ6MoTwpS8OtVyYdN0ZT120GU0ukpkIz0W4LfkpOlnek8NfDe1mUTJIHfpFp8pC6hcwZwfWMOaER_4K4dfron-2gVP7IdTGxCzEgEMzsHafWZJERP4h4bl4N71X4dFnJT85qdf1CElJ8cLuWFQCew=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g354723d346a_0_121",
@@ -3111,7 +2935,7 @@
           "top": 151.04822834645668,
           "left": 272.7916492125984,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdud-mzWr7nsfRw8sDx60d8IYsrSFCRd_FjBR5j1__JvcBIOZJBAYHvIQWYEhqgP95g0MLPUJDCd4XBrYrLyW7-LWTOXU8Fg7-wRvBUHmTeSip1MMdPMxSWFAWopK3zFVC-oryER0V6C7b1FQXqGNc=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUequkPUR30kxxvWew-1k1JkrnMSNIamSvGhTH0iDhrG8Stunx2A8MxsiaquBTGgB6lERB3o-oRCkbA_MYDlZOMkTW-IPsadLVdygl_mQioG8frsg5s5kdI14IzK5rK6HXugb49CiPyDcZxONXJy8QE=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g354723d346a_0_122",
@@ -3172,7 +2996,7 @@
           "top": 260.1968755905512,
           "left": 50.020669291338585,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUebF7WrVfJ5n9ojf6_RVIKEI1DqTQC12no0rfaXXzgzLsmLPShCXQxA6t0Yo7BUV95VJiAQa7STbyJ02T6uGa2iSeaSkpTcoScYrCjLfHWraKw1I2I8EsoEF5S8o1bkqHZCXQjp-KvwnsJFHTvritc=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUe8ix9hpjWDL2huIcCqZp-jTitmGRKjo-RJ7fWL6YaTIoyPecS0ucOUqa2Tg4_5M2DwUtzwwU18K_PQlczJ0tHGHtMTsvJY_5_jMw3h0_mOmFaXJyq1jkWQoqnqYtj5dGVlvAz3KgNwm-9ywoVhooNmDQ=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g354723d346a_0_132",
@@ -3182,7 +3006,7 @@
           "top": 261.01574803149606,
           "left": 273.9704724409449,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcCUTpfhAV4HVWrEU8_52P7LNa7uSIfo0M8qbPmfkFGlT9QVF7Gk_3xYB-hyO8Kco5HOP9iVh-QshigXkENShQjQ7qO5CgJr1G8oZU91fn1xnDo66x5AF0CjMVGX583YCe2OhlYdWeKJajK4kNUcqw=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfGpNSOd7Tbvf1ejpCeDWh9Fxt82bb-9wDfkgyX7AkX2oUUTlTOlgzvYOnnO75uiPPXQa1IzQkTphlGBIasRRFKAJH4aeRUooYPNkn9tY1OR88fjqs29VHlTGuEcSZx9jDxPA3qRbKiCBVlRq-RpTnNDA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g354723d346a_0_134",
@@ -3192,7 +3016,7 @@
           "top": 255.38974153543307,
           "left": 495.9960440944882,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdS4cT87XmNl_yhUZSYrRj-zbhUqhekWLMjv2hCmRvdJFcHaDdbe4PH6JiTgGv-uRhq3mCEd0tdAAG9FijUbtQeWIyAlcrVfDxoDvuzx4H40zHuEBoO98PLC41LM3H-XPSDbBdJKnc0RVUoHTnblQDFzg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcSyuSnWi93hgfa03UWt7mdMxWapmQPFtwnPeE5FuZmeDScP3hoRFjGWoYGCliTD6db6r75URZPBuCDVk5Ogq-2bmMhT6u3gMrnda8Zqr2u4WLjyLOZtvRqQ23ogO66cblpU3m8cBUi-vvMjGuxcSU=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g354723d346a_0_135",
@@ -3207,7 +3031,7 @@
     },
     {
       "slideId": "g354723d346a_0_90",
-      "slideNumber": 41,
+      "slideNumber": 37,
       "notes": "Need steps 1, 2 etc etc\n",
       "elements": [
         {
@@ -3264,7 +3088,7 @@
           "top": 145.11614173228347,
           "left": 29.078739763779527,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfvYjmnw2_-ckSzd1mXiGt-vWib70E5RnWDYEiTGJVpB_K8iHNSAg_Jgj3LUFqR54H0kY3l0h9Ke7G6xmIYvRFKTBd4Zmqyb17M0d-ls5liOLFFZhqQ-qY-AtiorJI5hZZ1RLGs0AoT9RubDnI-Ly3Y9w=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcgr0xOZsN03qdwAfKNq_-Qfv4zTxr5Zg-Zrq72a7DftOfFgEtx91Q4gGJqSNVL0zEV6pOc1BjphxKXEOmsGjSmeuKdRWyBdUj9nHUT7QTV4_1D8rR1O9XcVAbSYWLqCa8E6s5KPugUyyVQ-0dH1jXxiQ=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g354723d346a_0_97",
@@ -3274,7 +3098,7 @@
           "top": 145.11614173228347,
           "left": 243.2837751968504,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdud-mzWr7nsfRw8sDx60d8IYsrSFCRd_FjBR5j1__JvcBIOZJBAYHvIQWYEhqgP95g0MLPUJDCd4XBrYrLyW7-LWTOXU8Fg7-wRvBUHmTeSip1MMdPMxSWFAWopK3zFVC-oryER0V6C7b1FQXqGNc=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUequkPUR30kxxvWew-1k1JkrnMSNIamSvGhTH0iDhrG8Stunx2A8MxsiaquBTGgB6lERB3o-oRCkbA_MYDlZOMkTW-IPsadLVdygl_mQioG8frsg5s5kdI14IzK5rK6HXugb49CiPyDcZxONXJy8QE=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g354723d346a_0_98",
@@ -3284,7 +3108,7 @@
           "top": 145.17322834645668,
           "left": 455.1203893700787,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcYAltMn0WYbnFu6c8W3lBJOW7FHvbBg06GRAvWBgqVUmJuhllFZAQfWB67usU3AKvtCK8_Ng5uKJnaNQ0sEyS01nhaVRiqyCbY_wBIRpzIek92jHN7l3ihMhp-GzB8pUJvzPdRUWDlqRv5FEUzeeo=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUemSdQ6MoTwpS8OtVyYdN0ZT120GU0ukpkIz0W4LfkpOlnek8NfDe1mUTJIHfpFp8pC6hcwZwfWMOaER_4K4dfron-2gVP7IdTGxCzEgEMzsHafWZJERP4h4bl4N71X4dFnJT85qdf1CElJ8cLuWFQCew=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g354723d346a_0_99",
@@ -3294,7 +3118,7 @@
           "top": 228.28742677165354,
           "left": 29.135826771653544,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdS4cT87XmNl_yhUZSYrRj-zbhUqhekWLMjv2hCmRvdJFcHaDdbe4PH6JiTgGv-uRhq3mCEd0tdAAG9FijUbtQeWIyAlcrVfDxoDvuzx4H40zHuEBoO98PLC41LM3H-XPSDbBdJKnc0RVUoHTnblQDFzg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcSyuSnWi93hgfa03UWt7mdMxWapmQPFtwnPeE5FuZmeDScP3hoRFjGWoYGCliTD6db6r75URZPBuCDVk5Ogq-2bmMhT6u3gMrnda8Zqr2u4WLjyLOZtvRqQ23ogO66cblpU3m8cBUi-vvMjGuxcSU=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g354723d346a_0_100",
@@ -3304,7 +3128,7 @@
           "top": 228.28742677165354,
           "left": 455.12007874015745,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUebF7WrVfJ5n9ojf6_RVIKEI1DqTQC12no0rfaXXzgzLsmLPShCXQxA6t0Yo7BUV95VJiAQa7STbyJ02T6uGa2iSeaSkpTcoScYrCjLfHWraKw1I2I8EsoEF5S8o1bkqHZCXQjp-KvwnsJFHTvritc=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUe8ix9hpjWDL2huIcCqZp-jTitmGRKjo-RJ7fWL6YaTIoyPecS0ucOUqa2Tg4_5M2DwUtzwwU18K_PQlczJ0tHGHtMTsvJY_5_jMw3h0_mOmFaXJyq1jkWQoqnqYtj5dGVlvAz3KgNwm-9ywoVhooNmDQ=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g354723d346a_0_101",
@@ -3314,13 +3138,13 @@
           "top": 228.28740157480314,
           "left": 243.34055118110237,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcCUTpfhAV4HVWrEU8_52P7LNa7uSIfo0M8qbPmfkFGlT9QVF7Gk_3xYB-hyO8Kco5HOP9iVh-QshigXkENShQjQ7qO5CgJr1G8oZU91fn1xnDo66x5AF0CjMVGX583YCe2OhlYdWeKJajK4kNUcqw=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfGpNSOd7Tbvf1ejpCeDWh9Fxt82bb-9wDfkgyX7AkX2oUUTlTOlgzvYOnnO75uiPPXQa1IzQkTphlGBIasRRFKAJH4aeRUooYPNkn9tY1OR88fjqs29VHlTGuEcSZx9jDxPA3qRbKiCBVlRq-RpTnNDA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         }
       ]
     },
     {
       "slideId": "g354723d346a_0_49",
-      "slideNumber": 42,
+      "slideNumber": 38,
       "notes": "\n",
       "elements": [
         {
@@ -3367,7 +3191,7 @@
           "top": 230.67767007874016,
           "left": 345.43307086614175,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcCKHqMVYb7BppaZW1fUpf3IhJMnE4mpKB4SmQo0sfJM9qr4I8a3KWgc7-ZeaHAY-dnx4JTMzES6EzQCqBFO88bNuIh0UnOJDVLJkZfXHeAHXHD4YOjB_rtyBRSGOB3tbqxTJrD0n6j62ix7TIdrYIJJw=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfqeXWGMu4ToVinY-BcFBuiAIkLdlPB-fIfwJ6PiZZHd6U0MVk45N6IxBKP890DptSLJ73LhSvWvW8Yk3050ak3tvUgLSf3TIJY3avDIXPA-JxuGCFtXHLU1vxDBZF8-X8L_1rfcMCwaowf0eOurvU=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g354723d346a_0_55",
@@ -3386,7 +3210,7 @@
           "top": 140.86285118110237,
           "left": 345.37629488188975,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUf1dbdu6L1dlgfQLSciSLmgMLAXNvv28Q9OMHKIrxoXT3sZFNEu8bWo9naNINl6W_7MGCoo30bhv1HaaLnOJvjsXk9iLeRZMjYV2yPPp8VBXoz1RBeTwjDABfzgB0IxZjRXB6w-j-esu4yEtyuGrZn70g=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeH30jRAtR-4Yu7B1ji9IPOy4G45NYv0X7y90Ypn4AhuZNXLIkQHxI2bx8tE_pkhX4DS_OLnB4HsmuuApb9uLqiGcDGp6J6m1uB0FUP-DQXWZF5G3ceTuQErx9u-PX35LQqYT13QfXlz0-jZ8ELPHwjnQ=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g354723d346a_0_57",
@@ -3396,7 +3220,7 @@
           "top": 140.91977086614173,
           "left": 35.49409448818898,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcSINYPq6y8WXrewDKC6-Vhg8_FFblyP_Pvd5OYMeK9kaeMxVadSFLy9kFTg0Hw_mXSPjB4ikf8ad113AYOT6ptDHR0zt5M-uIn8xzC4rFetBrvP9GyVLxCkOHFf_NecbFsem_wBHe8Cp8l4fArtOvwWA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfqp-EvWc_06l1sOUcl1AZ0BTM9Lo0o3NPecY0MiUPpHL0_3s3aE6ddq-UOsCQWjFUff3T98QPYwhsoVM-ernBYr4zC5-8Wp9IJX2RkgP2vKEAcA31BbQg3tVLWB3xzQgReI_kopRIyZS7Cf0xHlzVu5g=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g354723d346a_0_58",
@@ -3415,7 +3239,7 @@
           "top": 230.2426307086614,
           "left": 35.49409448818898,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfl9Pw_c-pU5p5au-HNSnw0TWzCThoUGEzto_WDgrQsp7_UNntTc_sPN_SWbMwGbhrHHWrep7Wd6vKfsMZHFWwnEGh_DL_EXH9tp3sF3Yr7E75VB-y1fPR5wuZqvagF-RdRUUuTXhwdks3Mmv735YM=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUf7NNWsEWchUdbUIYTVBaa8wcyxI-vy03qGJZuU-t9cmFjSAVJS_5cP7JCNLh2uGH_rbX7jGmNLGd86BXe0I3WE_Ou-NHGK3nZ-p_JJuRMzjzUtymsU-k8lt30sStbzCXkPoiJGvoCUSmLlQ-CqrtU=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g354723d346a_0_60",
@@ -3439,7 +3263,7 @@
     },
     {
       "slideId": "g3593a8c04aa_0_103",
-      "slideNumber": 43,
+      "slideNumber": 39,
       "notes": "Ditch Manual Dialing | More leads. Less manual work. Our AI Sales Caller uses your sales knowledge to automatically connect with leads instantly, handling outreach, follow-ups, and sales calls—on autopilot.\n\n\n",
       "elements": [
         {
@@ -3510,7 +3334,7 @@
     },
     {
       "slideId": "g3593a8c04aa_0_125",
-      "slideNumber": 44,
+      "slideNumber": 40,
       "notes": "Add a follow up message on the text. Thank you etc etc\n\n",
       "elements": [
         {
@@ -3566,7 +3390,7 @@
           "top": 72.70866141732283,
           "left": 430.95669291338584,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfjSBbyKdYuQ67bd_iqif7LYirC_32ytStvv7gqWvY6HUEosuIEAdqMpj3iBDhlLXrhjRY7RdswNZwROHeU5QkGRB2KUitJFi4Efg1zHxM5pngbNR64ZIvEUqPKFBOy3p-yLa9PZg35DS3KWJ3Hgig=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdPXBLxSLi4YYyxPWRAhFrdiPHLIr2MZugHzEsd2bDpkWM1ONVItlDzVvT--e2CI5sfhYlDiVrbERA8gKVHnbs57goxg0TXNqFaMeDSKgacFhoxRT1MeibyYc4_2sfXE2gcKLQ4Z2FFcNsNKNFUPeAsdw=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3593a8c04aa_0_132",
@@ -3585,7 +3409,7 @@
           "top": 339.50984251968504,
           "left": 439.2244094488189,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeY3NGNDzwKOpgH5pgy0bog0DWUG5brAF-S1YMAxQT-kEvFeX6RQoFQEDQdYxXGn3YrZ-xRKO6t7TxtWg2UoZ6XwFqNoVWAovjpHnxhume1hCH7iRBLYcjKxmKWjobFOtGUq_uAl_FVFhBpx7Qm2-8foA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcFlvz4HbeE_Dnjm2-mh-GMxCeUxEYrbVL2aLV0Xe1Fgs-0ahRzGVsHkM7mfdk_ZL7GtiNNwtnZaI-bLhd58suSFYSt23bA07nBhpRP7dw5nQGTe0q4bbha7aV3UO74i0zYq6vg_H4rGKJm5hVTWp3buw=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3593a8c04aa_0_134",
@@ -3604,13 +3428,13 @@
           "top": 90.68897598425197,
           "left": 439.248031496063,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfg9lQma9DVwgaALViIMfWRpLtMbRyys53O1QlTcobWjFTbgE7k0FZIuiBMz2aQy1JLSz4Yhh76AvlwRVdHvebavJ8xLkH1sQ4-V65cMwpKWRgq6zitQVCoPHAMj70uULk4UgkqKFx2bQevl_PuJ37wEg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeOMnfLwgyYLfh520X18Ew-3dzHUq74GcBisU5TsolMKMRpS_E_yyHvTon4Zc5omIOLGzKGm6vsgq2R3v5e63MVBesjynqXUBlnBzJjTJNfvzwfdPkeW11_wRq2Hdw87QKeZrD1kP6aNPrSxsZmIz4=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         }
       ]
     },
     {
       "slideId": "g3593a8c04aa_0_113",
-      "slideNumber": 45,
+      "slideNumber": 41,
       "notes": "Automate building your reputation Boost your reputation without lifting a finger. Our AI Reviews Agent helps you get more 5-star ratings, respond instantly, and manage feedback like a pro.\n\n",
       "elements": [
         {
@@ -3666,7 +3490,7 @@
           "top": 229.99212598425197,
           "left": 403.90157480314963,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcEsqIMofJ5KSecePUK9WAMHZnqEIE8VjXKUl911ddgpkbVPO1Z6Xl4sCqANzdUyVVZBrqINvyhlDh_WcfW2FaGoIG-8lDv83v6TlOGChl2YtrPRNKfhU_yCkCM881azHYjV2RT87Td92ddeDzJbj3bdw=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeUg_uiaM0oa9C_Losr4KdH53h5vyNXkKu5o_bAkJ7DnJnMaOF4hq7ZA-1vMY2uJ6HcOdq2fYFtv6GCTM-ymqRvYCjOn38PwjnO4vBVhbQxG-RDDYDQWYSxvkDcUrnGJT9-s_r6ZzLWLB5iFGPdirk=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3593a8c04aa_0_120",
@@ -3676,7 +3500,7 @@
           "top": 156.5029527559055,
           "left": 403.90157480314963,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeypObAjRvOYZQl9H6i5XINIiITms0vA0wFujQ0mrH8tFugJAdZSea5AVomOYgU87QePLobdX_DxMPgqCEXUSEuQjOUDjZVCVHvon_Zv3I-B47NAlRM_EAWuxCrT6oj3ngJWlwwM1l3m1_fLJUzjBp15A=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUckyUtkjkY6QdNos65ssN1enXAQoXYN6--4MoQCRBnkw4j6tpWXtR82PsR-XvwtMAP8YLqw_DY5tbxsDMJ1Z4sQjC1fO3mb-2EhVtcivS-Qrv7EVPwXbZkvASH6sx-9vZX2Lt6BOzGvv0VHMBUocShbUw=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3593a8c04aa_0_121",
@@ -3700,7 +3524,7 @@
     },
     {
       "slideId": "g3593a8c04aa_0_138",
-      "slideNumber": 46,
+      "slideNumber": 42,
       "notes": "Elevate your call handling. Elevate your call handling. AI-powered call centers answer all inbound calls promptly,  handle customer inquiries, FAQs and connects to your team seamlessly.\n\n",
       "elements": [
         {
@@ -3771,7 +3595,7 @@
     },
     {
       "slideId": "g3593a8c04aa_0_149",
-      "slideNumber": 47,
+      "slideNumber": 43,
       "notes": "Customer Service 24/7 Faster response times. Happier customers. Lower costs. Turn website visitors into paying customers with an AI-powered live chat that engages, supports, and sells.\n\n\n",
       "elements": [
         {
@@ -3827,7 +3651,7 @@
           "top": 67.27748031496063,
           "left": 441.791525,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcQf6DIIatIwuU2LVFUcXJSJeATcFrIo6uo5X3jZHIJr3kqvdUUYqpvypFBUU3M_mIP_TNtYk5ZPpLNMUowmy6SEatwf-c0e9vTCMBOMcqSTeanMp1i2A4viXgZWXxqwvBLRQW970hPwFt-4fOw3ldkgA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeNosYlATdaUjFtirqwIYavCJzeEI-WjT7IxFuhLKfzDTqccMkUVx1tyd2AJbJnuMCF6embuKNrf5tcAHPsl8bdkrxTHoXdtvw5-jIyovDXqVsLZ12SbAe3654Q6KMBYQRnat0XA1Pvj4lrTjiJhJwOyQ=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3593a8c04aa_0_156",
@@ -3842,7 +3666,7 @@
     },
     {
       "slideId": "g354c82bd132_0_415",
-      "slideNumber": 48,
+      "slideNumber": 44,
       "notes": "Your AI Agents are created within days by scraping all your insights from website, Sales and Customer Support documentation\n\n",
       "elements": [
         {
@@ -3904,7 +3728,7 @@
     },
     {
       "slideId": "g3593a8c04aa_0_44",
-      "slideNumber": 49,
+      "slideNumber": 45,
       "notes": "AI Sales Assistants work to lift conversion rate 24/7 wherever your customers are. Answering inquiries, following up, and qualifying leads automatically - so your sales team only focuses on the hottest prospects.\n",
       "elements": [
         {
@@ -3915,7 +3739,7 @@
           "top": 58.75590551181102,
           "left": 429.998031496063,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfjSBbyKdYuQ67bd_iqif7LYirC_32ytStvv7gqWvY6HUEosuIEAdqMpj3iBDhlLXrhjRY7RdswNZwROHeU5QkGRB2KUitJFi4Efg1zHxM5pngbNR64ZIvEUqPKFBOy3p-yLa9PZg35DS3KWJ3Hgig=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdPXBLxSLi4YYyxPWRAhFrdiPHLIr2MZugHzEsd2bDpkWM1ONVItlDzVvT--e2CI5sfhYlDiVrbERA8gKVHnbs57goxg0TXNqFaMeDSKgacFhoxRT1MeibyYc4_2sfXE2gcKLQ4Z2FFcNsNKNFUPeAsdw=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3593a8c04aa_0_46",
@@ -3925,7 +3749,7 @@
           "top": 102.96510236220472,
           "left": 438.23953248031495,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfOVbUyORo9Yia6j3NylAhBWd-E5o_jTjJtW08qfyEeITsnZZLCIBUhcjeZvIyT6RUkoIozYVV89Be1Jc-N8cQF7aRwqtLSmdaHBxbQOErS4pF6FfbD0mQXJlW3SynNgb6lth1pqmIX6InkaXVz-0XpvA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUf17IP1G7IgqW3CsXhFVZwGV_WNQbrlExiyGzWoRGAtm1Z7divCBhy9GUXsqSKNG44_cVs9RRn4GpRwpnkk_WpnwbUb4MjHgawh2UJlgtOPwogGC4nLaL9hFuX6FuUMVOotHg_0wVAWKMmBs2cQJVA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3593a8c04aa_0_47",
@@ -3980,7 +3804,7 @@
           "top": 76.62795275590551,
           "left": 438.24015748031496,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfuZFI16m2PyCYZilfvPUUSaNgNcHlMd52MSp6NLZL4LKyL37gFkEKFnUtCKDPKFJlaY0byLMu0AHU6HLaPBaH3XimYTadhvBki2XGkHmh2Jwu3S0PRsPv0lSD6p9SWcxPMa_HLcdKnmYHA10OHOLcwxg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcAbzl1s6Ux-CgRrb3KYKTlbpFeWDsa0UIKndV0sGvFEjB_XVNgmR5WPNsJ-uemJ3739zD1k0dx9QFI-kt0UAKKe7I25fxqi3Z_gz__xEeGWfIteTajoPWJtj3BJbFTbwOx7KKDtu0M5v1n-YCSOfg=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3593a8c04aa_0_53",
@@ -4004,7 +3828,7 @@
     },
     {
       "slideId": "g354c82bd132_0_329",
-      "slideNumber": 50,
+      "slideNumber": 46,
       "notes": "Elevate your call handling. Elevate your call handling. AI-powered call centers answer all inbound calls promptly,  handle customer inquiries, FAQs and connects to your team seamlessly.\n\n",
       "elements": [
         {
@@ -4075,7 +3899,7 @@
     },
     {
       "slideId": "g354c82bd132_0_340",
-      "slideNumber": 51,
+      "slideNumber": 47,
       "notes": "Customer Service 24/7 Faster response times. Happier customers. Lower costs. Turn website visitors into paying customers with an AI-powered live chat that engages, supports, and sells.\n\n\n",
       "elements": [
         {
@@ -4140,13 +3964,13 @@
           "top": 75.42519783464567,
           "left": 446.023624015748,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfaGegWv6cmoDsv5geJ2I19-ExpejbJRyNIEjm2O8MBk49wzKjgUDztQJSKLQ_Ep5ip_S-DDXUkc3dDxn8RMHPAJp6Mb_l_jMmMOS2V_mXUmiUA2JsX1S6INdmi3iQdczsW4aLgX_RKyN6qiuSQhSpFJQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUe6neoxa-fSlVlBbJLPwt0cspWy7VhGLA7GLbSTYbczclkMNLewr2-n-KW2gWx1Kql19JCo9ZjdKvyghSnEzLeaW7Yhf1FkjrqU8eglxQS5iIs9qYFsq54y-2dhbdv8SIYTjqBlRVHE5XPfasFB7si7jA=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         }
       ]
     },
     {
       "slideId": "g354c82bd132_0_318",
-      "slideNumber": 52,
+      "slideNumber": 48,
       "notes": "Add a follow up message on the text. Thank you etc etc\n\n",
       "elements": [
         {
@@ -4202,7 +4026,7 @@
           "top": 72.70866141732283,
           "left": 430.95669291338584,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfjSBbyKdYuQ67bd_iqif7LYirC_32ytStvv7gqWvY6HUEosuIEAdqMpj3iBDhlLXrhjRY7RdswNZwROHeU5QkGRB2KUitJFi4Efg1zHxM5pngbNR64ZIvEUqPKFBOy3p-yLa9PZg35DS3KWJ3Hgig=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdPXBLxSLi4YYyxPWRAhFrdiPHLIr2MZugHzEsd2bDpkWM1ONVItlDzVvT--e2CI5sfhYlDiVrbERA8gKVHnbs57goxg0TXNqFaMeDSKgacFhoxRT1MeibyYc4_2sfXE2gcKLQ4Z2FFcNsNKNFUPeAsdw=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3552fba8c4a_16_60",
@@ -4221,7 +4045,7 @@
           "top": 339.50984251968504,
           "left": 439.2244094488189,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeY3NGNDzwKOpgH5pgy0bog0DWUG5brAF-S1YMAxQT-kEvFeX6RQoFQEDQdYxXGn3YrZ-xRKO6t7TxtWg2UoZ6XwFqNoVWAovjpHnxhume1hCH7iRBLYcjKxmKWjobFOtGUq_uAl_FVFhBpx7Qm2-8foA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcFlvz4HbeE_Dnjm2-mh-GMxCeUxEYrbVL2aLV0Xe1Fgs-0ahRzGVsHkM7mfdk_ZL7GtiNNwtnZaI-bLhd58suSFYSt23bA07nBhpRP7dw5nQGTe0q4bbha7aV3UO74i0zYq6vg_H4rGKJm5hVTWp3buw=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g3552fba8c4a_18_37",
@@ -4240,7 +4064,7 @@
           "top": 90.68897598425197,
           "left": 439.248031496063,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfg9lQma9DVwgaALViIMfWRpLtMbRyys53O1QlTcobWjFTbgE7k0FZIuiBMz2aQy1JLSz4Yhh76AvlwRVdHvebavJ8xLkH1sQ4-V65cMwpKWRgq6zitQVCoPHAMj70uULk4UgkqKFx2bQevl_PuJ37wEg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeOMnfLwgyYLfh520X18Ew-3dzHUq74GcBisU5TsolMKMRpS_E_yyHvTon4Zc5omIOLGzKGm6vsgq2R3v5e63MVBesjynqXUBlnBzJjTJNfvzwfdPkeW11_wRq2Hdw87QKeZrD1kP6aNPrSxsZmIz4=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g35a8bc5bdf0_0_0",
@@ -4255,7 +4079,7 @@
     },
     {
       "slideId": "g354c82bd132_0_295",
-      "slideNumber": 53,
+      "slideNumber": 49,
       "notes": "Ditch Manual Dialing | More leads. Less manual work. Our AI Sales Caller uses your sales knowledge to automatically connect with leads instantly, handling outreach, follow-ups, and sales calls—on autopilot.\n\n\n",
       "elements": [
         {
@@ -4326,7 +4150,7 @@
     },
     {
       "slideId": "g3593a8c04aa_0_64",
-      "slideNumber": 54,
+      "slideNumber": 50,
       "notes": "AI Sales Assistants work to lift conversion rate 24/7 wherever your customers are. Answering inquiries, following up, and qualifying leads automatically - so your sales team only focuses on the hottest prospects.\n",
       "elements": [
         {
@@ -4391,7 +4215,7 @@
           "top": 72.83460374015748,
           "left": 502.64173405511815,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeJK__HCoZ9uEDi3eYTS64j0q8YBobQRGzsLy5PCrtPnwOJSWr3H3lBiD_91x98dtOtxm7EpU3Nq6R1KdzqcBl5Ts_YAL_TxwZuvuREokksIddZl3cNu6Y6nb_nRquiJ4Dz2oCULY-1RyQL6ZPA4JMXEQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUd4-NSnSDQGxNajV_Z4rSMQDaZeBoW5cwhfGV8_e3fCdnXJIoJd6whHBw0Nl4CxZRY0cvHk6MUoH9EpHiTydVzFoFQqSKFbFYtMbxZBoPlaAoq9gfNOmDdqnaH_BdnbCM4p6cEAWN_gj-5GQtPdI4Ysiw=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         },
         {
           "objectId": "g35ec59d507d_3_144",
@@ -4406,7 +4230,7 @@
     },
     {
       "slideId": "g354c82bd132_0_306",
-      "slideNumber": 55,
+      "slideNumber": 51,
       "notes": "Intercept Negative Reviews. AI detects unhappy customers and so you can engage them privately\nAutomate building your reputation Boost your reputation without lifting a finger. Our AI Reviews Agent helps you get more 5-star ratings, respond instantly, and manage feedback like a pro.\nAI Review Agent\nThe AI Review Agent automates the process of collecting positive reviews and managing feedback, leading to up to a 25% increase in referrals for companies.\nAuto-Request 5-Star Reviews: The AI follows up with happy customers and can encourage or incentivize them to leave glowing feedback.\nIntercept Negative Reviews: It detects unhappy customers, allowing you to engage with them privately to resolve issues.\nInstant Reply: The AI echoes and thanks reviews with personalized, on-brand messages, eliminating manual copy-pasting.\nPricing: $497 AUD + GST per month, with a $997 AUD + GST onboarding investment.\nIncluded Credit: $50 text credit per month. \n\n\n",
       "elements": [
         {
@@ -4471,13 +4295,13 @@
           "top": 129.34645787401575,
           "left": 406.8484218503937,
           "sourceUrl": null,
-          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcnexEX1yLLQQ1N9zx4oGWGxVh8CLgAADYRUBRVxZnKVH3LnO5ZjWRUrob0hnYKYLSYNe-ROLeYGf682Lor24UjwLeML0mnfquSU0OM_plTJbpxyfj9qlhiJ74oE94qh6Omag8yWOIy29dlkjU7QVI=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUd4rzKYTpiWd13RaAONodbgBY6fgxHRa8jKBmmt5u8ezuhu1mJQcHvy9KRTxM4LG6KBhV-NVhng0F0W7KixESNvmQiPiyrUB4iPiTQuVyBDWj-SGbEmuDpwayVi_gMsi-u6Yy2TInBHiH0doqwyYtdM2A=s2048?key=uorKeEwa0IUOZqeKpxM48A"
         }
       ]
     },
     {
       "slideId": "g32d175f0297_0_44",
-      "slideNumber": 56,
+      "slideNumber": 52,
       "notes": "First point. Don’t get it. Your challenge, quicklys ai solution?\n",
       "elements": [
         {
