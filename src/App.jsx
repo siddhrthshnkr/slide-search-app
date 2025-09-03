@@ -47,7 +47,12 @@ export default function App() {
   const fuse = useMemo(() => {
     if (allSlides.length === 0 || !Fuse) return null;
     return new Fuse(allSlides, {
-      keys: ['text', 'notes', 'category'],
+      keys: [
+        { name: 'text', weight: 0.7 },
+        { name: 'category', weight: 0.2 },
+        { name: 'deckDisplayName', weight: 0.1 },
+        { name: 'notes', weight: 0.1 }
+      ],
       includeScore: true,
       includeMatches: true,
       threshold: 0.4,
@@ -80,33 +85,64 @@ export default function App() {
 
         const slidesByDeck = await Promise.all(slidePromises);
         const combinedSlides = slidesByDeck.flat().map(slide => {
-          // Extract text from all elements
-          const extractedText = slide.elements
-            ? slide.elements
-                .filter(element => element.text && element.text.trim())
-                .map(element => element.text)
-                .join(' ')
-            : '';
+          // Extract text from all elements with better structure
+          const textElements = slide.elements
+            ? slide.elements.filter(element => element.text && element.text.trim() && element.text !== '')
+            : [];
           
-          // Simple category detection based on content
-          const categorizeSlide = (text, notes) => {
-            const content = (text + ' ' + (notes || '')).toLowerCase();
-            if (content.includes('pricing') || content.includes('cost') || content.includes('$') || content.includes('price')) return 'Pricing';
-            if (content.includes('feature') || content.includes('capability') || content.includes('functionality')) return 'Features';
-            if (content.includes('case study') || content.includes('client') || content.includes('customer') || content.includes('testimonial')) return 'Case Studies';
-            if (content.includes('demo') || content.includes('example') || content.includes('showcase')) return 'Demos';
-            if (content.includes('contact') || content.includes('email') || content.includes('phone') || content.includes('@')) return 'Contact';
-            if (content.includes('problem') || content.includes('solution') || content.includes('challenge')) return 'Solutions';
-            if (content.includes('benefit') || content.includes('advantage') || content.includes('roi')) return 'Benefits';
-            if (content.includes('team') || content.includes('about') || content.includes('company')) return 'About Us';
+          const extractedText = textElements.map(element => element.text).join(' ');
+          
+          // Enhanced categorization with better detection
+          const categorizeSlide = (text, notes, deckName, elements) => {
+            const content = (text + ' ' + (notes || '') + ' ' + deckName).toLowerCase();
+            
+            // Deck-based categorization first
+            if (deckName.toLowerCase().includes('case stud')) return 'Case Studies';
+            if (deckName.toLowerCase().includes('sales')) {
+              if (content.includes('pricing') || content.includes('cost') || content.includes('$') || content.includes('price')) return 'Pricing';
+              if (content.includes('contact') || content.includes('email') || content.includes('phone') || content.includes('@')) return 'Contact';
+            }
+            
+            // Content-based categorization
+            if (content.includes('case stud') || content.includes('client') || content.includes('customer') || content.includes('testimonial') || content.includes('result') || content.includes('success')) return 'Case Studies';
+            if (content.includes('pricing') || content.includes('cost') || content.includes('$') || content.includes('price') || content.includes('plan') || content.includes('subscription')) return 'Pricing';
+            if (content.includes('feature') || content.includes('capability') || content.includes('functionality') || content.includes('benefit')) return 'Features';
+            if (content.includes('demo') || content.includes('example') || content.includes('showcase') || content.includes('overview')) return 'Demos';
+            if (content.includes('contact') || content.includes('email') || content.includes('phone') || content.includes('@') || content.includes('reach') || content.includes('get in touch')) return 'Contact';
+            if (content.includes('problem') || content.includes('solution') || content.includes('challenge') || content.includes('solve')) return 'Solutions';
+            if (content.includes('team') || content.includes('about') || content.includes('company') || content.includes('founder')) return 'About Us';
+            if (content.includes('index') || content.includes('table of content') || content.includes('overview')) return 'Navigation';
+            
+            // Special handling for metrics and data
+            const hasMetrics = elements && elements.some(el => 
+              el.text && /\d+/.test(el.text) && (el.text.includes('%') || el.text.includes('rating') || el.text.includes('month'))
+            );
+            if (hasMetrics) return 'Metrics & Results';
+            
             return 'General';
           };
-
-          return {
+          
+          // Extract key metrics and structured data
+          const extractMetrics = (elements) => {
+            if (!elements) return [];
+            return elements
+              .filter(el => el.text && /\d+/.test(el.text))
+              .map(el => ({ text: el.text, type: el.type }))
+              .slice(0, 3); // Limit to top 3 metrics
+          };
+          
+          // Create a more structured slide object
+          const enhancedSlide = {
             ...slide,
             text: extractedText,
-            category: categorizeSlide(extractedText, slide.notes)
+            category: categorizeSlide(extractedText, slide.notes, slide.deckDisplayName, slide.elements),
+            metrics: extractMetrics(slide.elements),
+            elementCount: textElements.length,
+            hasImages: slide.elements ? slide.elements.some(el => el.type === 'IMAGE') : false,
+            hasTables: slide.elements ? slide.elements.some(el => el.type === 'TABLE') : false
           };
+          
+          return enhancedSlide;
         });
 
         setAllSlides(combinedSlides);
@@ -305,12 +341,49 @@ export default function App() {
           {!isAiLoading && results.length > 0 ? (
             results.map(({ item, score }, idx) => {
                 const slideUrl = item.presentationId && !item.presentationId.includes("YOUR_PRESENTATION_ID") ? `https://docs.google.com/presentation/d/${item.presentationId}/edit#slide=id.${item.slideId}` : null;
+                
+                const categoryColors = {
+                  'Pricing': 'bg-green-100 text-green-800 border-green-200',
+                  'Features': 'bg-blue-100 text-blue-800 border-blue-200',
+                  'Case Studies': 'bg-purple-100 text-purple-800 border-purple-200',
+                  'Demos': 'bg-orange-100 text-orange-800 border-orange-200',
+                  'Contact': 'bg-gray-100 text-gray-800 border-gray-200',
+                  'Solutions': 'bg-indigo-100 text-indigo-800 border-indigo-200',
+                  'Benefits': 'bg-emerald-100 text-emerald-800 border-emerald-200',
+                  'About Us': 'bg-cyan-100 text-cyan-800 border-cyan-200',
+                  'Navigation': 'bg-amber-100 text-amber-800 border-amber-200',
+                  'Metrics & Results': 'bg-rose-100 text-rose-800 border-rose-200',
+                  'General': 'bg-slate-100 text-slate-800 border-slate-200'
+                };
+                
                 return (
                   <div key={`${item.id}-${idx}`} className="bg-white border border-slate-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-blue-300 transition-all">
-                    <div className="flex items-center mb-3">
+                    <div className="flex items-start mb-3">
                       <BookIcon />
-                      <h3 className="text-lg font-bold text-slate-900">{item.deckDisplayName} - Slide {item.slideNumber}</h3>
-                      <div className="ml-auto flex items-center gap-4">
+                      <div className="flex-1 ml-3">
+                        <h3 className="text-lg font-bold text-slate-900">{item.deckDisplayName} - Slide {item.slideNumber}</h3>
+                        <div className="flex items-center gap-2 mt-2 flex-wrap">
+                          <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium border ${categoryColors[item.category] || categoryColors['General']}`}>
+                            {item.category}
+                          </span>
+                          {item.elementCount > 0 && (
+                            <span className="inline-flex items-center px-2 py-0.5 rounded-md text-xs bg-slate-50 text-slate-600 border border-slate-200">
+                              {item.elementCount} elements
+                            </span>
+                          )}
+                          {item.hasImages && (
+                            <span className="inline-flex items-center px-2 py-0.5 rounded-md text-xs bg-blue-50 text-blue-600 border border-blue-200">
+                              📷 Images
+                            </span>
+                          )}
+                          {item.hasTables && (
+                            <span className="inline-flex items-center px-2 py-0.5 rounded-md text-xs bg-green-50 text-green-600 border border-green-200">
+                              📊 Tables
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                      <div className="ml-auto flex items-center gap-4 flex-shrink-0">
                         {score && (<span className="text-xs font-medium bg-slate-100 text-slate-600 px-2 py-1 rounded-full">Match: {((1 - score) * 100).toFixed(0)}%</span>)}
                         {slideUrl && (<a href={slideUrl} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 p-1 rounded-full hover:bg-blue-100 transition-colors" title="Open in Google Slides"><LinkIcon/></a>)}
                       </div>
@@ -350,6 +423,18 @@ export default function App() {
                             );
                           })()
                           }
+                        </div>
+                      </div>
+                    )}
+                    {item.metrics && item.metrics.length > 0 && (
+                      <div className="mt-3 pt-3 border-t border-slate-100">
+                        <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-2">Key Metrics</p>
+                        <div className="flex flex-wrap gap-2">
+                          {item.metrics.map((metric, metricIdx) => (
+                            <span key={metricIdx} className="inline-flex items-center px-3 py-1.5 rounded-lg text-sm font-semibold bg-gradient-to-r from-blue-50 to-indigo-50 text-blue-800 border border-blue-200">
+                              {highlightText(metric.text, query)}
+                            </span>
+                          ))}
                         </div>
                       </div>
                     )}
