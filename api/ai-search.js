@@ -74,12 +74,23 @@ async function loadAllSlideData() {
         .map(el => ({ text: el.text, type: el.type }))
         .slice(0, 3); // Limit to top 3 metrics
     };
+    
+    // Extract services from case studies
+    const extractServices = (elements) => {
+      if (!elements) return [];
+      const servicesText = elements.find(el => el.text && el.text.includes('Services Used:'))?.text;
+      if (!servicesText) return [];
+      
+      const servicesString = servicesText.replace('Services Used:', '').trim();
+      return servicesString.split(/[|,&]/).map(s => s.trim()).filter(s => s);
+    };
 
     return {
       ...slide,
       text: extractedText,
       category: categorizeSlide(extractedText, slide.notes, slide.deckDisplayName, slide.elements),
       metrics: extractMetrics(slide.elements),
+      services: extractServices(slide.elements),
       elementCount: textElements.length,
       hasImages: slide.elements ? slide.elements.some(el => el.type === 'IMAGE') : false,
       hasTables: slide.elements ? slide.elements.some(el => el.type === 'TABLE') : false
@@ -135,6 +146,7 @@ Example response: {"relevantSlides": [{"slideNumber": 15, "deckDisplayName": "Ma
       deckDisplayName: slide.deckDisplayName, 
       text: slide.text, 
       category: slide.category, 
+      services: slide.services, 
       notes: slide.notes 
     })))}`;
     
