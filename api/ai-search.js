@@ -27,34 +27,62 @@ async function loadAllSlideData() {
   const slidesByDeck = await Promise.all(allSlidesPromises);
   const combinedSlides = slidesByDeck.flat();
   
-  // Extract text from elements and add categories
+  // Extract text from elements with enhanced structure processing
   return combinedSlides.map(slide => {
-    // Extract text from all elements
-    const extractedText = slide.elements
-      ? slide.elements
-          .filter(element => element.text && element.text.trim())
-          .map(element => element.text)
-          .join(' ')
-      : '';
+    // Extract text from all elements with better structure
+    const textElements = slide.elements
+      ? slide.elements.filter(element => element.text && element.text.trim() && element.text !== '')
+      : [];
     
-    // Simple category detection based on content
-    const categorizeSlide = (text, notes) => {
-      const content = (text + ' ' + (notes || '')).toLowerCase();
-      if (content.includes('pricing') || content.includes('cost') || content.includes('$') || content.includes('price')) return 'Pricing';
-      if (content.includes('feature') || content.includes('capability') || content.includes('functionality')) return 'Features';
-      if (content.includes('case study') || content.includes('client') || content.includes('customer') || content.includes('testimonial')) return 'Case Studies';
-      if (content.includes('demo') || content.includes('example') || content.includes('showcase')) return 'Demos';
-      if (content.includes('contact') || content.includes('email') || content.includes('phone') || content.includes('@')) return 'Contact';
-      if (content.includes('problem') || content.includes('solution') || content.includes('challenge')) return 'Solutions';
-      if (content.includes('benefit') || content.includes('advantage') || content.includes('roi')) return 'Benefits';
-      if (content.includes('team') || content.includes('about') || content.includes('company')) return 'About Us';
+    const extractedText = textElements.map(element => element.text).join(' ');
+    
+    // Enhanced categorization matching frontend logic
+    const categorizeSlide = (text, notes, deckName, elements) => {
+      const content = (text + ' ' + (notes || '') + ' ' + deckName).toLowerCase();
+      
+      // Deck-based categorization first
+      if (deckName.toLowerCase().includes('case stud')) return 'Case Studies';
+      if (deckName.toLowerCase().includes('sales')) {
+        if (content.includes('pricing') || content.includes('cost') || content.includes('$') || content.includes('price')) return 'Pricing';
+        if (content.includes('contact') || content.includes('email') || content.includes('phone') || content.includes('@')) return 'Contact';
+      }
+      
+      // Content-based categorization
+      if (content.includes('case stud') || content.includes('client') || content.includes('customer') || content.includes('testimonial') || content.includes('result') || content.includes('success')) return 'Case Studies';
+      if (content.includes('pricing') || content.includes('cost') || content.includes('$') || content.includes('price') || content.includes('plan') || content.includes('subscription')) return 'Pricing';
+      if (content.includes('feature') || content.includes('capability') || content.includes('functionality') || content.includes('benefit')) return 'Features';
+      if (content.includes('demo') || content.includes('example') || content.includes('showcase') || content.includes('overview')) return 'Demos';
+      if (content.includes('contact') || content.includes('email') || content.includes('phone') || content.includes('@') || content.includes('reach') || content.includes('get in touch')) return 'Contact';
+      if (content.includes('problem') || content.includes('solution') || content.includes('challenge') || content.includes('solve')) return 'Solutions';
+      if (content.includes('team') || content.includes('about') || content.includes('company') || content.includes('founder')) return 'About Us';
+      if (content.includes('index') || content.includes('table of content') || content.includes('overview')) return 'Navigation';
+      
+      // Special handling for metrics and data
+      const hasMetrics = elements && elements.some(el => 
+        el.text && /\d+/.test(el.text) && (el.text.includes('%') || el.text.includes('rating') || el.text.includes('month'))
+      );
+      if (hasMetrics) return 'Metrics & Results';
+      
       return 'General';
+    };
+    
+    // Extract key metrics and structured data
+    const extractMetrics = (elements) => {
+      if (!elements) return [];
+      return elements
+        .filter(el => el.text && /\d+/.test(el.text))
+        .map(el => ({ text: el.text, type: el.type }))
+        .slice(0, 3); // Limit to top 3 metrics
     };
 
     return {
       ...slide,
       text: extractedText,
-      category: categorizeSlide(extractedText, slide.notes)
+      category: categorizeSlide(extractedText, slide.notes, slide.deckDisplayName, slide.elements),
+      metrics: extractMetrics(slide.elements),
+      elementCount: textElements.length,
+      hasImages: slide.elements ? slide.elements.some(el => el.type === 'IMAGE') : false,
+      hasTables: slide.elements ? slide.elements.some(el => el.type === 'TABLE') : false
     };
   });
 }
