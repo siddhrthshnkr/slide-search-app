@@ -32,6 +32,8 @@ export default function App() {
   const [aiError, setAiError] = useState(null);
   const [Fuse, setFuse] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState('All');
+  const [selectedDeck, setSelectedDeck] = useState('All');
+  const [selectedService, setSelectedService] = useState('All');
   const [expandedSlides, setExpandedSlides] = useState(new Set());
   const searchWrapperRef = useRef(null);
 
@@ -131,12 +133,23 @@ export default function App() {
               .slice(0, 3); // Limit to top 3 metrics
           };
           
+          // Extract services from case studies
+          const extractServices = (elements) => {
+            if (!elements) return [];
+            const servicesText = elements.find(el => el.text && el.text.includes('Services Used:'))?.text;
+            if (!servicesText) return [];
+            
+            const servicesString = servicesText.replace('Services Used:', '').trim();
+            return servicesString.split(/[|,&]/).map(s => s.trim()).filter(s => s);
+          };
+          
           // Create a more structured slide object
           const enhancedSlide = {
             ...slide,
             text: extractedText,
             category: categorizeSlide(extractedText, slide.notes, slide.deckDisplayName, slide.elements),
             metrics: extractMetrics(slide.elements),
+            services: extractServices(slide.elements),
             elementCount: textElements.length,
             hasImages: slide.elements ? slide.elements.some(el => el.type === 'IMAGE') : false,
             hasTables: slide.elements ? slide.elements.some(el => el.type === 'TABLE') : false
@@ -170,15 +183,21 @@ export default function App() {
 
   const handleSearch = (newQuery) => {
     setQuery(newQuery);
-    applyFilters(newQuery, selectedCategory);
+    applyFilters(newQuery, selectedCategory, selectedDeck, selectedService);
   };
 
-  const applyFilters = (searchQuery, category) => {
+  const applyFilters = (searchQuery, category, deck, service) => {
     let filteredSlides = allSlides;
     
-    // Filter by category first
+    // Apply all filters
     if (category !== 'All') {
-      filteredSlides = allSlides.filter(slide => slide.category === category);
+      filteredSlides = filteredSlides.filter(slide => slide.category === category);
+    }
+    if (deck !== 'All') {
+      filteredSlides = filteredSlides.filter(slide => slide.deckDisplayName === deck);
+    }
+    if (service !== 'All') {
+      filteredSlides = filteredSlides.filter(slide => slide.services && slide.services.includes(service));
     }
     
     if (!searchQuery.trim()) {
@@ -189,10 +208,18 @@ export default function App() {
     
     if (fuse) {
       const searchResults = fuse.search(searchQuery, { limit: 50 });
-      // If category is selected, filter search results too
-      const finalResults = category !== 'All' 
-        ? searchResults.filter(result => result.item.category === category)
-        : searchResults;
+      // Apply filters to search results
+      let finalResults = searchResults;
+      
+      if (category !== 'All') {
+        finalResults = finalResults.filter(result => result.item.category === category);
+      }
+      if (deck !== 'All') {
+        finalResults = finalResults.filter(result => result.item.deckDisplayName === deck);
+      }
+      if (service !== 'All') {
+        finalResults = finalResults.filter(result => result.item.services && result.item.services.includes(service));
+      }
       
       setResults(finalResults);
       const autocompleteSuggestions = finalResults.slice(0, 5).map(res => res.matches[0].value.substring(0, 60) + '...');
@@ -202,7 +229,17 @@ export default function App() {
 
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
-    applyFilters(query, category);
+    applyFilters(query, category, selectedDeck, selectedService);
+  };
+  
+  const handleDeckChange = (deck) => {
+    setSelectedDeck(deck);
+    applyFilters(query, selectedCategory, deck, selectedService);
+  };
+  
+  const handleServiceChange = (service) => {
+    setSelectedService(service);
+    applyFilters(query, selectedCategory, selectedDeck, service);
   };
 
   const handleAutocompleteClick = (suggestion) => {
@@ -308,23 +345,72 @@ export default function App() {
         {error && <div className="text-center text-red-500 bg-red-100 p-4 rounded-lg">{error}</div>}
 
         {!isLoading && allSlides.length > 0 && (
-          <div className="mb-6">
-            <h3 className="text-sm font-semibold text-slate-600 mb-3">Filter by Category</h3>
-            <div className="flex flex-wrap gap-2">
-              {['All', ...Array.from(new Set(allSlides.map(slide => slide.category))).sort()].map(category => (
-                <button
-                  key={category}
-                  onClick={() => handleCategoryChange(category)}
-                  className={`px-3 py-1.5 text-sm font-medium rounded-full transition-colors ${
-                    selectedCategory === category
-                      ? 'bg-blue-600 text-white'
-                      : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
-                  }`}
-                >
-                  {category} ({category === 'All' ? allSlides.length : allSlides.filter(slide => slide.category === category).length})
-                </button>
-              ))}
+          <div className="mb-8 space-y-6">
+            {/* Deck Filter */}
+            <div>
+              <h3 className="text-sm font-semibold text-slate-600 mb-3">Filter by Deck</h3>
+              <div className="flex flex-wrap gap-2">
+                {['All', ...Array.from(new Set(allSlides.map(slide => slide.deckDisplayName))).sort()].map(deck => (
+                  <button
+                    key={deck}
+                    onClick={() => handleDeckChange(deck)}
+                    className={`px-3 py-1.5 text-sm font-medium rounded-full transition-colors ${
+                      selectedDeck === deck
+                        ? 'bg-green-600 text-white'
+                        : 'bg-green-50 text-green-700 hover:bg-green-100 border border-green-200'
+                    }`}
+                  >
+                    {deck} ({deck === 'All' ? allSlides.length : allSlides.filter(slide => slide.deckDisplayName === deck).length})
+                  </button>
+                ))}
+              </div>
             </div>
+            
+            {/* Category Filter */}
+            <div>
+              <h3 className="text-sm font-semibold text-slate-600 mb-3">Filter by Category</h3>
+              <div className="flex flex-wrap gap-2">
+                {['All', ...Array.from(new Set(allSlides.map(slide => slide.category))).sort()].map(category => (
+                  <button
+                    key={category}
+                    onClick={() => handleCategoryChange(category)}
+                    className={`px-3 py-1.5 text-sm font-medium rounded-full transition-colors ${
+                      selectedCategory === category
+                        ? 'bg-blue-600 text-white'
+                        : 'bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200'
+                    }`}
+                  >
+                    {category} ({category === 'All' ? allSlides.length : allSlides.filter(slide => slide.category === category).length})
+                  </button>
+                ))}
+              </div>
+            </div>
+            
+            {/* Services Filter */}
+            {(() => {
+              const allServices = Array.from(new Set(allSlides.flatMap(slide => slide.services || []))).sort();
+              return allServices.length > 0 && (
+                <div>
+                  <h3 className="text-sm font-semibold text-slate-600 mb-3">Filter by Service</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {['All', ...allServices].map(service => (
+                      <button
+                        key={service}
+                        onClick={() => handleServiceChange(service)}
+                        className={`px-3 py-1.5 text-sm font-medium rounded-full transition-colors ${
+                          selectedService === service
+                            ? 'bg-purple-600 text-white'
+                            : 'bg-purple-50 text-purple-700 hover:bg-purple-100 border border-purple-200'
+                        }`}
+                      >
+                        {service} ({service === 'All' ? allSlides.filter(s => s.services && s.services.length > 0).length : allSlides.filter(slide => slide.services && slide.services.includes(service)).length})
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              );
+            })()
+            }
           </div>
         )}
 
@@ -333,7 +419,9 @@ export default function App() {
             <div className="mb-4">
               <p className="text-sm text-slate-600">
                 Showing {results.length} result{results.length !== 1 ? 's' : ''}
+                {selectedDeck !== 'All' ? ` from ${selectedDeck}` : ''}
                 {selectedCategory !== 'All' ? ` in ${selectedCategory}` : ''}
+                {selectedService !== 'All' ? ` using ${selectedService}` : ''}
                 {query ? ` for "${query}"` : ''}
               </p>
             </div>
@@ -381,6 +469,11 @@ export default function App() {
                               📊 Tables
                             </span>
                           )}
+                          {item.services && item.services.length > 0 && (
+                            <span className="inline-flex items-center px-2 py-0.5 rounded-md text-xs bg-purple-50 text-purple-600 border border-purple-200">
+                              🔧 {item.services.length} Service{item.services.length !== 1 ? 's' : ''}
+                            </span>
+                          )}
                         </div>
                       </div>
                       <div className="ml-auto flex items-center gap-4 flex-shrink-0">
@@ -423,6 +516,18 @@ export default function App() {
                             );
                           })()
                           }
+                        </div>
+                      </div>
+                    )}
+                    {item.services && item.services.length > 0 && (
+                      <div className="mt-3 pt-3 border-t border-slate-100">
+                        <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-2">Services Used</p>
+                        <div className="flex flex-wrap gap-2">
+                          {item.services.map((service, serviceIdx) => (
+                            <span key={serviceIdx} className="inline-flex items-center px-3 py-1.5 rounded-lg text-sm font-semibold bg-gradient-to-r from-purple-50 to-pink-50 text-purple-800 border border-purple-200">
+                              {highlightText(service, query)}
+                            </span>
+                          ))}
                         </div>
                       </div>
                     )}
