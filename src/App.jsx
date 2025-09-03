@@ -39,6 +39,25 @@ export default function App() {
   const [selectedBusinessType, setSelectedBusinessType] = useState('All');
   const [selectedIndustry, setSelectedIndustry] = useState('All');
   const [expandedSlides, setExpandedSlides] = useState(new Set());
+  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [filterSearches, setFilterSearches] = useState({
+    category: '',
+    deck: '',
+    service: '',
+    office: '',
+    client: '',
+    businessType: '',
+    industry: ''
+  });
+  const [expandedFilters, setExpandedFilters] = useState({
+    category: true,
+    deck: true,
+    service: true,
+    office: true,
+    client: false,
+    businessType: true,
+    industry: false
+  });
   const searchWrapperRef = useRef(null);
 
   useEffect(() => {
@@ -414,9 +433,59 @@ export default function App() {
     }
   };
 
+  // Helper function to filter items based on search
+  const filterItems = (items, search) => {
+    if (!search) return items;
+    return items.filter(item => item.toLowerCase().includes(search.toLowerCase()));
+  };
+
+  // Helper function to update filter search
+  const updateFilterSearch = (filterType, value) => {
+    setFilterSearches(prev => ({ ...prev, [filterType]: value }));
+  };
+
+  // Helper function to toggle filter expansion
+  const toggleFilter = (filterType) => {
+    setExpandedFilters(prev => ({ ...prev, [filterType]: !prev[filterType] }));
+  };
+
   return (
-    <div className="bg-slate-50 min-h-screen font-sans text-slate-800">
-      <main className="max-w-4xl mx-auto px-4 py-8 md:py-12">
+    <div className="bg-slate-50 min-h-screen font-sans text-slate-800 flex">
+      {/* Sidebar */}
+      <div className={`${sidebarOpen ? 'w-80' : 'w-16'} transition-all duration-300 bg-white border-r border-slate-200 flex-shrink-0`}>
+        <div className="sticky top-0 h-screen overflow-y-auto">
+          {/* Sidebar Header */}
+          <div className="p-4 border-b border-slate-200 flex items-center justify-between">
+            <h2 className={`font-bold text-slate-900 ${sidebarOpen ? 'block' : 'hidden'}`}>Filters</h2>
+            <button
+              onClick={() => setSidebarOpen(!sidebarOpen)}
+              className="p-2 hover:bg-slate-100 rounded-lg transition-colors"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={sidebarOpen ? "M11 19l-7-7 7-7m8 14l-7-7 7-7" : "M13 5l7 7-7 7M5 5l7 7-7 7"} />
+              </svg>
+            </button>
+          </div>
+
+          {sidebarOpen && (
+            <div className="p-4 space-y-6">
+              {/* Clear All Filters */}
+              <button
+                onClick={() => {
+                  setSelectedCategory('All');
+                  setSelectedDeck('All');
+                  setSelectedService('All');
+                  setSelectedOffice('All');
+                  setSelectedClient('All');
+                  setSelectedBusinessType('All');
+                  setSelectedIndustry('All');
+                  setFilterSearches({ category: '', deck: '', service: '', office: '', client: '', businessType: '', industry: '' });
+                  applyFilters(query, 'All', 'All', 'All', 'All', 'All', 'All', 'All');
+                }}
+                className="w-full px-3 py-2 text-sm font-medium text-slate-600 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors"
+              >
+                Clear All Filters
+              </button>
         <header className="text-center mb-8">
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900">Knowledge Base Search</h1>
           <p className="text-slate-600 mt-2">Instantly search across all your presentations.</p>
@@ -447,187 +516,327 @@ export default function App() {
         {isLoading && <div className="text-center text-slate-500">Loading knowledge base...</div>}
         {error && <div className="text-center text-red-500 bg-red-100 p-4 rounded-lg">{error}</div>}
 
-        {!isLoading && allSlides.length > 0 && (
-          <div className="mb-8 space-y-6">
-            {/* Deck Filter */}
-            <div>
-              <h3 className="text-sm font-semibold text-slate-600 mb-3">Filter by Deck</h3>
-              <div className="flex flex-wrap gap-2">
-                {['All', ...Array.from(new Set(allSlides.map(slide => slide.deckDisplayName))).sort()].map(deck => (
-                  <button
-                    key={deck}
-                    onClick={() => handleDeckChange(deck)}
-                    className={`px-3 py-1.5 text-sm font-medium rounded-full transition-colors ${
-                      selectedDeck === deck
-                        ? 'bg-green-600 text-white'
-                        : 'bg-green-50 text-green-700 hover:bg-green-100 border border-green-200'
-                    }`}
-                  >
-                    {deck} ({deck === 'All' ? allSlides.length : allSlides.filter(slide => slide.deckDisplayName === deck).length})
-                  </button>
-                ))}
-              </div>
-            </div>
-            
-            {/* Category Filter */}
-            <div>
-              <h3 className="text-sm font-semibold text-slate-600 mb-3">Filter by Category</h3>
-              <div className="flex flex-wrap gap-2">
-                {['All', ...Array.from(new Set(allSlides.map(slide => slide.category))).sort()].map(category => (
-                  <button
-                    key={category}
-                    onClick={() => handleCategoryChange(category)}
-                    className={`px-3 py-1.5 text-sm font-medium rounded-full transition-colors ${
-                      selectedCategory === category
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200'
-                    }`}
-                  >
-                    {category} ({category === 'All' ? allSlides.length : allSlides.filter(slide => slide.category === category).length})
-                  </button>
-                ))}
-              </div>
-            </div>
-            
-            {/* Services Filter */}
-            {(() => {
-              const allServices = Array.from(new Set(allSlides.flatMap(slide => slide.services || []))).sort();
-              return allServices.length > 0 && (
-                <div>
-                  <h3 className="text-sm font-semibold text-slate-600 mb-3">Filter by Service</h3>
-                  <div className="flex flex-wrap gap-2">
-                    {['All', ...allServices].map(service => (
-                      <button
-                        key={service}
-                        onClick={() => handleServiceChange(service)}
-                        className={`px-3 py-1.5 text-sm font-medium rounded-full transition-colors ${
-                          selectedService === service
-                            ? 'bg-purple-600 text-white'
-                            : 'bg-purple-50 text-purple-700 hover:bg-purple-100 border border-purple-200'
-                        }`}
-                      >
-                        {service} ({service === 'All' ? allSlides.filter(s => s.services && s.services.length > 0).length : allSlides.filter(slide => slide.services && slide.services.includes(service)).length})
+              {!isLoading && allSlides.length > 0 && (
+                <>
+                  {/* Deck Filter */}
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <h3 className="text-sm font-semibold text-slate-700">Deck</h3>
+                      <button onClick={() => toggleFilter('deck')} className="text-slate-500 hover:text-slate-700">
+                        <svg className={`w-4 h-4 transform transition-transform ${expandedFilters.deck ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
                       </button>
-                    ))}
-                  </div>
-                </div>
-              );
-            })()
-            }
-            
-            {/* Office Filter */}
-            {(() => {
-              const allOffices = Array.from(new Set(allSlides.map(slide => slide.office).filter(Boolean))).sort();
-              return allOffices.length > 0 && (
-                <div>
-                  <h3 className="text-sm font-semibold text-slate-600 mb-3">Filter by Office</h3>
-                  <div className="flex flex-wrap gap-2">
-                    {['All', ...allOffices].map(office => (
-                      <button
-                        key={office}
-                        onClick={() => handleOfficeChange(office)}
-                        className={`px-3 py-1.5 text-sm font-medium rounded-full transition-colors ${
-                          selectedOffice === office
-                            ? 'bg-orange-600 text-white'
-                            : 'bg-orange-50 text-orange-700 hover:bg-orange-100 border border-orange-200'
-                        }`}
-                      >
-                        {office} ({office === 'All' ? allSlides.filter(s => s.office).length : allSlides.filter(slide => slide.office === office).length})
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              );
-            })()
-            }
-            
-            {/* Business Type Filter */}
-            {(() => {
-              const allBusinessTypes = Array.from(new Set(allSlides.map(slide => slide.businessType).filter(Boolean))).sort();
-              return allBusinessTypes.length > 0 && (
-                <div>
-                  <h3 className="text-sm font-semibold text-slate-600 mb-3">Filter by Business Type</h3>
-                  <div className="flex flex-wrap gap-2">
-                    {['All', ...allBusinessTypes].map(businessType => (
-                      <button
-                        key={businessType}
-                        onClick={() => handleBusinessTypeChange(businessType)}
-                        className={`px-3 py-1.5 text-sm font-medium rounded-full transition-colors ${
-                          selectedBusinessType === businessType
-                            ? 'bg-indigo-600 text-white'
-                            : 'bg-indigo-50 text-indigo-700 hover:bg-indigo-100 border border-indigo-200'
-                        }`}
-                      >
-                        {businessType} ({businessType === 'All' ? allSlides.filter(s => s.businessType).length : allSlides.filter(slide => slide.businessType === businessType).length})
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              );
-            })()
-            }
-            
-            {/* Industry Filter */}
-            {(() => {
-              const allIndustries = Array.from(new Set(allSlides.flatMap(slide => 
-                slide.industry ? slide.industry.split(/[,&]/).map(i => i.trim()).filter(i => i) : []
-              ))).sort();
-              return allIndustries.length > 0 && (
-                <div>
-                  <h3 className="text-sm font-semibold text-slate-600 mb-3">Filter by Industry</h3>
-                  <div className="flex flex-wrap gap-2 max-h-32 overflow-y-auto">
-                    {['All', ...allIndustries.slice(0, 15)].map(industry => (
-                      <button
-                        key={industry}
-                        onClick={() => handleIndustryChange(industry)}
-                        className={`px-3 py-1.5 text-sm font-medium rounded-full transition-colors ${
-                          selectedIndustry === industry
-                            ? 'bg-teal-600 text-white'
-                            : 'bg-teal-50 text-teal-700 hover:bg-teal-100 border border-teal-200'
-                        }`}
-                      >
-                        {industry} ({industry === 'All' ? allSlides.filter(s => s.industry).length : allSlides.filter(slide => slide.industry && slide.industry.toLowerCase().includes(industry.toLowerCase())).length})
-                      </button>
-                    ))}
-                    {allIndustries.length > 15 && (
-                      <span className="text-sm text-slate-500 self-center">+{allIndustries.length - 15} more...</span>
+                    </div>
+                    {expandedFilters.deck && (
+                      <>
+                        <input
+                          type="text"
+                          placeholder="Search decks..."
+                          value={filterSearches.deck}
+                          onChange={(e) => updateFilterSearch('deck', e.target.value)}
+                          className="w-full px-3 py-2 text-sm border border-slate-200 rounded-md mb-3 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                        />
+                        <div className="space-y-1 max-h-40 overflow-y-auto">
+                          {['All', ...filterItems(Array.from(new Set(allSlides.map(slide => slide.deckDisplayName))).sort(), filterSearches.deck)].map(deck => (
+                            <button
+                              key={deck}
+                              onClick={() => handleDeckChange(deck)}
+                              className={`w-full text-left px-3 py-2 text-sm rounded-md transition-colors ${
+                                selectedDeck === deck
+                                  ? 'bg-green-100 text-green-800 font-medium'
+                                  : 'text-slate-700 hover:bg-slate-100'
+                              }`}
+                            >
+                              <div className="flex justify-between items-center">
+                                <span className="truncate">{deck}</span>
+                                <span className="text-xs text-slate-500 ml-2">({deck === 'All' ? allSlides.length : allSlides.filter(slide => slide.deckDisplayName === deck).length})</span>
+                              </div>
+                            </button>
+                          ))}
+                        </div>
+                      </>
                     )}
                   </div>
-                </div>
-              );
-            })()
-            }
-            
-            {/* Client Filter (for global case studies) */}
-            {(() => {
-              const allClients = Array.from(new Set(allSlides.map(slide => slide.client).filter(Boolean))).sort();
-              return allClients.length > 0 && (
-                <div>
-                  <h3 className="text-sm font-semibold text-slate-600 mb-3">Filter by Client</h3>
-                  <div className="flex flex-wrap gap-2 max-h-32 overflow-y-auto">
-                    {['All', ...allClients.slice(0, 20)].map(client => (
-                      <button
-                        key={client}
-                        onClick={() => handleClientChange(client)}
-                        className={`px-3 py-1.5 text-sm font-medium rounded-full transition-colors ${
-                          selectedClient === client
-                            ? 'bg-pink-600 text-white'
-                            : 'bg-pink-50 text-pink-700 hover:bg-pink-100 border border-pink-200'
-                        }`}
-                      >
-                        {client} ({client === 'All' ? allSlides.filter(s => s.client).length : allSlides.filter(slide => slide.client === client).length})
+
+                  {/* Category Filter */}
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <h3 className="text-sm font-semibold text-slate-700">Category</h3>
+                      <button onClick={() => toggleFilter('category')} className="text-slate-500 hover:text-slate-700">
+                        <svg className={`w-4 h-4 transform transition-transform ${expandedFilters.category ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
                       </button>
-                    ))}
-                    {allClients.length > 20 && (
-                      <span className="text-sm text-slate-500 self-center">+{allClients.length - 20} more...</span>
+                    </div>
+                    {expandedFilters.category && (
+                      <>
+                        <input
+                          type="text"
+                          placeholder="Search categories..."
+                          value={filterSearches.category}
+                          onChange={(e) => updateFilterSearch('category', e.target.value)}
+                          className="w-full px-3 py-2 text-sm border border-slate-200 rounded-md mb-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        />
+                        <div className="space-y-1 max-h-40 overflow-y-auto">
+                          {['All', ...filterItems(Array.from(new Set(allSlides.map(slide => slide.category))).sort(), filterSearches.category)].map(category => (
+                            <button
+                              key={category}
+                              onClick={() => handleCategoryChange(category)}
+                              className={`w-full text-left px-3 py-2 text-sm rounded-md transition-colors ${
+                                selectedCategory === category
+                                  ? 'bg-blue-100 text-blue-800 font-medium'
+                                  : 'text-slate-700 hover:bg-slate-100'
+                              }`}
+                            >
+                              <div className="flex justify-between items-center">
+                                <span className="truncate">{category}</span>
+                                <span className="text-xs text-slate-500 ml-2">({category === 'All' ? allSlides.length : allSlides.filter(slide => slide.category === category).length})</span>
+                              </div>
+                            </button>
+                          ))}
+                        </div>
+                      </>
                     )}
                   </div>
-                </div>
-              );
-            })()
-            }
-          </div>
-        )}
+
+                  {/* Office Filter */}
+                  {(() => {
+                    const allOffices = Array.from(new Set(allSlides.map(slide => slide.office).filter(Boolean))).sort();
+                    return allOffices.length > 0 && (
+                      <div>
+                        <div className="flex items-center justify-between mb-2">
+                          <h3 className="text-sm font-semibold text-slate-700">Office</h3>
+                          <button onClick={() => toggleFilter('office')} className="text-slate-500 hover:text-slate-700">
+                            <svg className={`w-4 h-4 transform transition-transform ${expandedFilters.office ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                            </svg>
+                          </button>
+                        </div>
+                        {expandedFilters.office && (
+                          <>
+                            <input
+                              type="text"
+                              placeholder="Search offices..."
+                              value={filterSearches.office}
+                              onChange={(e) => updateFilterSearch('office', e.target.value)}
+                              className="w-full px-3 py-2 text-sm border border-slate-200 rounded-md mb-3 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                            />
+                            <div className="space-y-1 max-h-40 overflow-y-auto">
+                              {['All', ...filterItems(allOffices, filterSearches.office)].map(office => (
+                                <button
+                                  key={office}
+                                  onClick={() => handleOfficeChange(office)}
+                                  className={`w-full text-left px-3 py-2 text-sm rounded-md transition-colors ${
+                                    selectedOffice === office
+                                      ? 'bg-orange-100 text-orange-800 font-medium'
+                                      : 'text-slate-700 hover:bg-slate-100'
+                                  }`}
+                                >
+                                  <div className="flex justify-between items-center">
+                                    <span className="truncate">{office}</span>
+                                    <span className="text-xs text-slate-500 ml-2">({office === 'All' ? allSlides.filter(s => s.office).length : allSlides.filter(slide => slide.office === office).length})</span>
+                                  </div>
+                                </button>
+                              ))}
+                            </div>
+                          </>
+                        )}
+                      </div>
+                    );
+                  })()
+                  }
+
+                  {/* Business Type Filter */}
+                  {(() => {
+                    const allBusinessTypes = Array.from(new Set(allSlides.map(slide => slide.businessType).filter(Boolean))).sort();
+                    return allBusinessTypes.length > 0 && (
+                      <div>
+                        <div className="flex items-center justify-between mb-2">
+                          <h3 className="text-sm font-semibold text-slate-700">Business Type</h3>
+                          <button onClick={() => toggleFilter('businessType')} className="text-slate-500 hover:text-slate-700">
+                            <svg className={`w-4 h-4 transform transition-transform ${expandedFilters.businessType ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                            </svg>
+                          </button>
+                        </div>
+                        {expandedFilters.businessType && (
+                          <div className="space-y-1">
+                            {['All', ...allBusinessTypes].map(businessType => (
+                              <button
+                                key={businessType}
+                                onClick={() => handleBusinessTypeChange(businessType)}
+                                className={`w-full text-left px-3 py-2 text-sm rounded-md transition-colors ${
+                                  selectedBusinessType === businessType
+                                    ? 'bg-indigo-100 text-indigo-800 font-medium'
+                                    : 'text-slate-700 hover:bg-slate-100'
+                                }`}
+                              >
+                                <div className="flex justify-between items-center">
+                                  <span className="truncate">{businessType}</span>
+                                  <span className="text-xs text-slate-500 ml-2">({businessType === 'All' ? allSlides.filter(s => s.businessType).length : allSlides.filter(slide => slide.businessType === businessType).length})</span>
+                                </div>
+                              </button>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })()
+                  }
+
+                  {/* Services Filter */}
+                  {(() => {
+                    const allServices = Array.from(new Set(allSlides.flatMap(slide => slide.services || []))).sort();
+                    return allServices.length > 0 && (
+                      <div>
+                        <div className="flex items-center justify-between mb-2">
+                          <h3 className="text-sm font-semibold text-slate-700">Service</h3>
+                          <button onClick={() => toggleFilter('service')} className="text-slate-500 hover:text-slate-700">
+                            <svg className={`w-4 h-4 transform transition-transform ${expandedFilters.service ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                            </svg>
+                          </button>
+                        </div>
+                        {expandedFilters.service && (
+                          <>
+                            <input
+                              type="text"
+                              placeholder="Search services..."
+                              value={filterSearches.service}
+                              onChange={(e) => updateFilterSearch('service', e.target.value)}
+                              className="w-full px-3 py-2 text-sm border border-slate-200 rounded-md mb-3 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                            />
+                            <div className="space-y-1 max-h-40 overflow-y-auto">
+                              {['All', ...filterItems(allServices, filterSearches.service)].map(service => (
+                                <button
+                                  key={service}
+                                  onClick={() => handleServiceChange(service)}
+                                  className={`w-full text-left px-3 py-2 text-sm rounded-md transition-colors ${
+                                    selectedService === service
+                                      ? 'bg-purple-100 text-purple-800 font-medium'
+                                      : 'text-slate-700 hover:bg-slate-100'
+                                  }`}
+                                >
+                                  <div className="flex justify-between items-center">
+                                    <span className="truncate">{service}</span>
+                                    <span className="text-xs text-slate-500 ml-2">({service === 'All' ? allSlides.filter(s => s.services && s.services.length > 0).length : allSlides.filter(slide => slide.services && slide.services.includes(service)).length})</span>
+                                  </div>
+                                </button>
+                              ))}
+                            </div>
+                          </>
+                        )}
+                      </div>
+                    );
+                  })()
+                  }
+
+                  {/* Industry Filter */}
+                  {(() => {
+                    const allIndustries = Array.from(new Set(allSlides.flatMap(slide => 
+                      slide.industry ? slide.industry.split(/[,&]/).map(i => i.trim()).filter(i => i) : []
+                    ))).sort();
+                    return allIndustries.length > 0 && (
+                      <div>
+                        <div className="flex items-center justify-between mb-2">
+                          <h3 className="text-sm font-semibold text-slate-700">Industry</h3>
+                          <button onClick={() => toggleFilter('industry')} className="text-slate-500 hover:text-slate-700">
+                            <svg className={`w-4 h-4 transform transition-transform ${expandedFilters.industry ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                            </svg>
+                          </button>
+                        </div>
+                        {expandedFilters.industry && (
+                          <>
+                            <input
+                              type="text"
+                              placeholder="Search industries..."
+                              value={filterSearches.industry}
+                              onChange={(e) => updateFilterSearch('industry', e.target.value)}
+                              className="w-full px-3 py-2 text-sm border border-slate-200 rounded-md mb-3 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+                            />
+                            <div className="space-y-1 max-h-40 overflow-y-auto">
+                              {['All', ...filterItems(allIndustries, filterSearches.industry)].map(industry => (
+                                <button
+                                  key={industry}
+                                  onClick={() => handleIndustryChange(industry)}
+                                  className={`w-full text-left px-3 py-2 text-sm rounded-md transition-colors ${
+                                    selectedIndustry === industry
+                                      ? 'bg-teal-100 text-teal-800 font-medium'
+                                      : 'text-slate-700 hover:bg-slate-100'
+                                  }`}
+                                >
+                                  <div className="flex justify-between items-center">
+                                    <span className="truncate">{industry}</span>
+                                    <span className="text-xs text-slate-500 ml-2">({industry === 'All' ? allSlides.filter(s => s.industry).length : allSlides.filter(slide => slide.industry && slide.industry.toLowerCase().includes(industry.toLowerCase())).length})</span>
+                                  </div>
+                                </button>
+                              ))}
+                            </div>
+                          </>
+                        )}
+                      </div>
+                    );
+                  })()
+                  }
+
+                  {/* Client Filter */}
+                  {(() => {
+                    const allClients = Array.from(new Set(allSlides.map(slide => slide.client).filter(Boolean))).sort();
+                    return allClients.length > 0 && (
+                      <div>
+                        <div className="flex items-center justify-between mb-2">
+                          <h3 className="text-sm font-semibold text-slate-700">Client</h3>
+                          <button onClick={() => toggleFilter('client')} className="text-slate-500 hover:text-slate-700">
+                            <svg className={`w-4 h-4 transform transition-transform ${expandedFilters.client ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                            </svg>
+                          </button>
+                        </div>
+                        {expandedFilters.client && (
+                          <>
+                            <input
+                              type="text"
+                              placeholder="Search clients..."
+                              value={filterSearches.client}
+                              onChange={(e) => updateFilterSearch('client', e.target.value)}
+                              className="w-full px-3 py-2 text-sm border border-slate-200 rounded-md mb-3 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-transparent"
+                            />
+                            <div className="space-y-1 max-h-40 overflow-y-auto">
+                              {['All', ...filterItems(allClients, filterSearches.client)].map(client => (
+                                <button
+                                  key={client}
+                                  onClick={() => handleClientChange(client)}
+                                  className={`w-full text-left px-3 py-2 text-sm rounded-md transition-colors ${
+                                    selectedClient === client
+                                      ? 'bg-pink-100 text-pink-800 font-medium'
+                                      : 'text-slate-700 hover:bg-slate-100'
+                                  }`}
+                                >
+                                  <div className="flex justify-between items-center">
+                                    <span className="truncate">{client}</span>
+                                    <span className="text-xs text-slate-500 ml-2">({client === 'All' ? allSlides.filter(s => s.client).length : allSlides.filter(slide => slide.client === client).length})</span>
+                                  </div>
+                                </button>
+                              ))}
+                            </div>
+                          </>
+                        )}
+                      </div>
+                    );
+                  })()
+                  }
+                </>
+              )}
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Main Content */}
+      <div className="flex-1 flex flex-col min-h-screen">
+        <main className="flex-1 px-6 py-8">
 
         <div className="space-y-4">
           {!isAiLoading && results.length > 0 ? (
@@ -809,7 +1018,8 @@ export default function App() {
             })
           ) : ( !isLoading && !isAiLoading && <p className="text-center text-slate-500 mt-10">No results found.</p>)}
         </div>
-      </main>
+        </main>
+      </div>
     </div>
   );
 }
