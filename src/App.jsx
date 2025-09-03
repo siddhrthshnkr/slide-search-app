@@ -53,7 +53,7 @@ export default function App() {
     });
   }, [allSlides, Fuse]);
 
-  // --- NEW: Multi-deck data loading logic ---
+  // --- Data loading logic ---
   useEffect(() => {
     async function fetchAllDecks() {
       try {
@@ -80,6 +80,7 @@ export default function App() {
         const combinedSlides = slidesByDeck.flat(); // Combine all slides into one array
 
         setAllSlides(combinedSlides);
+        // Initially show the first 10 slides before any search
         setResults(combinedSlides.slice(0, 10).map(item => ({ item })));
 
       } catch (err) {
@@ -112,7 +113,15 @@ export default function App() {
     if (fuse) {
       const searchResults = fuse.search(newQuery, { limit: 50 });
       setResults(searchResults);
-      const autocompleteSuggestions = searchResults.slice(0, 5).map(res => res.matches[0].value.substring(0, 60) + '...');
+      
+      // --- FIX: Safely generate autocomplete suggestions ---
+      // The original code would crash if `res.matches` was empty or undefined.
+      // This updated version filters for results that have valid matches before creating suggestions.
+      const autocompleteSuggestions = searchResults
+        .slice(0, 5)
+        .filter(res => res.matches && res.matches.length > 0 && res.matches[0].value)
+        .map(res => res.matches[0].value.substring(0, 60) + '...');
+        
       setSuggestions([...new Set(autocompleteSuggestions)]);
     }
   };
@@ -125,8 +134,10 @@ export default function App() {
   };
   
   const highlightText = (text = '', highlight = '') => {
-    if (!highlight.trim()) return <span>{text}</span>;
-    const regex = new RegExp(`(${highlight.split(' ').join('|')})`, 'gi');
+    if (!highlight.trim() || !text) return <span>{text}</span>;
+    // Escape special characters for regex
+    const escapedHighlight = highlight.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`(${escapedHighlight.split(' ').join('|')})`, 'gi');
     return <span>{text.split(regex).map((part, i) => regex.test(part) ? <mark key={i} className="bg-yellow-200 px-1 rounded-sm">{part}</mark> : part)}</span>;
   };
 
@@ -136,10 +147,11 @@ export default function App() {
     setAiError(null);
     setResults([]);
     try {
+      // This assumes a backend endpoint '/api/ai-search' exists
       const response = await fetch('/api/ai-search', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ aiQuery }),
+        body: JSON.stringify({ query: aiQuery, context: allSlides.slice(0, 200) }), // Example: send context
       });
       if (!response.ok) {
         const errorData = await response.json();
@@ -209,7 +221,7 @@ export default function App() {
             results.map(({ item, score }, idx) => {
                 const slideUrl = item.presentationId && !item.presentationId.includes("YOUR_PRESENTATION_ID") ? `https://docs.google.com/presentation/d/${item.presentationId}/edit#slide=id.${item.slideId}` : null;
                 return (
-                  <div key={`${item.id}-${idx}`} className="bg-white border border-slate-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-blue-300 transition-all">
+                  <div key={`${item.slideId || idx}-${item.deckDisplayName}`} className="bg-white border border-slate-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-blue-300 transition-all">
                     <div className="flex items-center mb-3">
                       <BookIcon />
                       <h3 className="text-lg font-bold text-slate-900">{item.deckDisplayName} - Slide {item.slideNumber}</h3>
@@ -229,4 +241,3 @@ export default function App() {
     </div>
   );
 }
-
