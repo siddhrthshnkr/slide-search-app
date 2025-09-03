@@ -1,0 +1,4505 @@
+{
+  "presentationId": "1ePqBuQDQl6eDLV7ogHlYwu2C1rLRL-ZkZNymv_DEy2U",
+  "presentationName": "Quickly.ai - Master Sales Deck",
+  "slides": [
+    {
+      "slideId": "p",
+      "slideNumber": 1,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "i0",
+          "type": "SHAPE",
+          "width": 453.4251968503937,
+          "height": 161.6220472440945,
+          "top": 70.06576377952757,
+          "left": 24.543520275590552,
+          "text": "AI that closes deals, crushes support and scales your business"
+        },
+        {
+          "objectId": "i1",
+          "type": "SHAPE",
+          "width": 670.9133858267717,
+          "height": 26.881889763779526,
+          "top": 222.4276212598425,
+          "left": 24.543307086614174,
+          "text": "We set it up, train it and optimise it - so you don’t have to!"
+        },
+        {
+          "objectId": "g32d175f0297_1_105",
+          "type": "IMAGE",
+          "width": 82.98820551181102,
+          "height": 22.25393385826774,
+          "top": 349.4842505905512,
+          "left": 36.54330708661417,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfdy_zHDsAXRFz_HW54UT1dPoJ-Hsf2uNQZxi5kM2bDxxNacWRH5taoYj1XloIe65LSMiFxmDAsGR-X8dlqxgv10xLbcJAgecZolfdAPOumC5yYGSkB3eFcq0gC9yjLyoVt7qF9cFYIZRLdzMzHEbViRA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        }
+      ]
+    },
+    {
+      "slideId": "g32d09ff5266_0_1",
+      "slideNumber": 2,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g32d175f0297_0_4",
+          "type": "SHAPE",
+          "width": 429.9448818897638,
+          "height": 219.4251968503937,
+          "top": 82.21850393700787,
+          "left": 38.60826771653543,
+          "text": "Hey [Client’s Name],\nBusiness moves fast. Winners move faster.\nThat’s why we built Quickly.ai — AI agents that don’t just work… they hustle. They generate leads, close deals, handle support, and even chase down overdue invoices — all while cutting your costs and scaling your ops.\nNo fluff. No fat. Just AI that scales your business.\nLet’s go all in.\nTo winning,\nNick"
+        },
+        {
+          "objectId": "g32d175f0297_0_5",
+          "type": "SHAPE",
+          "width": 194.38582677165354,
+          "height": 405,
+          "top": 0,
+          "left": 525.6220472440945,
+          "text": ""
+        },
+        {
+          "objectId": "g32d175f0297_0_6",
+          "type": "SHAPE",
+          "width": 188.5511811023622,
+          "height": 61.20472440944882,
+          "top": 216.98925019685038,
+          "left": 528.5391547244094,
+          "text": "Nick Bell\nFounder\n1300 479 226\nnick@quickly.ai"
+        },
+        {
+          "objectId": "g35d3f2352d1_8_4",
+          "type": "IMAGE",
+          "width": 111.66141732283465,
+          "height": 112.7007874015748,
+          "top": 89.80118110236221,
+          "left": 566.9842966535432,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUchpJgR-Qafq_Fk3c2G2U6oVGqLX_UFM6Rdh8SBu2qoR9YvNdx9JoQxD7rbYGIxZvC9hj47Z4J5BLCOxLFRvt-t3vUb-RIlHWTjVD1UrJAvwzbvM7h0BVktO78rix7G3eZ9bi6cGUgnFyqefwgFrz8=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        }
+      ]
+    },
+    {
+      "slideId": "g354c82bd132_0_0",
+      "slideNumber": 3,
+      "notes": "Add your title. \n",
+      "elements": [
+        {
+          "objectId": "g354c82bd132_0_1",
+          "type": "SHAPE",
+          "width": 429.9448818897638,
+          "height": 219.4251968503937,
+          "top": 85.48622047244095,
+          "left": 38.60826771653543,
+          "text": "Hey [Client’s Name],\nBusiness moves fast. Winners move faster.\nThat’s why we built Quickly.ai — AI agents that don’t just work… they hustle. They generate leads, close deals, handle support, and even chase down overdue invoices — all while cutting your costs and scaling your ops.\nNo fluff. No fat. Just AI that scales your business.\nLet’s go all in.\nTo winning,\nGrant"
+        },
+        {
+          "objectId": "g354c82bd132_0_2",
+          "type": "SHAPE",
+          "width": 194.38582677165354,
+          "height": 405,
+          "top": 0,
+          "left": 525.6220472440945,
+          "text": ""
+        },
+        {
+          "objectId": "g3552acd4f7d_1_0",
+          "type": "SHAPE",
+          "width": 188.5511811023622,
+          "height": 61.20472440944882,
+          "top": 216.98925019685038,
+          "left": 528.5391547244094,
+          "text": "Grant Smith\nOperations Manager\n1300 479 226\ngrant@quickly.ai"
+        },
+        {
+          "objectId": "g35d3f2352d1_8_5",
+          "type": "IMAGE",
+          "width": 112.7007874015748,
+          "height": 112.7007874015748,
+          "top": 89.80118110236221,
+          "left": 566.4645669291339,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeurS6-VsE8l2vI9BO9l1jaOOLagiXsBP_2pw-ApPNdSwfCmrgXfar9nhdksmFeWI2SwS07anJzAbNyyy-u9TzpAAUr3N5ENWw7bhuNnbjb3f25DLYdOuJfMH1hDPuigYVTwegAb61kwMJbZ_XX7CV-Eg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        }
+      ]
+    },
+    {
+      "slideId": "g35d6ca73a95_0_0",
+      "slideNumber": 4,
+      "notes": "Add your title. \n",
+      "elements": [
+        {
+          "objectId": "g35d6ca73a95_0_1",
+          "type": "SHAPE",
+          "width": 429.9448818897638,
+          "height": 219.4251968503937,
+          "top": 97.17716535433071,
+          "left": 38.05511811023622,
+          "text": "Hey [Client’s Name],\nBusiness moves fast. Winners move faster.\nThat’s why we built Quickly.ai — AI agents that don’t just work… they hustle. They generate leads, close deals, handle support, and even chase down overdue invoices — all while cutting your costs and scaling your ops.\nNo fluff. No fat. Just AI that scales your business.\nLet’s go all in.\nTo winning,\nJordan"
+        },
+        {
+          "objectId": "g35d6ca73a95_0_2",
+          "type": "SHAPE",
+          "width": 194.38582677165354,
+          "height": 405,
+          "top": 0,
+          "left": 525.6220472440945,
+          "text": ""
+        },
+        {
+          "objectId": "g35d6ca73a95_0_3",
+          "type": "SHAPE",
+          "width": 188.5511811023622,
+          "height": 61.20472440944882,
+          "top": 216.98925019685038,
+          "left": 528.5391547244094,
+          "text": "Jordan \nAi Strategist \n1300 479 226\njordan@quickly.ai"
+        },
+        {
+          "objectId": "g35ec3ea9e3e_0_1",
+          "type": "SHAPE",
+          "width": 112.7007874015748,
+          "height": 112.7007874015748,
+          "top": 89.80118110236221,
+          "left": 566.4645669291339,
+          "text": ""
+        },
+        {
+          "objectId": "g35ec3ea9e3e_0_0",
+          "type": "IMAGE",
+          "width": 109.30708661417323,
+          "height": 109.30708661417323,
+          "top": 91.49825216535433,
+          "left": 568.1609748031495,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUf0BDOpZ1YFmFRWa3kCVxlltyO1RC3fP9p5Tl4pMEw2h8kz23GIa6d2oKJXRKMwx6sQK8DpDo9ME5ONwD_KqXhMDpW_Sp1Bx58tKUf0Pa8BrpeLc6aOCReePBaQKCzJlfMowY9zfXFglxNRYasdzsyCqQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        }
+      ]
+    },
+    {
+      "slideId": "g35ec59d507d_3_162",
+      "slideNumber": 5,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g35ec59d507d_3_163",
+          "type": "SHAPE",
+          "width": 154.41732283464566,
+          "height": 137.88188976377953,
+          "top": 124.35236220472441,
+          "left": 32.96259842519685,
+          "text": ""
+        },
+        {
+          "objectId": "g35ec59d507d_3_164",
+          "type": "SHAPE",
+          "width": 661.8425196850394,
+          "height": 45.09448818897638,
+          "top": 28.744094488188978,
+          "left": 29.078740157480315,
+          "text": "Why Quickly.ai?"
+        },
+        {
+          "objectId": "g35ec59d507d_3_165",
+          "type": "SHAPE",
+          "width": 139.53543307086613,
+          "height": 58.039370078740156,
+          "top": 191.7224409448819,
+          "left": 40.403543307086615,
+          "text": "AI that works for you. Automate tasks that slow you down."
+        },
+        {
+          "objectId": "g35ec59d507d_3_166",
+          "type": "SHAPE",
+          "width": 670.9133858267717,
+          "height": 28.771653543307085,
+          "top": 303.6929133858268,
+          "left": 24.543307086614174,
+          "text": "We’re not just another AI provider - we’re your automation partner."
+        },
+        {
+          "objectId": "g35ec59d507d_3_167",
+          "type": "SHAPE",
+          "width": 154.41732283464566,
+          "height": 137.88188976377953,
+          "top": 124.35236220472441,
+          "left": 198.25393700787401,
+          "text": ""
+        },
+        {
+          "objectId": "g35ec59d507d_3_168",
+          "type": "SHAPE",
+          "width": 139.53543307086613,
+          "height": 58.039370078740156,
+          "top": 191.7224409448819,
+          "left": 205.6948818897638,
+          "text": "Fast, scalable solutions. Go live in days, not months."
+        },
+        {
+          "objectId": "g35ec59d507d_3_169",
+          "type": "SHAPE",
+          "width": 154.41732283464566,
+          "height": 137.88188976377953,
+          "top": 124.35236220472441,
+          "left": 363.54527559055117,
+          "text": ""
+        },
+        {
+          "objectId": "g35ec59d507d_3_170",
+          "type": "SHAPE",
+          "width": 139.53543307086613,
+          "height": 58.039370078740156,
+          "top": 191.7224409448819,
+          "left": 370.98622047244095,
+          "text": "100% compliant & secure. Tailored to your business.."
+        },
+        {
+          "objectId": "g35ec59d507d_3_171",
+          "type": "SHAPE",
+          "width": 154.41732283464566,
+          "height": 137.88188976377953,
+          "top": 124.35236220472441,
+          "left": 528.8366141732283,
+          "text": ""
+        },
+        {
+          "objectId": "g35ec59d507d_3_172",
+          "type": "SHAPE",
+          "width": 146.9763779527559,
+          "height": 58.039370078740156,
+          "top": 191.7224409448819,
+          "left": 536.2775590551181,
+          "text": "Scale without increasing overheads. AI grows with you."
+        },
+        {
+          "objectId": "g35ec59d507d_3_173",
+          "type": "IMAGE",
+          "width": 58.039332283464546,
+          "height": 58.039332283464574,
+          "top": 137.8740157480315,
+          "left": 408.01377952755905,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfpN3D93HzHymihw0ebKNy8GTAZCjJdS1Eatsk-RgXLz8Q1dQeJ4Pp1Pf8qZkG6GW4YTtNLlWsaqN_xeUX8YI_4vTVN4vACXOYu0Hyoxse71nRMxofSf_QuM8LPqBDHT2OMLegQT1aOs5LBUWEUQ_Clyw=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g35ec59d507d_3_174",
+          "type": "IMAGE",
+          "width": 45.09450078740157,
+          "height": 45.09450078740157,
+          "top": 144.3464566929134,
+          "left": 87.6240157480315,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUc6XMSaHFmIMA9rGa4Z3QP2OBzIYN1fuXcm8FCwOPV5Zzxz6Wtf1Go5gCfUJEgG8ZU8cZTk7tv7y-4qAHeVvJvdMBPScEbCidT73ZMyHys_t_ekoNRqRpxMFLzQLd_3kuGenikK-EGU4MJZ5GpA6vwlOQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g35ec59d507d_3_175",
+          "type": "IMAGE",
+          "width": 50.98814488188976,
+          "height": 50.98814488188976,
+          "top": 141.39960551181102,
+          "left": 249.96850314960628,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUf7KZb00RJUGMc6S8gVZL3-pHKelmau7GhnfcO44uBCH3LTf2Pe7stsnx5QUhDXq_20nHMPZK23Y5AJdyBc9nSjq8IgeSXC9A01LLnYS7H2ChmlkC3ih0sPZR9FrGY2gUtSJcMYUZ-3fBS_lQpxHY6kig=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g35ec59d507d_3_176",
+          "type": "IMAGE",
+          "width": 63.45665511811028,
+          "height": 63.45867086614172,
+          "top": 132.11220807086613,
+          "left": 572.6063011811024,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUecyc3Nom0i1_l9-CqIWBnw7iNzcu68MxRd6lBpur7A16Ligiy-e7nJJ2ndNkZ4yDK30zr1IrHvjfHjXKwrgrKd36yzcx-7AiTYa4orPwjfXoZ_LO_smyn4vjgvUaVHt6Ud-uDjvfkYY8Zr3YV7GTRn7w=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        }
+      ]
+    },
+    {
+      "slideId": "g352a350047c_1_0",
+      "slideNumber": 6,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g352a350047c_1_3",
+          "type": "SHAPE",
+          "width": 661.8425196850394,
+          "height": 45.09448818897638,
+          "top": 28.744094488188978,
+          "left": 29.078740157480315,
+          "text": "Client Name. Your Current Situation."
+        },
+        {
+          "objectId": "g352a350047c_1_4",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 97.6259842519685,
+          "left": 36.08661417322835,
+          "rows": 6,
+          "columns": 2
+        },
+        {
+          "objectId": "g355fa69fa04_5_79",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 305.71259842519686,
+          "left": 36.08661417322835,
+          "rows": 1,
+          "columns": 2
+        },
+        {
+          "objectId": "g355fa69fa04_5_80",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 97.6259842519685,
+          "left": 257.73622047244095,
+          "rows": 6,
+          "columns": 2
+        },
+        {
+          "objectId": "g355fa69fa04_5_81",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 97.6259842519685,
+          "left": 479.38484251968504,
+          "rows": 5,
+          "columns": 2
+        }
+      ]
+    },
+    {
+      "slideId": "g3564f5bfdb6_0_0",
+      "slideNumber": 7,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g3564f5bfdb6_0_1",
+          "type": "SHAPE",
+          "width": 661.8425196850394,
+          "height": 45.09448818897638,
+          "top": 28.744094488188978,
+          "left": 29.078740157480315,
+          "text": "Client Name. Your Current Situation."
+        },
+        {
+          "objectId": "g354723d346a_0_0",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 97.6259842519685,
+          "left": 146.91240157480314,
+          "rows": 6,
+          "columns": 2
+        },
+        {
+          "objectId": "g354723d346a_0_1",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 305.71259842519686,
+          "left": 146.91240157480314,
+          "rows": 1,
+          "columns": 2
+        },
+        {
+          "objectId": "g354723d346a_0_2",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 97.6259842519685,
+          "left": 368.56200787401576,
+          "rows": 6,
+          "columns": 2
+        }
+      ]
+    },
+    {
+      "slideId": "g3564f5bfdb6_0_8",
+      "slideNumber": 8,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g3564f5bfdb6_0_9",
+          "type": "SHAPE",
+          "width": 661.8425196850394,
+          "height": 45.09448818897638,
+          "top": 28.744094488188978,
+          "left": 29.078740157480315,
+          "text": "Client Name. Your Current Situation."
+        },
+        {
+          "objectId": "g354723d346a_0_3",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 97.6259842519685,
+          "left": 146.91141732283464,
+          "rows": 6,
+          "columns": 2
+        },
+        {
+          "objectId": "g354723d346a_0_4",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 305.71259842519686,
+          "left": 146.91141732283464,
+          "rows": 1,
+          "columns": 2
+        }
+      ]
+    },
+    {
+      "slideId": "g355fa69fa04_5_15",
+      "slideNumber": 9,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g355fa69fa04_5_16",
+          "type": "SHAPE",
+          "width": 661.8425196850394,
+          "height": 45.09448818897638,
+          "top": 28.744094488188978,
+          "left": 29.078740157480315,
+          "text": "Your AI Sales Return. Realised."
+        },
+        {
+          "objectId": "g355fa69fa04_5_18",
+          "type": "SHAPE",
+          "width": 140.36220472440945,
+          "height": 144.11811023622047,
+          "top": 142.04721968503935,
+          "left": 335.1692913385827,
+          "text": "$53,125\nSaved\nStaffing cost"
+        },
+        {
+          "objectId": "g355fa69fa04_5_19",
+          "type": "SHAPE",
+          "width": 140.36220472440945,
+          "height": 144.11811023622047,
+          "top": 142.04721968503935,
+          "left": 182.1240157480315,
+          "text": "$1,584,000\nIncreased \nrevenue"
+        },
+        {
+          "objectId": "g355fa69fa04_5_20",
+          "type": "SHAPE",
+          "width": 140.36220472440945,
+          "height": 144.11811023622047,
+          "top": 142.04721968503935,
+          "left": 29.07775590551181,
+          "text": "79\nNew \nclients"
+        },
+        {
+          "objectId": "g355fa69fa04_5_21",
+          "type": "IMAGE",
+          "width": 64.80574606299216,
+          "height": 64.80570866141733,
+          "top": 152.1040283464567,
+          "left": 372.9475206692913,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUclpUtmFhLgUO0j-W98e43QSXuT-isozMT7nmP2PIXn64QHruz47Egc4lfd5X3lqMQjf4Rlv-jx7glexoeBNMFNQm5QDaVZ3_JNQgaxGJxJSDuCnc26thuvH38_El1ELsIwkxgsJgiowvsm95TnKoo=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g355fa69fa04_5_23",
+          "type": "IMAGE",
+          "width": 70.29921456692914,
+          "height": 70.29921456692911,
+          "top": 152.10433070866142,
+          "left": 217.15602637795277,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUc9N1ZREi4FBVbCEWvPt_zWUBlIlLIKIzvk9Va4HOhMd3Nqtjb1DcqZ3lm8BmUyTWGL6sPhQWk8zU8L9EEFl6Hr36mH58ekkOyK_4kuMW5aWiuQBoa_wpaSUIYNHq1IkbeKoGPDxfQEaMwSf0zluYWbZw=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g355fa69fa04_5_24",
+          "type": "IMAGE",
+          "width": 64.80574606299214,
+          "height": 64.80570866141733,
+          "top": 152.1033529527559,
+          "left": 66.85598523622046,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUe9YsW-Kn0w0WceQSunAfPAeq8LP74OinCAF388xBqukE4KI_UMt_7v4pW7m75BSBw4bv3AfY9YEB6PaKn6SgWfm0nDWirO2ltZtCe0nnGPB6hKslS8heLDO0LEwGKVIG6kOea8Bi1dDt9PUGyCgZaZ4w=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g355fa69fa04_5_33",
+          "type": "SHEETS_CHART",
+          "width": 160.66937007874017,
+          "height": 166.9624992125984,
+          "top": 131.89370078740157,
+          "left": 507.78149763779527
+        },
+        {
+          "objectId": "g355fa69fa04_5_35",
+          "type": "SHAPE",
+          "width": 175.32283464566936,
+          "height": 45.803149606299215,
+          "top": 306.3622047244094,
+          "left": 502.52602165354335,
+          "text": "AI Investment 1%\nAI Return 99%"
+        },
+        {
+          "objectId": "g355fa69fa04_5_36",
+          "type": "SHAPE",
+          "width": 14.385826771653543,
+          "height": 14.385826771653543,
+          "top": 312.93307086614175,
+          "left": 516.8134232283464,
+          "text": ""
+        },
+        {
+          "objectId": "g355fa69fa04_5_37",
+          "type": "SHAPE",
+          "width": 14.388173269705229,
+          "height": 14.388173269705229,
+          "top": 330.8809863966435,
+          "left": 516.8177330501867,
+          "text": ""
+        },
+        {
+          "objectId": "g35db2b95471_2_0",
+          "type": "SHAPE",
+          "width": 585.992125984252,
+          "height": 25.440944881889763,
+          "top": 374.3800649606299,
+          "left": 119.46245472440945,
+          "text": "Estimates based on annualised return, assuming 65% uplift in conversion rate and work effort reduction of 40%"
+        }
+      ]
+    },
+    {
+      "slideId": "g355fa69fa04_5_38",
+      "slideNumber": 10,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g355fa69fa04_5_39",
+          "type": "SHAPE",
+          "width": 661.8425196850394,
+          "height": 45.09448818897638,
+          "top": 28.744094488188978,
+          "left": 29.078740157480315,
+          "text": "Your AI Reception Return. Realised."
+        },
+        {
+          "objectId": "g354723d346a_0_19",
+          "type": "SHAPE",
+          "width": 140.36220472440945,
+          "height": 144.11811023622047,
+          "top": 142.04721968503935,
+          "left": 335.1692913385827,
+          "text": "$48,000\nStaffing cost\n saved"
+        },
+        {
+          "objectId": "g354723d346a_0_20",
+          "type": "SHAPE",
+          "width": 140.36220472440945,
+          "height": 144.11811023622047,
+          "top": 142.04721968503935,
+          "left": 182.1240157480315,
+          "text": "$18,755\nRevenue recovered"
+        },
+        {
+          "objectId": "g354723d346a_0_21",
+          "type": "SHAPE",
+          "width": 140.36220472440945,
+          "height": 144.11811023622047,
+          "top": 142.04721968503935,
+          "left": 29.07775590551181,
+          "text": "No \nCalls\u000bmissed"
+        },
+        {
+          "objectId": "g354723d346a_0_22",
+          "type": "IMAGE",
+          "width": 64.8057460629921,
+          "height": 64.80570866141733,
+          "top": 152.1040283464567,
+          "left": 372.94759251968503,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUclpUtmFhLgUO0j-W98e43QSXuT-isozMT7nmP2PIXn64QHruz47Egc4lfd5X3lqMQjf4Rlv-jx7glexoeBNMFNQm5QDaVZ3_JNQgaxGJxJSDuCnc26thuvH38_El1ELsIwkxgsJgiowvsm95TnKoo=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g354723d346a_0_25",
+          "type": "SHEETS_CHART",
+          "width": 160.66937007874017,
+          "height": 166.9624992125984,
+          "top": 131.89370078740157,
+          "left": 507.78149763779527
+        },
+        {
+          "objectId": "g354723d346a_0_29",
+          "type": "IMAGE",
+          "width": 40.40345196850394,
+          "height": 40.403351181102344,
+          "top": 164.30512775590552,
+          "left": 79.05843070866142,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUekfHb8-WaPHGLUyHV4GGm7RLsGXmV-xeTbDw6ft47dmVWWpx-M3p1EJxPqlKgUGdmjsi62Yqe0O9JczXUlcPkNul7fjp05c3cFeqx5DLhaGUsj__SH0WC9U8RsspeoPeAm6chCNQ4ktga73YgXY4CBcg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g354723d346a_0_33",
+          "type": "IMAGE",
+          "width": 70.29921456692914,
+          "height": 70.29921456692911,
+          "top": 152.10433070866142,
+          "left": 217.15602637795277,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUc9N1ZREi4FBVbCEWvPt_zWUBlIlLIKIzvk9Va4HOhMd3Nqtjb1DcqZ3lm8BmUyTWGL6sPhQWk8zU8L9EEFl6Hr36mH58ekkOyK_4kuMW5aWiuQBoa_wpaSUIYNHq1IkbeKoGPDxfQEaMwSf0zluYWbZw=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_0",
+          "type": "SHAPE",
+          "width": 175.32283464566936,
+          "height": 45.803149606299215,
+          "top": 306.3622047244094,
+          "left": 502.52602165354335,
+          "text": "AI Investment 1%\nAI Return 99%"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_1",
+          "type": "SHAPE",
+          "width": 14.385826771653543,
+          "height": 14.385826771653543,
+          "top": 312.93307086614175,
+          "left": 516.8134232283464,
+          "text": ""
+        },
+        {
+          "objectId": "g3593a8c04aa_0_2",
+          "type": "SHAPE",
+          "width": 14.388173269705229,
+          "height": 14.388173269705229,
+          "top": 330.8809863966435,
+          "left": 516.8177330501867,
+          "text": ""
+        },
+        {
+          "objectId": "g3593a8c04aa_0_8",
+          "type": "SHAPE",
+          "width": 585.992125984252,
+          "height": 25.440944881889763,
+          "top": 374.3800649606299,
+          "left": 119.46245472440945,
+          "text": "Estimates based on annualised return, assuming 100% reduced staffing cost and a 50% conversion rate of current missed calls."
+        }
+      ]
+    },
+    {
+      "slideId": "g355fa69fa04_5_66",
+      "slideNumber": 11,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g355fa69fa04_5_67",
+          "type": "SHAPE",
+          "width": 661.8425196850394,
+          "height": 45.09448818897638,
+          "top": 28.744094488188978,
+          "left": 29.078740157480315,
+          "text": "Your AI Finance Return. Realised."
+        },
+        {
+          "objectId": "g355fa69fa04_5_72",
+          "type": "SHEETS_CHART",
+          "width": 160.66937007874017,
+          "height": 166.9624992125984,
+          "top": 131.89370078740157,
+          "left": 423.62204881889767
+        },
+        {
+          "objectId": "g354723d346a_0_30",
+          "type": "SHAPE",
+          "width": 140.36220472440945,
+          "height": 144.11811023622047,
+          "top": 142.04721968503935,
+          "left": 254.86811023622047,
+          "text": "$48,000\nStaffing cost\n saved"
+        },
+        {
+          "objectId": "g354723d346a_0_31",
+          "type": "SHAPE",
+          "width": 140.36220472440945,
+          "height": 144.11811023622047,
+          "top": 142.04721968503935,
+          "left": 101.82185039370079,
+          "text": "$18,755\nInvoices\nrecovered"
+        },
+        {
+          "objectId": "g354723d346a_0_36",
+          "type": "IMAGE",
+          "width": 51.921234645669294,
+          "height": 51.921234645669294,
+          "top": 158.60236377952754,
+          "left": 299.08858425196854,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfHQ4LuptShPvBMj9j8Gz8T_-4RDGVvVdFI26QQdPKYh8BNaUGPY5pRxNnW07U-opPW3tiqiQt6rssDUXNHLmkLZbiuwc-GpoAj0OvQQy42pXpao11tbQgXOtQNF1MjUosY1tBd8c9YAKOXImWuleEMnA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_3",
+          "type": "SHAPE",
+          "width": 175.32283464566936,
+          "height": 45.803149606299215,
+          "top": 310.74212598425197,
+          "left": 428.2957066929134,
+          "text": "AI Investment 1%\nAI Return 99%"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_4",
+          "type": "SHAPE",
+          "width": 14.385826771653543,
+          "height": 14.385826771653543,
+          "top": 317.31299212598424,
+          "left": 442.58310826771657,
+          "text": ""
+        },
+        {
+          "objectId": "g3593a8c04aa_0_5",
+          "type": "SHAPE",
+          "width": 14.388173269705229,
+          "height": 14.388173269705229,
+          "top": 335.260907656486,
+          "left": 442.5874180895568,
+          "text": ""
+        },
+        {
+          "objectId": "g35db2b95471_2_3",
+          "type": "SHAPE",
+          "width": 585.992125984252,
+          "height": 27.874015748031496,
+          "top": 374.3800649606299,
+          "left": 119.46245472440945,
+          "text": "Estimates based on annualised return, assuming reduction of 60% effort and 25% recovery rate."
+        },
+        {
+          "objectId": "g35db2b95471_4_10",
+          "type": "IMAGE",
+          "width": 51.921234645669294,
+          "height": 51.921234645669294,
+          "top": 158.60236259842517,
+          "left": 146.04334350393702,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUenQm4o6wRgUffG2EuUDVPTwX-GUmKHsomsZphbC_vEU-40y-4g90fTCCkAHf4Uzs5IvJUNOlrw37E3rFdFmY5m76VC7nOksz_vDztsrW8n-aJGxd6Kz2S7YmQWRo-uVpgMI2BNFAV4RV7VvRuGF0siuA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        }
+      ]
+    },
+    {
+      "slideId": "g32d175f0297_0_61",
+      "slideNumber": 12,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g32d175f0297_0_62",
+          "type": "SHAPE",
+          "width": 429.8503937007874,
+          "height": 45.09448818897638,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "Speed is not optional. It’s our standard"
+        },
+        {
+          "objectId": "g32d175f0297_0_66",
+          "type": "SHAPE",
+          "width": 123.30708661417323,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "WHO WE ARE"
+        },
+        {
+          "objectId": "g32d175f0297_0_67",
+          "type": "SHAPE",
+          "width": 317.90551181102364,
+          "height": 50.69291338582677,
+          "top": 83.3726279527559,
+          "left": 23.639359842519685,
+          "text": "Speed Is in Our DNA – AI up and running in days.\nCustom AI Solutions – Tailored to your business needs."
+        },
+        {
+          "objectId": "g3696c6c0618_2_0",
+          "type": "IMAGE",
+          "width": 121.83506456692912,
+          "height": 158.61806929133863,
+          "top": 202.1555122047244,
+          "left": 165.14665314960632,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeh_4zIv_MhRsarkfMvTXxcJQpXoBOPbjVbircRZqFZ8PSnJSbF3dSMUQdgf5991-4a3M2Odqim21_aBKpBj2b7V50l4DqRgkyzUFCZDLD2iW-mcKELLSDBYUgpqmzVh6x_9-AUhn-USXNkn2TesJnbqw=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3696c6c0618_2_1",
+          "type": "IMAGE",
+          "width": 121.83556535433068,
+          "height": 158.61448346456694,
+          "top": 202.15747440944884,
+          "left": 299.0848494094488,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeUJx8qIxlZ0-k2lcLdXFIGyz8chfMPYmljhmXn6bk-glz23v7VIGhTEta7503KHyBy4aqWCtRfC5w2n4rwP3mesvWYBJltodSObLDUI-7JebE5Peas-gMNPuWx9PNJe1s0uNaud4IRZy9OOyYr_0Em5A=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3696c6c0618_2_2",
+          "type": "IMAGE",
+          "width": 121.83556535433074,
+          "height": 158.61448346456692,
+          "top": 202.1587712598425,
+          "left": 433.0222809055118,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUezuax3qLJ8ewWPSW_8xF1rORYSqiJ7h1XIPMBOd3lNqyE41NhmG-JSc9YH0-Kv16TeasoRbS6MroTmDp9fX7nkBwYHOTcWrHYMbF4GVBahK91I16QIHKs_G41MCrKIqn6ee6TzF9PGnfOCRXIbbLDUKg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3696c6c0618_2_3",
+          "type": "SHAPE",
+          "width": 345.6850393700787,
+          "height": 64.6299212598425,
+          "top": 83.37318307086613,
+          "left": 354.07283385826776,
+          "text": "Results-Driven – More revenue, efficiency, and lower costs.\nHuman + AI Integration – Enhancing your team, not replacing it."
+        },
+        {
+          "objectId": "g3696c6c0618_2_4",
+          "type": "SHAPE",
+          "width": 577.4173228346457,
+          "height": 27.874015748031496,
+          "top": 149.42322834645668,
+          "left": 33.874015748031496,
+          "text": "If you want to scale faster without increasing costs, Quickly AI is your unfair advantage."
+        },
+        {
+          "objectId": "g3696c6c0618_7_0",
+          "type": "IMAGE",
+          "width": 121.83556535433073,
+          "height": 158.61448346456694,
+          "top": 202.15747440944884,
+          "left": 31.20632283464567,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfSGrKpw-eA9l6qDXi10MOJ5jliesk7FBjcozMq4zE_YHcSmqwyvRemtTPiaRZtbNYvADkbw9k-3KsEiycGGBhR9XpRqYRK7ZQSFjwMWUdN5Gq1YiEMi2BIdt2KpOYp_8ZGd8SCaUgNsIR5DnwdOB4=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3696c6c0618_7_1",
+          "type": "IMAGE",
+          "width": 121.83556535433074,
+          "height": 158.61448346456692,
+          "top": 202.1587712598425,
+          "left": 566.9587147637795,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdVeOASih0QjPaZUEuBfS3nLC4Ioru-SpCVDyrf44SrVhcr-boSZK9fUQJj-r9l7RkQ91aLAUEf_Vgwkm7SemxdgKUYP_0RA3vQsK5510Puxnnv6Jktc00ltcu43g6QTGU2XtTI29xd1SP-CAZ1wwQvKw=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        }
+      ]
+    },
+    {
+      "slideId": "g354c82bd132_0_141",
+      "slideNumber": 13,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g3552fba8c4a_16_4",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 85.57874015748031,
+          "left": 79.16929133858268,
+          "rows": 8,
+          "columns": 3
+        },
+        {
+          "objectId": "g3552fba8c4a_18_9",
+          "type": "SHAPE",
+          "width": 661.8425196850394,
+          "height": 45.09448818897638,
+          "top": 28.744094488188978,
+          "left": 29.078740157480315,
+          "text": "Deploy your AI team, on human tasks"
+        }
+      ]
+    },
+    {
+      "slideId": "g354c82bd132_0_212",
+      "slideNumber": 14,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g3552fba8c4a_16_43",
+          "type": "SHAPE",
+          "width": 94.58267716535433,
+          "height": 96.73228346456693,
+          "top": 108.98425196850394,
+          "left": 555.8001968503937,
+          "text": ""
+        },
+        {
+          "objectId": "g3552fba8c4a_16_28",
+          "type": "SHAPE",
+          "width": 94.58267716535433,
+          "height": 96.73228346456693,
+          "top": 108.98425196850394,
+          "left": 343.1988188976378,
+          "text": ""
+        },
+        {
+          "objectId": "g3552fba8c4a_16_49",
+          "type": "SHAPE",
+          "width": 94.58267716535433,
+          "height": 96.73228346456693,
+          "top": 108.98425196850394,
+          "left": 449.81889763779526,
+          "text": ""
+        },
+        {
+          "objectId": "g3552fba8c4a_16_51",
+          "type": "SHAPE",
+          "width": 94.58267716535433,
+          "height": 96.73228346456693,
+          "top": 216.19094488188978,
+          "left": 391.3051181102362,
+          "text": ""
+        },
+        {
+          "objectId": "g3552fba8c4a_16_45",
+          "type": "SHAPE",
+          "width": 94.58267716535433,
+          "height": 96.73228346456693,
+          "top": 216.19094488188978,
+          "left": 497.24114173228344,
+          "text": ""
+        },
+        {
+          "objectId": "g354c82bd132_0_215",
+          "type": "SHAPE",
+          "width": 263.6456692913386,
+          "height": 50.90551181102362,
+          "top": 219.5728346456693,
+          "left": 29.078740157480315,
+          "text": "Engage on all touch points to ensure no matter where your customers are your AI Agents are available to represent you 24/7"
+        },
+        {
+          "objectId": "g3552fba8c4a_16_23",
+          "type": "IMAGE",
+          "width": 50.98814488188973,
+          "height": 50.98814488188979,
+          "top": 230.53942421259842,
+          "left": 519.0391472440945,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUd_odOFLy9eA7IKxEvgJwRUftFPN-zm_5zSr5m-cdrvEUyVo-X36fJBnR9m6GgDWxha9vest3Qv2dvP7lZ1FVXP7t5rx7bw_4YoUnA77rLM3U8QztbZevzzviOkNXOx3iSxb_3j7bihxI3DZdgeevSmmA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3552fba8c4a_16_24",
+          "type": "IMAGE",
+          "width": 40.40345196850395,
+          "height": 40.403351181102344,
+          "top": 230.53937972440946,
+          "left": 417.317288976378,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUekfHb8-WaPHGLUyHV4GGm7RLsGXmV-xeTbDw6ft47dmVWWpx-M3p1EJxPqlKgUGdmjsi62Yqe0O9JczXUlcPkNul7fjp05c3cFeqx5DLhaGUsj__SH0WC9U8RsspeoPeAm6chCNQ4ktga73YgXY4CBcg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3552fba8c4a_16_25",
+          "type": "IMAGE",
+          "width": 40.403451968503894,
+          "height": 40.40335118110236,
+          "top": 123.33267913385826,
+          "left": 477.6740372047244,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdR_Di28v5u2mst3FG6eGXsDaIaICRBxkz_4unfRoO0JFAcR1ZeMvMOVaGmv35aCaflrPhTnuKjutmV30THIzGtwDRN4Zz0ykGk22qas8B16hvkbUAtY-uqJfJecawABvKzeXtRvyXO4yHDKjP6arisUQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3552fba8c4a_16_26",
+          "type": "IMAGE",
+          "width": 40.40345196850395,
+          "height": 40.40335118110237,
+          "top": 126.05455787401576,
+          "left": 581.7260572834646,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeMnRUM3mmzj8TucKkCjPjSvC8J4m9zaFPfGJUTC3tODD35_rEfAG65UMH6tQ1Uewjvbi5UrLAHZbbFVze16Ob8eg157IWurSc0xFEo0o5UbebmBGuDjRpPD2VzkH0pvEGmVoua4r-s5Ux47rUK62-QFA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3552fba8c4a_16_27",
+          "type": "IMAGE",
+          "width": 40.40345196850395,
+          "height": 40.40335118110236,
+          "top": 126.05458523622048,
+          "left": 371.12992125984255,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUceSJgV9Kz7qbjcaPWlWKp5H_zluoaAu3tbVfhWY3DSwtZBoxA5VWaZTa-XkfQ8CEUwsuqa9aYkxzyLdBVomGcZG4T6oO0YC7aqU6JnMD0iK0S_zcpE8nPaGmrrCufdynD6fWogc5bdgcvrmFMn0-b-jg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3552fba8c4a_16_30",
+          "type": "SHAPE",
+          "width": 93.30708661417323,
+          "height": 26.669291338582678,
+          "top": 171.84251968503938,
+          "left": 343.8366141732283,
+          "text": "Text"
+        },
+        {
+          "objectId": "g3552fba8c4a_16_44",
+          "type": "SHAPE",
+          "width": 93.30708661417323,
+          "height": 26.669291338582678,
+          "top": 171.84251968503938,
+          "left": 556.4379921259842,
+          "text": "Messenger"
+        },
+        {
+          "objectId": "g3552fba8c4a_16_50",
+          "type": "SHAPE",
+          "width": 93.30708661417323,
+          "height": 26.669291338582678,
+          "top": 171.84251968503938,
+          "left": 450.45669291338584,
+          "text": "WhatsApp"
+        },
+        {
+          "objectId": "g3552fba8c4a_16_52",
+          "type": "SHAPE",
+          "width": 93.30708661417323,
+          "height": 26.669291338582678,
+          "top": 279.0492125984252,
+          "left": 391.9429133858268,
+          "text": "Phone"
+        },
+        {
+          "objectId": "g3552fba8c4a_16_53",
+          "type": "SHAPE",
+          "width": 136.79527559055117,
+          "height": 26.669291338582678,
+          "top": 279.0492125984252,
+          "left": 477.50636417322835,
+          "text": "Web Live Chat"
+        },
+        {
+          "objectId": "g3552fba8c4a_18_6",
+          "type": "SHAPE",
+          "width": 309.23622047244095,
+          "height": 68.55118110236221,
+          "top": 151.02165354330708,
+          "left": 29.078740157480315,
+          "text": "Answer customers\nwherever they are"
+        },
+        {
+          "objectId": "g3552fba8c4a_18_7",
+          "type": "SHAPE",
+          "width": 291.1653543307087,
+          "height": 24.236220472440944,
+          "top": 132.67125984251967,
+          "left": 29.078740157480315,
+          "text": "ALL COMMUNICATION CHANNELS"
+        },
+        {
+          "objectId": "g35ec59d507d_3_142",
+          "type": "SHAPE",
+          "width": 333.3070866141732,
+          "height": 42.54330708661417,
+          "top": 372.21273326771654,
+          "left": 386.6929133858268,
+          "text": "*WhatsApp messing incurs an additional cost of $15.60 AUD a month"
+        }
+      ]
+    },
+    {
+      "slideId": "g3564f5bfdb6_0_15",
+      "slideNumber": 15,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g3564f5bfdb6_0_39",
+          "type": "IMAGE",
+          "width": 330.06681496063,
+          "height": 108.69490905511813,
+          "top": 71.1968501968504,
+          "left": 331.744094488189,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcq8wFCWnz8mhUKqIv4za0cnEQS5a472DCIv3cstmDM2Egf3tMJAqpXUbfUrCv-uF-JH5See4dJpfzK8kSiMl1mv6p3Chjb4V-Xxj6bIpO5syJVF-oDBXhumB103nyHWB-bjBguFKr1NoP00lTG1KXpVA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3564f5bfdb6_0_40",
+          "type": "IMAGE",
+          "width": 330.06681496063,
+          "height": 145.65161653543308,
+          "top": 186.41338543307089,
+          "left": 331.744094488189,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcq8wFCWnz8mhUKqIv4za0cnEQS5a472DCIv3cstmDM2Egf3tMJAqpXUbfUrCv-uF-JH5See4dJpfzK8kSiMl1mv6p3Chjb4V-Xxj6bIpO5syJVF-oDBXhumB103nyHWB-bjBguFKr1NoP00lTG1KXpVA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g354723d346a_0_46",
+          "type": "SHAPE",
+          "width": 263.6456692913386,
+          "height": 99.37795275590551,
+          "top": 196.26181102362204,
+          "left": 29.078740157480315,
+          "text": "The biggest challenges businesses face when adopting AI is integrating with existing systems. The last thing you need is disruption, downtime or complicated transition. \n\nWe integrate with an enormous number of department platforms."
+        },
+        {
+          "objectId": "g354723d346a_0_47",
+          "type": "SHAPE",
+          "width": 309.23622047244095,
+          "height": 68.55118110236221,
+          "top": 127.71062992125984,
+          "left": 29.078740157480315,
+          "text": "Seamless\nIntegration"
+        },
+        {
+          "objectId": "g354723d346a_0_48",
+          "type": "SHAPE",
+          "width": 291.1653543307087,
+          "height": 24.236220472440944,
+          "top": 109.36023622047244,
+          "left": 29.078740157480315,
+          "text": "AVAILABILITY"
+        },
+        {
+          "objectId": "g335f2006eb3_0_1",
+          "type": "SHAPE",
+          "width": 315.4724409448819,
+          "height": 26.669291338582678,
+          "top": 338.5866141732283,
+          "left": 348.3326771653543,
+          "text": "and more"
+        }
+      ]
+    },
+    {
+      "slideId": "g35ec59d507d_3_0",
+      "slideNumber": 16,
+      "notes": " \nMay be wondering how we do it\u000b \nEmail - domain - Crm and social\u000b This is to give us the best chance and cover all our bases.\u000b\u000bThen we scrape and go through all of your website, cx and sales documentation to train and personalise your ai.\u000b\u000bThis gives us the knowledge base and then from there we can flex it into any role or positioning that you could possibly need. \u000b\u000bAll the agents and numbers are handled for you, \u000bBeta training once the knowledge base is created for each agent we are onboarding with revisions during this process.\n\n",
+      "elements": [
+        {
+          "objectId": "g35ec59d507d_3_1",
+          "type": "SHAPE",
+          "width": 459.2834645669291,
+          "height": 48.47244094488189,
+          "top": 34.62992125984252,
+          "left": 29.078740157480315,
+          "text": "Onboarding Investment"
+        },
+        {
+          "objectId": "g35ec59d507d_3_2",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS"
+        },
+        {
+          "objectId": "g35ec59d507d_3_3",
+          "type": "SHAPE",
+          "width": 156.11811023622047,
+          "height": 28.275590551181104,
+          "top": 34.62992125984252,
+          "left": 544.7351679133858,
+          "text": "$997 once off"
+        },
+        {
+          "objectId": "g35ec59d507d_3_4",
+          "type": "SHAPE",
+          "width": 412.79527559055117,
+          "height": 229.53543307086613,
+          "top": 102.96456692913385,
+          "left": 31.291338582677167,
+          "text": "Custom AI CRM setup with regulatory approvals\n\nWebsite, support, and sales material scraping for AI training\n\nDedicated AI Agent number & sub-domains + integration with social/messaging platforms\n\nAgent knowledge base, personality, & branding creation\n\nTailored Sales & Customer Service journeys and interactions\n\nBeta launch training and quality assurance, with 3 rounds of revisions and unlimited support\n\nWebsite integration to crm - $350 +GST (up to 10 lead forms)\n\nCustom voice agent cloning - $350 +GST"
+        },
+        {
+          "objectId": "g35ec59d507d_3_5",
+          "type": "SHAPE",
+          "width": 677.2677165354331,
+          "height": 26.669291338582678,
+          "top": 78.44094488188976,
+          "left": 29.078740157480315,
+          "text": "ONBOARDING DETAILS"
+        },
+        {
+          "objectId": "g35ec59d507d_3_6",
+          "type": "IMAGE",
+          "width": 223.94688149606299,
+          "height": 53.13982677165355,
+          "top": 94.24409448818898,
+          "left": 461.08858267716533,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUf7Iz8rYsUJV_lHpPhyqG6zpCykcctw1xFBKXN_se_YdqwMMLBsa8m_p51DgWqraA9FUzgMcSbkGz3JBPOm4Cu8EgZC6oqqS7S9dOZwhZz8drNInLfX8QrswT8OsgQj-icb9yROmD92N03JWAhiJ7Q=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g35ec59d507d_3_7",
+          "type": "IMAGE",
+          "width": 223.94688149606299,
+          "height": 212.0767511811024,
+          "top": 145.63967381889762,
+          "left": 463.4940027559055,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUf7Iz8rYsUJV_lHpPhyqG6zpCykcctw1xFBKXN_se_YdqwMMLBsa8m_p51DgWqraA9FUzgMcSbkGz3JBPOm4Cu8EgZC6oqqS7S9dOZwhZz8drNInLfX8QrswT8OsgQj-icb9yROmD92N03JWAhiJ7Q=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        }
+      ]
+    },
+    {
+      "slideId": "g35ec59d507d_3_10",
+      "slideNumber": 17,
+      "notes": "AI Sales Assistants work to lift conversion rate 24/7 wherever your customers are. Answering inquiries, following up, and qualifying leads automatically - so your sales team only focuses on the hottest prospects.\n\u000bInstant Lead Follow-Ups: The AI engages leads within seconds across multiple channels, including SMS, WhatsApp, Facebook Messenger, and Instagram, to improve conversion rates.\nAutomated Lead Nurturing: It keeps prospects engaged through continuous, data-led optimization to improve closing rates.\nInstant Scheduling: The AI seamlessly syncs with your team's calendar and books appointments with your closers in real-time.\nSeamless CRM Integration: It includes a free CRM or can sync with your existing sales process for smooth operations.\nReal-time Objection Handling: The AI tackles FAQs, overcomes hesitations, and provides prospects with the information they need to convert faster.\n\nIncreased leads:  (Monthly leads × 12) × (Average Conversion Rate × 1.65)\nIncreased sales: Increased Annual Leads × Average Value of Signed Lead\nWorkcost saved: (Average Salary x Staff costs ) x 0.40 \n \n\n\n",
+      "elements": [
+        {
+          "objectId": "g35ec59d507d_3_11",
+          "type": "SHAPE",
+          "width": 392.31496062992125,
+          "height": 48.47244094488189,
+          "top": 34.62992125984252,
+          "left": 29.078740157480315,
+          "text": "AI Sales Agent - Leo"
+        },
+        {
+          "objectId": "g35ec59d507d_3_12",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS | SALES"
+        },
+        {
+          "objectId": "g35ec59d507d_3_14",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 173.6220472440945,
+          "top": 117.43700787401575,
+          "left": 25.291338582677167,
+          "text": "24/7 instant lead engagement across SMS, WhatsApp, \nMeta Messenger, and Instagram\n\nAutomated appointment setting that syncs with your calendar for real-time booking, reducing no-shows.\n\nTailored AI sales journeys for optimal prospect nurturing and follow-up.\n\n24/7 reporting, ongoing monthly optimisations, and QA.\n\nZero DIY, we do everything for you! Unlimited support."
+        },
+        {
+          "objectId": "g35ec59d507d_3_15",
+          "type": "SHAPE",
+          "width": 369.56692913385825,
+          "height": 26.669291338582678,
+          "top": 78.44094488188976,
+          "left": 29.078740157480315,
+          "text": "CONVERSATIONAL AGENT DETAILS"
+        },
+        {
+          "objectId": "g35ec59d507d_3_16",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 48.47244094488189,
+          "top": 317.62598425196853,
+          "left": 25.291338582677167,
+          "text": "Businesses using AI Sales Assistants see up to\u000b65% more closed deals in 60 days."
+        },
+        {
+          "objectId": "g35ec59d507d_3_17",
+          "type": "IMAGE",
+          "width": 156.1180393700787,
+          "height": 307.5021496062992,
+          "top": 69.58970570866143,
+          "left": 382.8355714566929,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdWX63gf0owpWRf3jCLdBEwAI7AFWiDuqgx9Tf2X8geVi3Kfw_Lb24VccSy4inoYW-riKWYj9C2orsVz4qaktH0wRDxSfOgOnuQ1S13CqmRsKu_nUDENpbClw3i2eyqDvXiG3RNme5aCcbZq-jVGpN9CQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3693c96954b_27_1",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 79.58446496062992,
+          "left": 546.8147799212599,
+          "rows": 3,
+          "columns": 2
+        }
+      ]
+    },
+    {
+      "slideId": "g35ec59d507d_3_21",
+      "slideNumber": 18,
+      "notes": "Ditch Manual Dialing | More leads. Less manual work. Our AI Sales Caller uses your sales knowledge to automatically connect with leads instantly, handling outreach, follow-ups, and sales calls—on autopilot.\u000b\u000bTarget the Right Prospects: The AI identifies high-intent leads based on real-time data.\nPersonalized Outreach at Scale: It customizes messaging for each prospect.\nAutomated Follow-Ups: The AI keeps leads engaged until they are ready to buy.\nCold Call or Qualify: It reaches out, engages prospects, and filters out time-wasters, pre-qualifying users before sales calls.\nPricing: $1,497 AUD + GST per month, with a $997 AUD + GST onboarding investment.\nIncreased Lead: (Monthly leads × 12) × (Average Conversion Rate × 1.65)\u000bIncreased Sales: Increased Annual Leads × Average Value of Signed Lead\u000bWorkforce Cost Saved:  (Average Salary x Staff costs) x 0.40\n\n\n\n",
+      "elements": [
+        {
+          "objectId": "g35ec59d507d_3_22",
+          "type": "SHAPE",
+          "width": 487.2283464566929,
+          "height": 48.47244094488189,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "AI Sales Caller - Leo"
+        },
+        {
+          "objectId": "g35ec59d507d_3_23",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS | SALES"
+        },
+        {
+          "objectId": "g35ec59d507d_3_24",
+          "type": "SHAPE",
+          "width": 677.2677165354331,
+          "height": 26.669291338582678,
+          "top": 78.44094488188976,
+          "left": 29.078740157480315,
+          "text": "VOICE AGENT DETAILS"
+        },
+        {
+          "objectId": "g35ec59d507d_3_26",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 173.9291338582677,
+          "top": 100.16338582677166,
+          "left": 24.584645669291337,
+          "text": "Our AI engages and filters out time-wasters, qualifying leads before closers reach out.\n\nCan answer any question or rebuttal with ease! Your AI sales agent that never sleeps or gets sick!\n\nHandles follow-ups and syncs with your calendar to book appointments in real-time.\n\nUpload and manage cold lead lists. 24/7 lead gen weapon!\n\nZero DIY, we do everything for you! Unlimited support."
+        },
+        {
+          "objectId": "g35ec59d507d_3_28",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 42.803149606299215,
+          "top": 319.93307086614175,
+          "left": 24.584645669291337,
+          "text": "Companies using AI for lead generation see up to\u000b50% more sales-qualified leads."
+        },
+        {
+          "objectId": "g3693c96954b_21_11",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 266.58446496062993,
+          "left": 426.5234413385827,
+          "rows": 3,
+          "columns": 2
+        },
+        {
+          "objectId": "g36df33dd6f7_0_0",
+          "type": "VIDEO",
+          "width": 193.32085039370074,
+          "height": 193.3208503937008,
+          "top": 54.90553149606299,
+          "left": 442.2096456692913,
+          "videoId": "1jn6k8ijMyDae0Qcn4guHkze_Q2LIViB8",
+          "source": "UNSUPPORTED"
+        }
+      ]
+    },
+    {
+      "slideId": "g35ec59d507d_3_31",
+      "slideNumber": 19,
+      "notes": "Intercept Negative Reviews. AI detects unhappy customers and so you can engage them privately\nAutomate building your reputation Boost your reputation without lifting a finger. Our AI Reviews Agent helps you get more 5-star ratings, respond instantly, and manage feedback like a pro.\nAutomated 5-Star Review Generation: Automatically requests and encourages positive reviews from happy customers.\nInstant, Personalized Replies: AI crafts immediate, on-brand responses to reviews.\nIntercept Negative Feedback: Proactively identifies unhappy customers for private resolution before public posting.\nProven Results: Businesses using AI for review management see up to a 25% increase in referrals.\n",
+      "elements": [
+        {
+          "objectId": "g35ec59d507d_3_37",
+          "type": "IMAGE",
+          "width": 292.5845433070867,
+          "height": 205.64624409448822,
+          "top": 57.68700787401575,
+          "left": 386.6929131889764,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcYCtztKeeAQ2VEzGJjmESIhIH2q_t--iXC7PZogg-gGDOSDX-SX7xIawdsCQ_KYn36AETcVvDfP390LJioB0C2cBh38oD8np0KRK5SLxe3sygEPjdupXsAWhiUHzgdgDaf1kJyY-Eesk9Wb8pVpiscdg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g35ec59d507d_3_32",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 168.16535433070865,
+          "top": 116.75984251968504,
+          "left": 25.291338582677167,
+          "text": "Automated 5-Star review generation\n\nAutomatically responds to reviews with on-brand messages.\n\nOur AI uses persuasive language to boost positive feedback and continuously improves with time.\n\nZero DIY, we do everything for you! Unlimited support."
+        },
+        {
+          "objectId": "g35ec59d507d_3_33",
+          "type": "SHAPE",
+          "width": 487.2283464566929,
+          "height": 48.47244094488189,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "AI Review Agent - Leo"
+        },
+        {
+          "objectId": "g35ec59d507d_3_34",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS | SALES"
+        },
+        {
+          "objectId": "g35ec59d507d_3_35",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 26.669291338582678,
+          "top": 78.44094488188976,
+          "left": 29.078740157480315,
+          "text": "CONVERSATIONAL AGENT DETAILS"
+        },
+        {
+          "objectId": "g35ec59d507d_3_38",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 53.173228346456696,
+          "top": 306.503937007874,
+          "left": 25.291338582677167,
+          "text": "Companies using AI for Review Management up to a 25% increase in referrals."
+        },
+        {
+          "objectId": "g3693c96954b_21_12",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 251.79632322834647,
+          "left": 404.4053311023622,
+          "rows": 3,
+          "columns": 2
+        }
+      ]
+    },
+    {
+      "slideId": "g35ec59d507d_3_42",
+      "slideNumber": 20,
+      "notes": "Elevate your call handling. Elevate your call handling. AI-powered call centers answer all inbound calls promptly,  handle customer inquiries, FAQs and connects to your team seamlessly.\nThe AI Reception agent acts as a 24/7 virtual receptionist, significantly reducing support costs (up to 82% lower support costs for businesses using AI for customer service).\nAnswer Every Call in Seconds: Ensures no wait times and no missed calls.\nHandles 80% of Customer Queries: The AI resolves common issues, freeing up your human team to handle only complex cases.\n24/7 Availability: The AI never takes a break, providing round-the-clock support.\nSeamless Handoff to Human Agents: Ensures a smooth transition when human support is needed.\nPricing: $1,497 AUD + GST per month, with a $997 AUD + GST onboarding investment.\nIncluded Credit: $50 text credit per month. \n\n",
+      "elements": [
+        {
+          "objectId": "g35ec59d507d_3_43",
+          "type": "SHAPE",
+          "width": 487.2283464566929,
+          "height": 48.47244094488189,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "AI Receptionist - Eve"
+        },
+        {
+          "objectId": "g35ec59d507d_3_44",
+          "type": "SHAPE",
+          "width": 311.38582677165357,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS | CUSTOMER SERVICE"
+        },
+        {
+          "objectId": "g35ec59d507d_3_45",
+          "type": "SHAPE",
+          "width": 677.2677165354331,
+          "height": 26.669291338582678,
+          "top": 80.49409448818898,
+          "left": 29.078740157480315,
+          "text": "VOICE AGENT DETAILS"
+        },
+        {
+          "objectId": "g35ec59d507d_3_48",
+          "type": "SHAPE",
+          "width": 348.68503937007875,
+          "height": 44.92913385826772,
+          "top": 320.0748031496063,
+          "left": 29.078740157480315,
+          "text": "Businesses using AI for customer service see up to\u000b82% lower support costs."
+        },
+        {
+          "objectId": "g35ec59d507d_3_49",
+          "type": "SHAPE",
+          "width": 348.68503937007875,
+          "height": 207.8503937007874,
+          "top": 101.6515748031496,
+          "left": 32.61417322834646,
+          "text": "Never miss a call again. Our AI answers instantly, eliminating wait times.\n\nAI handles 80% of common queries, freeing your team for complex cases.\n\n24/7 receptionist. No sick days, no leave, no overheads!\n\nSmooth transition to human agents when needed. Routes calls with ease!\n\n Zero DIY, we do everything for you! Unlimited support."
+        },
+        {
+          "objectId": "g3693c96954b_21_14",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 266.58446496062993,
+          "left": 426.5234413385827,
+          "rows": 3,
+          "columns": 2
+        },
+        {
+          "objectId": "g36df33dd6f7_0_1",
+          "type": "VIDEO",
+          "width": 202.2421181102362,
+          "height": 202.24211811023622,
+          "top": 52.342570275590546,
+          "left": 437.8562992125984,
+          "videoId": "1iNeVgdE1AGjN526bZubSLeErozvL7DlX",
+          "source": "UNSUPPORTED"
+        }
+      ]
+    },
+    {
+      "slideId": "g35ec59d507d_3_52",
+      "slideNumber": 21,
+      "notes": "Customer Service 24/7 Faster response times. Happier customers. Lower costs. Turn website visitors into paying customers with an AI-powered live chat that engages, supports, and sells.\n\nThe AI Live Chat agent provides instant, 24/7 customer support on your website, leading to up to 25% higher conversion and 71% increase in customer satisfaction for businesses using AI chatbots.\nInstant Customer Responses: No wait times; AI answers in seconds.\n24/7 Availability: Ensures always-on instant support anytime to drive sales.\nTrained on Your Business: The AI learns from your site and best closers to accurately answer questions and guide visitors.\nSeamless Handoff to Human Agents: The AI can proactively assist, recommend, and upsell in real-time, with a smooth transition to human agents when necessary.\nPricing: $97 AUD + GST per month, with a $997 AUD + GST onboarding investment.\nIncluded Credit: $50 message credit per month.\n\n\n",
+      "elements": [
+        {
+          "objectId": "g35ec59d507d_3_53",
+          "type": "SHAPE",
+          "width": 487.2283464566929,
+          "height": 48.47244094488189,
+          "top": 34.62992125984252,
+          "left": 29.078740157480315,
+          "text": "AI Live Chat - Eve"
+        },
+        {
+          "objectId": "g35ec59d507d_3_54",
+          "type": "SHAPE",
+          "width": 371.9527559055118,
+          "height": 24.236220472440944,
+          "top": 16.507874015748033,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS | CUSTOMER SERVICE"
+        },
+        {
+          "objectId": "g35ec59d507d_3_55",
+          "type": "SHAPE",
+          "width": 677.2677165354331,
+          "height": 26.669291338582678,
+          "top": 78.44094488188976,
+          "left": 29.078740157480315,
+          "text": "CONVERSATIONAL AGENT DETAILS"
+        },
+        {
+          "objectId": "g35ec59d507d_3_57",
+          "type": "SHAPE",
+          "width": 359.9763779527559,
+          "height": 166.03937007874015,
+          "top": 128.27165354330708,
+          "left": 33.318897637795274,
+          "text": "Responds instantly to questions, no wait times.\n\n24/7 support to drive sales and assist visitors.\n\nTrained on your site to guide visitors and drive conversions.\n\nDirectly integrates with your calendar for easy appointment booking.\n\nCustom FAQs, monthly reports, and ongoing quality assurance."
+        },
+        {
+          "objectId": "g35ec59d507d_3_58",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 44.31496062992126,
+          "top": 326.8976377952756,
+          "left": 41.775590551181104,
+          "text": "Businesses using AI chatbots see up to 25% higher conversion and 71% increase in Customer Satisfaction."
+        },
+        {
+          "objectId": "g35ec59d507d_3_59",
+          "type": "IMAGE",
+          "width": 169.2302598425197,
+          "height": 285.000094488189,
+          "top": 72.23622145669292,
+          "left": 401.0314960629921,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcWOUjBFwwEy20Vyqdxa6sRc-KMXRjHdsRdQZfdSDF9acBT0nKMucFpoPzmTp8ADPMSP4pZ-bRDVyoUqbH0kFoholENiofMBZAfrSwkz3DNl6cnB1gIT2z9ER7g1Qhi7z-klOdnCPPmhAWgbWBWtbK6RA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3693c96954b_21_13",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 72.23603976377953,
+          "left": 573.2222602362204,
+          "rows": 2,
+          "columns": 2
+        }
+      ]
+    },
+    {
+      "slideId": "g35ec59d507d_3_62",
+      "slideNumber": 22,
+      "notes": "Add a follow up message on the text. Thank you etc etc\n\n",
+      "elements": [
+        {
+          "objectId": "g35f87f70ed6_0_28",
+          "type": "IMAGE",
+          "width": 156.77560629921265,
+          "height": 309.87985039370074,
+          "top": 51.88385669291338,
+          "left": 386.7303149606299,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUf1yn2fWIalkp-6Rw3319HSvaQmkxqR4R1QTwxrxPp8ngMIqRjmSddGv2rCsq4PbYqvRIJuM9k6AFUkD0r7o1ANkpMfU1xgMuaVapcAKL04jWPEG2oB_jL_p6VCNWMJm55wyqnDPqvSSI4Vj4Ogq7Y=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g35ec59d507d_3_63",
+          "type": "SHAPE",
+          "width": 341.74015748031496,
+          "height": 186.04724409448818,
+          "top": 105.11023622047244,
+          "left": 35.07874015748032,
+          "text": "AI engages overdue customers with personalised, empathetic conversations to boost recovery rates.\n\nCustom payment reminders to optimise cash flow and reduce late payments.\n\nSyncs effortlessly with your accounting software, including Xero.\n\nMonthly reports and ongoing QA for continuous financial optimisation.\n\nZero DIY, we do everything for you! Unlimited support."
+        },
+        {
+          "objectId": "g35ec59d507d_3_64",
+          "type": "SHAPE",
+          "width": 487.2283464566929,
+          "height": 48.47244094488189,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "AI Finance Agent - Mia"
+        },
+        {
+          "objectId": "g35ec59d507d_3_65",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS | FINANCE"
+        },
+        {
+          "objectId": "g35ec59d507d_3_66",
+          "type": "SHAPE",
+          "width": 347.74015748031496,
+          "height": 26.669291338582678,
+          "top": 78.44094488188976,
+          "left": 29.078740157480315,
+          "text": "CONVERSATIONAL AGENT DETAILS"
+        },
+        {
+          "objectId": "g35ec59d507d_3_73",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 53.173228346456696,
+          "top": 312.503937007874,
+          "left": 25.291338582677167,
+          "text": "Businesses using AI-powered billing solutions see up to 40% faster payments and fewer disputes."
+        },
+        {
+          "objectId": "g3693c96954b_21_15",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 51.88367755905512,
+          "left": 553.4171421259842,
+          "rows": 3,
+          "columns": 2
+        }
+      ]
+    },
+    {
+      "slideId": "g3618d6b0c2a_5_0",
+      "slideNumber": 23,
+      "notes": "Add a follow up message on the text. Thank you etc etc\n\n",
+      "elements": [
+        {
+          "objectId": "g3618d6b0c2a_5_2",
+          "type": "SHAPE",
+          "width": 341.74015748031496,
+          "height": 184.22834645669292,
+          "top": 113.91535433070867,
+          "left": 35.07086614173228,
+          "text": "Chase overdue payments on autopilot. No awkward convos, just money in the bank!\n\nAI that knows your customer, collects cash & feeds insights to your finance team. \n\nSyncs effortlessly with accounting programs like Xero and more to come.\n\nMonthly reports and ongoing QA for continuous financial optimisation.\n\nZero DIY, we do everything for you! Unlimited support."
+        },
+        {
+          "objectId": "g3618d6b0c2a_5_3",
+          "type": "SHAPE",
+          "width": 487.2283464566929,
+          "height": 48.47244094488189,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "AI Finance Caller - Mia"
+        },
+        {
+          "objectId": "g3618d6b0c2a_5_4",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS | FINANCE"
+        },
+        {
+          "objectId": "g3618d6b0c2a_5_5",
+          "type": "SHAPE",
+          "width": 347.74015748031496,
+          "height": 26.669291338582678,
+          "top": 83.21653543307086,
+          "left": 27.181102362204726,
+          "text": "VOICE AGENT DETAILS"
+        },
+        {
+          "objectId": "g3618d6b0c2a_5_8",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 53.173228346456696,
+          "top": 311.7827830708661,
+          "left": 25.291338582677167,
+          "text": "Payment recovery is up to x3 more effective with addition of phone call follow ups."
+        },
+        {
+          "objectId": "g3693c96954b_21_16",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 266.58446496062993,
+          "left": 426.5234413385827,
+          "rows": 3,
+          "columns": 2
+        },
+        {
+          "objectId": "g36df33dd6f7_0_2",
+          "type": "VIDEO",
+          "width": 203.94290551181112,
+          "height": 203.94290551181106,
+          "top": 51.547250393700786,
+          "left": 436.8986220472441,
+          "videoId": "1Fn3201phBDeiPNoRMSC5b8I24I95exCf",
+          "source": "UNSUPPORTED"
+        }
+      ]
+    },
+    {
+      "slideId": "g367cd3eed07_0_0",
+      "slideNumber": 24,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g367cd3eed07_0_1",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 79.24015748031496,
+          "left": 29.078740157480315,
+          "rows": 7,
+          "columns": 4
+        },
+        {
+          "objectId": "g367cd3eed07_0_2",
+          "type": "SHAPE",
+          "width": 661.8425196850394,
+          "height": 45.09448818897638,
+          "top": 28.744094488188978,
+          "left": 29.078740157480315,
+          "text": "Quickly Services vs. other AI tools"
+        }
+      ]
+    },
+    {
+      "slideId": "g36af8994e56_4_37",
+      "slideNumber": 25,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g36af8994e56_4_50",
+          "type": "SHAPE",
+          "width": 514.9606299212599,
+          "height": 44.83464566929134,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "Simple, Fast & Hassle-Free"
+        },
+        {
+          "objectId": "g36af8994e56_4_51",
+          "type": "SHAPE",
+          "width": 304.79527559055117,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "HOW IT WORKS"
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_22",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 85.98649606299213,
+          "left": 35.83169291338583,
+          "rows": 5,
+          "columns": 5
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_24",
+          "type": "SHAPE",
+          "width": 17.811023622047244,
+          "height": 17.811023622047244,
+          "top": 130.81661141732283,
+          "left": 379.61849842519683,
+          "text": ""
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_32",
+          "type": "SHAPE",
+          "width": 17.811023622047244,
+          "height": 17.811023622047244,
+          "top": 187.13231299212597,
+          "left": 464.5594433070866,
+          "text": ""
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_36",
+          "type": "SHAPE",
+          "width": 17.811023622047244,
+          "height": 17.811023622047216,
+          "top": 251.5721464566929,
+          "left": 551.879568503937,
+          "text": ""
+        },
+        {
+          "objectId": "SLIDES_API2031568891_0",
+          "type": "IMAGE",
+          "width": 28.63974803149612,
+          "height": 28.639748031496058,
+          "top": 311.35654074803153,
+          "left": 631.7796675196851,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcHWBFxAtNuEENylUopeKCNqzFzvDU5A29Dir06PhLNqGwdgYjdWiGzGmFrBiBW4TneFPNT_2ntFVgoLIzayztpPv3LaMyKFnEkK_1b7CB9Qutl2wrDT3ij0tDPq4IoisN7I9djK9X07m89i2ih8BaN0A=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        }
+      ]
+    },
+    {
+      "slideId": "g32d09ff5266_0_82",
+      "slideNumber": 26,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g32d57dccbdf_0_15",
+          "type": "SHAPE",
+          "width": 437.4803149606299,
+          "height": 161.6220472440945,
+          "top": 40.775590551181104,
+          "left": 24.543307086614174,
+          "text": "Ready to scale? \u000bThis AI doesn’t sleep. It sells, solves & scales."
+        },
+        {
+          "objectId": "g32d57dccbdf_0_16",
+          "type": "SHAPE",
+          "width": 670.9133858267717,
+          "height": 29.078740157480315,
+          "top": 183.6665409448819,
+          "left": 24.543307086614174,
+          "text": ""
+        },
+        {
+          "objectId": "g32d57dccbdf_0_17",
+          "type": "IMAGE",
+          "width": 62.525545669291326,
+          "height": 16.76575748031495,
+          "top": 354.9724413385827,
+          "left": 36.54330708661417,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfdy_zHDsAXRFz_HW54UT1dPoJ-Hsf2uNQZxi5kM2bDxxNacWRH5taoYj1XloIe65LSMiFxmDAsGR-X8dlqxgv10xLbcJAgecZolfdAPOumC5yYGSkB3eFcq0gC9yjLyoVt7qF9cFYIZRLdzMzHEbViRA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g32d57dccbdf_0_18",
+          "type": "SHAPE",
+          "width": 670.9133858267717,
+          "height": 82.41732283464567,
+          "top": 234.40910157480315,
+          "left": 24.543307086614174,
+          "text": "+61 [Your Number]\n[Your Email]\n[Website URL]"
+        },
+        {
+          "objectId": "g32d57dccbdf_0_19",
+          "type": "SHAPE",
+          "width": 214.7716535433071,
+          "height": 29.811023622047244,
+          "top": 348.8377586614173,
+          "left": 101.95023799212599,
+          "text": "AI That Works for YOU."
+        }
+      ]
+    },
+    {
+      "slideId": "g3593a8c04aa_0_18",
+      "slideNumber": 27,
+      "notes": "Whats apps costs are extra\u000b\u000b\n",
+      "elements": [
+        {
+          "objectId": "g3593a8c04aa_0_19",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 82.33956692913385,
+          "left": 25.21751968503937,
+          "rows": 6,
+          "columns": 8
+        },
+        {
+          "objectId": "g3593a8c04aa_0_20",
+          "type": "SHAPE",
+          "width": 416.92913385826773,
+          "height": 58.67716535433071,
+          "top": 321.78407007874017,
+          "left": 140.4448818897638,
+          "text": "Minimum 6 month program. \n12 month program and onboarding investment waived\nSetup and lease of agent text and calling phone numbers included\nIntegration of your website to your new CRM - $350 +GST (up to 10 lead forms)\nCustom voice agent cloning - $350 +GST"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_21",
+          "type": "SHAPE",
+          "width": 650.7637795275591,
+          "height": 44.83464566929134,
+          "top": 36.05708661417323,
+          "left": 23.52755905511811,
+          "text": "No Hidden Costs"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_22",
+          "type": "SHAPE",
+          "width": 88.46456692913385,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 25.328740157480315,
+          "text": "PRICING"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_23",
+          "type": "SHAPE",
+          "width": 333.3070866141732,
+          "height": 42.54330708661417,
+          "top": 376.04828622047245,
+          "left": 386.68897637795277,
+          "text": "Prices shown in AUD +GST\u000bVoice charges from per min based on the LLM context and Voice TTS preferences"
+        }
+      ]
+    },
+    {
+      "slideId": "g36b02e8f0d2_0_0",
+      "slideNumber": 28,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g36b02e8f0d2_0_1",
+          "type": "SHAPE",
+          "width": 639.6614173228346,
+          "height": 33.63779527559055,
+          "top": 336.62588090551185,
+          "left": 40.175196850393704,
+          "text": "No red tape. No complex setup. Just results."
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_2",
+          "type": "SHAPE",
+          "width": 125.50393700787401,
+          "height": 43.62992125984252,
+          "top": 94.26771653543307,
+          "left": 167.9271653543307,
+          "text": "We analyse your business, identify automation opportunities, and gather insights from your website, documentation, and top sellers."
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_3",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 109.5,
+          "left": 27.159448818897637,
+          "rows": 5,
+          "columns": 5
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_4",
+          "type": "SHAPE",
+          "width": 35.38582677165354,
+          "height": 24.236220472440944,
+          "top": 289.430117519685,
+          "left": 150.42132007874017,
+          "text": "0"
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_5",
+          "type": "SHAPE",
+          "width": 35.38582677165354,
+          "height": 24.236220472440944,
+          "top": 289.430117519685,
+          "left": 275.5040677165355,
+          "text": "1"
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_6",
+          "type": "SHAPE",
+          "width": 50.05511811023622,
+          "height": 24.236220472440944,
+          "top": 307.1387789370078,
+          "left": 334.8936757874016,
+          "text": "Weeks"
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_7",
+          "type": "SHAPE",
+          "width": 35.38582677165354,
+          "height": 24.236220472440944,
+          "top": 289.430117519685,
+          "left": 408.9523832677165,
+          "text": "2"
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_8",
+          "type": "SHAPE",
+          "width": 35.38582677165354,
+          "height": 24.236220472440944,
+          "top": 289.430117519685,
+          "left": 541.9897783464567,
+          "text": "3"
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_9",
+          "type": "SHAPE",
+          "width": 35.38582677165354,
+          "height": 24.236220472440944,
+          "top": 289.430117519685,
+          "left": 675.2448377952757,
+          "text": "4"
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_10",
+          "type": "SHAPE",
+          "width": 133.13385826771653,
+          "height": 43.62992125984252,
+          "top": 130.26574803149606,
+          "left": 293.43110236220474,
+          "text": "We build, integrate, and train your AI agents to speak, sell, and troubleshoot like your top staff. Beta testing lets your team provide feedback."
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_11",
+          "type": "SHAPE",
+          "width": 133.13385826771653,
+          "height": 43.62992125984252,
+          "top": 166.26377952755905,
+          "left": 426.56889763779526,
+          "text": "AI starts working instantly, automating your department and tasks 24/7. Beta testing ensures your AI Agents are ready for the real world."
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_12",
+          "type": "SHAPE",
+          "width": 133.13385826771653,
+          "height": 43.62992125984252,
+          "top": 202.26181102362204,
+          "left": 559.7027559055118,
+          "text": "We monitor and optimise AI performance, providing monthly reports and continuous upgrades to triggers, scripts, and interactions."
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_13",
+          "type": "SHAPE",
+          "width": 514.9606299212599,
+          "height": 44.83464566929134,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "Simple, Fast & Hassle-Free"
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_14",
+          "type": "SHAPE",
+          "width": 304.79527559055117,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "HOW IT WORKS"
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_15",
+          "type": "SHAPE",
+          "width": 10.11023622047244,
+          "height": 8.740157480314961,
+          "top": 137.89763779527556,
+          "left": 173.92716535433073,
+          "text": ""
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_16",
+          "type": "SHAPE",
+          "width": 10.11023622047244,
+          "height": 8.740157480314961,
+          "top": 173.89566929133855,
+          "left": 299.43307086614175,
+          "text": ""
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_17",
+          "type": "SHAPE",
+          "width": 10.11023622047244,
+          "height": 8.740157480314961,
+          "top": 209.89370078740157,
+          "left": 432.56889763779526,
+          "text": ""
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_18",
+          "type": "SHAPE",
+          "width": 10.11023622047244,
+          "height": 8.740157480314961,
+          "top": 245.89173228346456,
+          "left": 565.7047244094488,
+          "text": ""
+        },
+        {
+          "objectId": "g36b02e8f0d2_0_19",
+          "type": "IMAGE",
+          "width": 24.236220472440944,
+          "height": 24.236220472440944,
+          "top": 254.63188976377953,
+          "left": 665.6971655511811,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdTF5I49RgV_hJwKVS3lfh53PquRnU2YIPfA-1iyXudHdwEBAbiHPVv5_IKQPIHklNGlgriTECSBD5QVkj4xnEp3wcPsgv_GzQNoCHJlexXIreMHP8pBSkho2vecRLFpLjxeE3C_O2_4GZ6ocMpjmhEvQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        }
+      ]
+    },
+    {
+      "slideId": "g354c82bd132_0_634",
+      "slideNumber": 29,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g354c82bd132_0_635",
+          "type": "SHAPE",
+          "width": 650.7637795275591,
+          "height": 44.83464566929134,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "Simple, Fast & Hassle-Free"
+        },
+        {
+          "objectId": "g354c82bd132_0_643",
+          "type": "SHAPE",
+          "width": 268.6062992125984,
+          "height": 54.54330708661417,
+          "top": 229.80708661417322,
+          "left": 60.66587913385827,
+          "text": "Go Live\u000bAI starts working instantly, automating your department and tasks 24/7."
+        },
+        {
+          "objectId": "g354c82bd132_0_636",
+          "type": "SHAPE",
+          "width": 304.79527559055117,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "HOW IT WORKS"
+        },
+        {
+          "objectId": "g354c82bd132_0_637",
+          "type": "SHAPE",
+          "width": 473.5275590551181,
+          "height": 26.669291338582678,
+          "top": 85.57874015748031,
+          "left": 29.078740157480315,
+          "text": "Getting started with Quickly.ai is effortless. We’ve designed our process to be fast & flexible."
+        },
+        {
+          "objectId": "g354c82bd132_0_639",
+          "type": "SHAPE",
+          "width": 270.68503937007875,
+          "height": 68.48031496062993,
+          "top": 138.71456692913387,
+          "left": 58.59842519685039,
+          "text": "Discovery\u000bWe analyse your business, identify automation opportunities, and gather insights from your website, documentation, and top sellers."
+        },
+        {
+          "objectId": "g354c82bd132_0_642",
+          "type": "SHAPE",
+          "width": 294.2834645669291,
+          "height": 68.48031496062993,
+          "top": 138.71456692913387,
+          "left": 371.82086614173227,
+          "text": "Training\u000bWe build, integrate, and train your AI agents to speak, sell, and troubleshoot like your top staff. Beta testing lets your team provide feedback."
+        },
+        {
+          "objectId": "g354c82bd132_0_645",
+          "type": "SHAPE",
+          "width": 297.4251968503937,
+          "height": 68.48031496062993,
+          "top": 229.80708661417322,
+          "left": 368.6751968503937,
+          "text": "Performance Tracking\u000bWe monitor and optimise AI performance, providing monthly reports and continuous upgrades to triggers, scripts, and interactions."
+        },
+        {
+          "objectId": "g3552fba8c4a_18_32",
+          "type": "SHAPE",
+          "width": 639.6614173228346,
+          "height": 40.60629921259842,
+          "top": 322.38487618110236,
+          "left": 40.175196850393704,
+          "text": "No red tape. No complex setup. Just results."
+        },
+        {
+          "objectId": "g354723d346a_0_65",
+          "type": "SHAPE",
+          "width": 24.236220472440944,
+          "height": 24.236220472440944,
+          "top": 142.5738188976378,
+          "left": 38.13582677165354,
+          "text": "1"
+        },
+        {
+          "objectId": "g354723d346a_0_66",
+          "type": "SHAPE",
+          "width": 24.236220472440944,
+          "height": 24.236220472440944,
+          "top": 142.5738188976378,
+          "left": 351.0909094488189,
+          "text": "2"
+        },
+        {
+          "objectId": "g354723d346a_0_67",
+          "type": "SHAPE",
+          "width": 24.236220472440944,
+          "height": 24.236220472440944,
+          "top": 239.39074803149606,
+          "left": 38.13582677165354,
+          "text": "3"
+        },
+        {
+          "objectId": "g354723d346a_0_68",
+          "type": "SHAPE",
+          "width": 24.236220472440944,
+          "height": 24.236220472440944,
+          "top": 239.39074803149606,
+          "left": 351.0909094488189,
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "slideId": "g3612256b2f1_1_0",
+      "slideNumber": 30,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g3612256b2f1_1_1",
+          "type": "IMAGE",
+          "width": 654.844431496063,
+          "height": 56.21653937007873,
+          "top": 145.3858285433071,
+          "left": 52.68700787401575,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfhMnXOnT_618wOn2VmHTbbTEPgp46gM7dbCm5XSn_9KtnjkEYIPgUK5Nw_9r5-Rj7o7KIdHVnafoV_6MqHajLj0yt7UqGUBwfcLFinHacngU_zxM-2GV77tzShsEmv2-jzi6q9iZUixSTCV4Hp3Cg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3612256b2f1_1_2",
+          "type": "IMAGE",
+          "width": 28.416681102362205,
+          "height": 36.06732598425197,
+          "top": 143.83924783464568,
+          "left": 41.0625,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcbuu_3B4OI4TYVDQeJAOCJ7o5l0syQekXOS_-1VsrgSsED97yflznWgAUkAZ3p8rNEa1fAC8AlM511jzGEhu4C3NA4mL-_8zvbGvcsazQgh2csabherjCpzUeNHyho4V2qoanVDVWMrXY77rSmFy4=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3612256b2f1_1_3",
+          "type": "IMAGE",
+          "width": 28.416681102362233,
+          "height": 36.06732598425197,
+          "top": 143.6816905511811,
+          "left": 250.31968956692913,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUd6iVyyeeYgPQYCftwOM-Xin_BjlYpSHNFgah2RDHi_uUJuGBp_fhvAuAReI43sG7iIy9KIcFRxBtuk0DkLDnfW3r0NLc7YbUgVVsMHyPFHorSWnH5XqNp_o-SNJSSYocteeU1AvPPaUqqmAX5sVFs=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3612256b2f1_1_4",
+          "type": "IMAGE",
+          "width": 28.022716535433087,
+          "height": 35.56730905511811,
+          "top": 207.13757224409449,
+          "left": 425.2300919291339,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfW9xUFp_F5hDzcxvRe99co3xbAEK89Yrr8OJDheReoZCi01YNvrkZ-oI_1q2eSfg5jv_4_87hnTQ-fyrUUg7m90j7pFR-siy4rFN1LgRxJj02vJZoLrql82WN-Zo8PpwIWEYrdnmrLw5wXrbmlJyAwTA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3612256b2f1_1_6",
+          "type": "SHAPE",
+          "width": 173.9763779527559,
+          "height": 89.26771653543305,
+          "top": 95.89057283464567,
+          "left": 76.8248031496063,
+          "text": "Discovery ( Week 1 )\n\nWe analyse your business, identify automation opportunities, and gather insights from your website, documentation, and top sellers."
+        },
+        {
+          "objectId": "g3612256b2f1_1_7",
+          "type": "SHAPE",
+          "width": 193.77165354330708,
+          "height": 92.69291338582677,
+          "top": 208.7263779527559,
+          "left": 163.45078740157481,
+          "text": "Training ( Week 2 )\n\nWe build, integrate, and train your AI agents to speak, sell, and troubleshoot like your top staff. Beta testing lets your team provide feedback."
+        },
+        {
+          "objectId": "g3612256b2f1_1_8",
+          "type": "SHAPE",
+          "width": 179.78740157480314,
+          "height": 93.8503937007874,
+          "top": 95.89057283464567,
+          "left": 285.7224409448819,
+          "text": "Go Live ( Week 3 )\n\nAI starts working instantly, automating your department and tasks 24/7. Beta testing ensures your AI Agents are ready for the real world."
+        },
+        {
+          "objectId": "g3612256b2f1_1_9",
+          "type": "SHAPE",
+          "width": 229.84251968503943,
+          "height": 92.69291338582677,
+          "top": 208.7263779527559,
+          "left": 459.64570393700785,
+          "text": "Performance Tracking ( Monthly )\n\nWe monitor and optimise AI performance, providing monthly reports and continuous upgrades to triggers, scripts, and interactions."
+        },
+        {
+          "objectId": "g3612256b2f1_1_12",
+          "type": "IMAGE",
+          "width": 29.068059448818904,
+          "height": 36.8940787401575,
+          "top": 206.6178872047244,
+          "left": 134.25541338582678,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUe_6-r9AapRSfLYfzN8h-RGIArX3vjnwbwGy3X1haBgCA8ldw7UgpMsXX8u8f7IY--FRSNPiklJUlUgka1gXJQFU2-4hS1pWSJBApCYA_K4KMqIVweQaz94SRH0G4cdJ9mL_5Fg9t-DIvDOXyTRTwkAzQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3612256b2f1_1_14",
+          "type": "SHAPE",
+          "width": 332.12598425196853,
+          "height": 25.37007874015748,
+          "top": 34.84251968503937,
+          "left": 50.20866141732284,
+          "text": "Simple, Fast & Hassle-Free"
+        },
+        {
+          "objectId": "g3612256b2f1_1_15",
+          "type": "SHAPE",
+          "width": 138.04724409448818,
+          "height": 25.370078740157478,
+          "top": 21.750046653543308,
+          "left": 50.208206692913386,
+          "text": "HOW IT WORKS"
+        },
+        {
+          "objectId": "g36789880ed0_5_19",
+          "type": "SHAPE",
+          "width": 639.6614173228346,
+          "height": 40.60629921259842,
+          "top": 322.38487618110236,
+          "left": 40.175196850393704,
+          "text": "No red tape. No complex setup. Just results."
+        }
+      ]
+    },
+    {
+      "slideId": "g36a15b3cb0b_0_58",
+      "slideNumber": 31,
+      "notes": " \nMay be wondering how we do it\u000b \nEmail - domain - Crm and social\u000b This is to give us the best chance and cover all our bases.\u000b\u000bThen we scrape and go through all of your website, cx and sales documentation to train and personalise your ai.\u000b\u000bThis gives us the knowledge base and then from there we can flex it into any role or positioning that you could possibly need. \u000b\u000bAll the agents and numbers are handled for you, \u000bBeta training once the knowledge base is created for each agent we are onboarding with revisions during this process.\n\n",
+      "elements": [
+        {
+          "objectId": "g36a15b3cb0b_0_59",
+          "type": "SHAPE",
+          "width": 459.2834645669291,
+          "height": 48.47244094488189,
+          "top": 34.62992125984252,
+          "left": 29.078740157480315,
+          "text": "Onboarding Investment"
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_60",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS"
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_61",
+          "type": "SHAPE",
+          "width": 156.11811023622047,
+          "height": 28.275590551181104,
+          "top": 34.62992125984252,
+          "left": 544.7351679133858,
+          "text": "$997 once off"
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_62",
+          "type": "SHAPE",
+          "width": 412.79527559055117,
+          "height": 229.53543307086613,
+          "top": 102.96456692913385,
+          "left": 31.291338582677167,
+          "text": "Custom AI CRM setup with regulatory approvals\n\nWebsite, support, and sales material scraping for AI training\n\nDedicated AI Agent number & sub-domains + integration with social/messaging platforms\n\nAgent knowledge base, personality, & branding creation\n\nTailored Sales & Customer Service journeys and interactions\n\nBeta launch training and quality assurance, with 3 rounds of revisions and unlimited support\n\nWebsite integration to crm - $350 +GST (up to 10 lead forms)\n\nCustom voice agent cloning - $350 +GST"
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_63",
+          "type": "SHAPE",
+          "width": 677.2677165354331,
+          "height": 26.669291338582678,
+          "top": 78.44094488188976,
+          "left": 29.078740157480315,
+          "text": "ONBOARDING DETAILS"
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_64",
+          "type": "IMAGE",
+          "width": 223.94688149606299,
+          "height": 53.13982677165355,
+          "top": 94.24409448818898,
+          "left": 461.08858267716533,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUf7Iz8rYsUJV_lHpPhyqG6zpCykcctw1xFBKXN_se_YdqwMMLBsa8m_p51DgWqraA9FUzgMcSbkGz3JBPOm4Cu8EgZC6oqqS7S9dOZwhZz8drNInLfX8QrswT8OsgQj-icb9yROmD92N03JWAhiJ7Q=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_65",
+          "type": "IMAGE",
+          "width": 223.94688149606299,
+          "height": 212.0767511811024,
+          "top": 145.63967381889762,
+          "left": 463.4940027559055,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUf7Iz8rYsUJV_lHpPhyqG6zpCykcctw1xFBKXN_se_YdqwMMLBsa8m_p51DgWqraA9FUzgMcSbkGz3JBPOm4Cu8EgZC6oqqS7S9dOZwhZz8drNInLfX8QrswT8OsgQj-icb9yROmD92N03JWAhiJ7Q=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        }
+      ]
+    },
+    {
+      "slideId": "g36a15b3cb0b_0_68",
+      "slideNumber": 32,
+      "notes": "Ditch Manual Dialing | More leads. Less manual work. Our AI Sales Caller uses your sales knowledge to automatically connect with leads instantly, handling outreach, follow-ups, and sales calls—on autopilot.\u000b\u000bTarget the Right Prospects: The AI identifies high-intent leads based on real-time data.\nPersonalized Outreach at Scale: It customizes messaging for each prospect.\nAutomated Follow-Ups: The AI keeps leads engaged until they are ready to buy.\nCold Call or Qualify: It reaches out, engages prospects, and filters out time-wasters, pre-qualifying users before sales calls.\nPricing: $1,497 AUD + GST per month, with a $997 AUD + GST onboarding investment.\nIncreased Lead: (Monthly leads × 12) × (Average Conversion Rate × 1.65)\u000bIncreased Sales: Increased Annual Leads × Average Value of Signed Lead\u000bWorkforce Cost Saved:  (Average Salary x Staff costs) x 0.40\n\n\n\n",
+      "elements": [
+        {
+          "objectId": "g36a15b3cb0b_0_69",
+          "type": "SHAPE",
+          "width": 487.2283464566929,
+          "height": 48.47244094488189,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "AI Sales Caller"
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_70",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS | SALES"
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_71",
+          "type": "SHAPE",
+          "width": 677.2677165354331,
+          "height": 26.669291338582678,
+          "top": 78.44094488188976,
+          "left": 29.078740157480315,
+          "text": "VOICE AGENT DETAILS"
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_72",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 172.11023622047244,
+          "top": 100.16338582677166,
+          "left": 24.584645669291337,
+          "text": "Our AI engages and filters out time-wasters, qualifying leads before closers reach out.\n\nCan answer any question or rebuttal with ease! Your AI sales agent that never sleeps or gets sick!\n\nHandles follow-ups and syncs with your calendar to book appointments in real-time.\n\nUpload and manage cold lead lists. 24/7 lead gen weapon!\n\nUnlimited customer support."
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_73",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 42.803149606299215,
+          "top": 319.93307086614175,
+          "left": 24.584645669291337,
+          "text": "Companies using AI for lead generation see up to\u000b50% more sales-qualified leads."
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_74",
+          "type": "VIDEO",
+          "width": 224.69293700787398,
+          "height": 224.692937007874,
+          "top": 22.35433070866142,
+          "left": 426.5236076771654,
+          "videoId": "1CM0b00tkOzXwwbaj3UMzyTpyibwDDzDU",
+          "source": "UNSUPPORTED"
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_75",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 266.58446496062993,
+          "left": 426.5234413385827,
+          "rows": 3,
+          "columns": 2
+        }
+      ]
+    },
+    {
+      "slideId": "g36a15b3cb0b_0_78",
+      "slideNumber": 33,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g36a15b3cb0b_0_79",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 79.24015748031496,
+          "left": 29.078740157480315,
+          "rows": 7,
+          "columns": 4
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_80",
+          "type": "SHAPE",
+          "width": 661.8425196850394,
+          "height": 45.09448818897638,
+          "top": 28.744094488188978,
+          "left": 29.078740157480315,
+          "text": "Quickly Services vs. other AI tools"
+        }
+      ]
+    },
+    {
+      "slideId": "g36a15b3cb0b_0_83",
+      "slideNumber": 34,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g36a15b3cb0b_0_84",
+          "type": "SHAPE",
+          "width": 650.7637795275591,
+          "height": 44.83464566929134,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "Simple, Fast & Hassle-Free"
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_85",
+          "type": "SHAPE",
+          "width": 268.6062992125984,
+          "height": 54.54330708661417,
+          "top": 229.80708661417322,
+          "left": 60.66587913385827,
+          "text": "Go Live\u000bAI starts working instantly, automating your department and tasks 24/7."
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_86",
+          "type": "SHAPE",
+          "width": 304.79527559055117,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "HOW IT WORKS"
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_87",
+          "type": "SHAPE",
+          "width": 473.5275590551181,
+          "height": 26.669291338582678,
+          "top": 85.57874015748031,
+          "left": 29.078740157480315,
+          "text": "Getting started with Quickly.ai is effortless. We’ve designed our process to be fast & flexible."
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_88",
+          "type": "SHAPE",
+          "width": 270.68503937007875,
+          "height": 68.48031496062993,
+          "top": 138.71456692913387,
+          "left": 58.59842519685039,
+          "text": "Discovery\u000bWe analyse your business, identify automation opportunities, and gather insights from your website, documentation, and top sellers."
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_89",
+          "type": "SHAPE",
+          "width": 294.2834645669291,
+          "height": 68.48031496062993,
+          "top": 138.71456692913387,
+          "left": 371.82086614173227,
+          "text": "Training\u000bWe build, integrate, and train your AI agents to speak, sell, and troubleshoot like your top staff. Beta testing lets your team provide feedback."
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_90",
+          "type": "SHAPE",
+          "width": 297.4251968503937,
+          "height": 68.48031496062993,
+          "top": 229.80708661417322,
+          "left": 368.6751968503937,
+          "text": "Performance Tracking\u000bWe monitor and optimise AI performance, providing monthly reports and continuous upgrades to triggers, scripts, and interactions."
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_91",
+          "type": "SHAPE",
+          "width": 639.6614173228346,
+          "height": 40.60629921259842,
+          "top": 322.38487618110236,
+          "left": 40.175196850393704,
+          "text": "No red tape. No complex setup. Just results."
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_92",
+          "type": "SHAPE",
+          "width": 24.236220472440944,
+          "height": 24.236220472440944,
+          "top": 142.5738188976378,
+          "left": 38.13582677165354,
+          "text": "1"
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_93",
+          "type": "SHAPE",
+          "width": 24.236220472440944,
+          "height": 24.236220472440944,
+          "top": 142.5738188976378,
+          "left": 351.0909094488189,
+          "text": "2"
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_94",
+          "type": "SHAPE",
+          "width": 24.236220472440944,
+          "height": 24.236220472440944,
+          "top": 239.39074803149606,
+          "left": 38.13582677165354,
+          "text": "3"
+        },
+        {
+          "objectId": "g36a15b3cb0b_0_95",
+          "type": "SHAPE",
+          "width": 24.236220472440944,
+          "height": 24.236220472440944,
+          "top": 239.39074803149606,
+          "left": 351.0909094488189,
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "slideId": "g335f2006eb3_2_1",
+      "slideNumber": 35,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g335f2006eb3_2_4",
+          "type": "SHAPE",
+          "width": 194.85826771653544,
+          "height": 91.84251968503936,
+          "top": 156.57874015748033,
+          "left": 31.503937007874015,
+          "text": "“Our lead conversion rate shot \u000bup by 38% in just 60 days.”\u000b\u000bJames R, B2B Sales"
+        },
+        {
+          "objectId": "g335f2006eb3_2_6",
+          "type": "IMAGE",
+          "width": 61.31300551181103,
+          "height": 10.011812598425186,
+          "top": 169.39546318897638,
+          "left": 98.27656811023621,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcy9nbe2ln4j-lhAQyPUBTGs2Sggx5JA9_MElOQ9qKSsZitOcPqdzXRwoVCidM0BWQyR5UVOwcf5ibL2CO9jAqCgemo6YVpTwFD2puXTlc1r9i85fYtzxyrzQbYBIxO8IGN64GD7cPShy0fyf7SIQdEgQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g335f2006eb3_2_7",
+          "type": "SHAPE",
+          "width": 205.70078740157481,
+          "height": 90.02362204724409,
+          "top": 279.38582677165357,
+          "left": 257.1496062992126,
+          "text": "“We reduced response times from 3 hours to seconds, our customers love it!”\u000b\u000bEmma T, E-Commerce"
+        },
+        {
+          "objectId": "g335f2006eb3_2_8",
+          "type": "IMAGE",
+          "width": 61.31300551181103,
+          "height": 10.011812598425214,
+          "top": 292.14560570866144,
+          "left": 329.3529246062992,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcy9nbe2ln4j-lhAQyPUBTGs2Sggx5JA9_MElOQ9qKSsZitOcPqdzXRwoVCidM0BWQyR5UVOwcf5ibL2CO9jAqCgemo6YVpTwFD2puXTlc1r9i85fYtzxyrzQbYBIxO8IGN64GD7cPShy0fyf7SIQdEgQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g335f2006eb3_2_9",
+          "type": "SHAPE",
+          "width": 201.16535433070865,
+          "height": 90.02362204724409,
+          "top": 157.48818897637796,
+          "left": 493.65748031496065,
+          "text": "“We cut our customer service costs by 45%, while improving service quality.”\u000b\u000b Michael D, Call Center"
+        },
+        {
+          "objectId": "g335f2006eb3_2_10",
+          "type": "IMAGE",
+          "width": 61.31300551181097,
+          "height": 10.011812598425186,
+          "top": 168.4978253937008,
+          "left": 563.5836547244095,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcy9nbe2ln4j-lhAQyPUBTGs2Sggx5JA9_MElOQ9qKSsZitOcPqdzXRwoVCidM0BWQyR5UVOwcf5ibL2CO9jAqCgemo6YVpTwFD2puXTlc1r9i85fYtzxyrzQbYBIxO8IGN64GD7cPShy0fyf7SIQdEgQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g335f2006eb3_2_13",
+          "type": "SHAPE",
+          "width": 194.85826771653544,
+          "height": 86.40944881889764,
+          "top": 281.1929133858268,
+          "left": 31.503937007874015,
+          "text": "“AI-powered invoicing reduced \u000blate payments by 43%.”\n\u000bSophia L, Finance & Insurance"
+        },
+        {
+          "objectId": "g335f2006eb3_2_14",
+          "type": "IMAGE",
+          "width": 61.31300551181103,
+          "height": 10.011812598425214,
+          "top": 292.14560570866144,
+          "left": 98.27656811023621,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcy9nbe2ln4j-lhAQyPUBTGs2Sggx5JA9_MElOQ9qKSsZitOcPqdzXRwoVCidM0BWQyR5UVOwcf5ibL2CO9jAqCgemo6YVpTwFD2puXTlc1r9i85fYtzxyrzQbYBIxO8IGN64GD7cPShy0fyf7SIQdEgQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g335f2006eb3_2_17",
+          "type": "SHAPE",
+          "width": 201.16535433070865,
+          "height": 90.04724409448819,
+          "top": 279.37401574803147,
+          "left": 493.65748031496065,
+          "text": "“The AI Sales Agent helped scheduling cutting appointment no-shows by 29%.”\u000b\u000bDr. Andrew M, Healthcare"
+        },
+        {
+          "objectId": "g335f2006eb3_2_18",
+          "type": "IMAGE",
+          "width": 61.31300551181097,
+          "height": 10.011812598425214,
+          "top": 292.14560570866144,
+          "left": 563.5836547244095,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcy9nbe2ln4j-lhAQyPUBTGs2Sggx5JA9_MElOQ9qKSsZitOcPqdzXRwoVCidM0BWQyR5UVOwcf5ibL2CO9jAqCgemo6YVpTwFD2puXTlc1r9i85fYtzxyrzQbYBIxO8IGN64GD7cPShy0fyf7SIQdEgQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g35db2b95471_4_5",
+          "type": "GROUP",
+          "width": 227.85826771653544,
+          "height": 89.91432401574802,
+          "top": 157.54283799212598,
+          "left": 246.0708661417323
+        },
+        {
+          "objectId": "g35bfc649ae1_1_0",
+          "type": "SHAPE",
+          "width": 319.46456692913387,
+          "height": 97.44094488188976,
+          "top": 28.18503937007874,
+          "left": 375.3897637795276,
+          "text": "\"The AI call center has been a game-changer. \u000bWe’ve reduced costs while enhancing our \u000bcustomer service experience.\"\u000b\u000b Ryan S,"
+        },
+        {
+          "objectId": "g35bfc649ae1_1_1",
+          "type": "IMAGE",
+          "width": 61.31300551181103,
+          "height": 10.011812598425193,
+          "top": 41.011604921259845,
+          "left": 504.46595334645673,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcy9nbe2ln4j-lhAQyPUBTGs2Sggx5JA9_MElOQ9qKSsZitOcPqdzXRwoVCidM0BWQyR5UVOwcf5ibL2CO9jAqCgemo6YVpTwFD2puXTlc1r9i85fYtzxyrzQbYBIxO8IGN64GD7cPShy0fyf7SIQdEgQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g35bfc649ae1_1_2",
+          "type": "SHAPE",
+          "width": 313.1102362204724,
+          "height": 97.44094488188976,
+          "top": 28.18503937007874,
+          "left": 31.503937007874015,
+          "text": "\"We had major issues with customer service delays, \u000bbut Quickly’s automation fixed that right away. \u000bOur response times are now quicker than ever!\"\u000b\u000b Ryan S,"
+        },
+        {
+          "objectId": "g35bfc649ae1_1_3",
+          "type": "IMAGE",
+          "width": 61.31300551181103,
+          "height": 10.011812598425193,
+          "top": 41.011604921259845,
+          "left": 157.40296122047243,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcy9nbe2ln4j-lhAQyPUBTGs2Sggx5JA9_MElOQ9qKSsZitOcPqdzXRwoVCidM0BWQyR5UVOwcf5ibL2CO9jAqCgemo6YVpTwFD2puXTlc1r9i85fYtzxyrzQbYBIxO8IGN64GD7cPShy0fyf7SIQdEgQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        }
+      ]
+    },
+    {
+      "slideId": "g32d175f0297_0_70",
+      "slideNumber": 36,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g32d175f0297_0_71",
+          "type": "SHAPE",
+          "width": 487.2283464566929,
+          "height": 82.41732283464567,
+          "top": 28.744094488188978,
+          "left": 29.078740157480315,
+          "text": "More leads. More conversions. Zero missed opportunities"
+        },
+        {
+          "objectId": "g32d175f0297_0_72",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 10.393700787401574,
+          "left": 29.078740157480315,
+          "text": "AI SALES ASSISTANTS"
+        },
+        {
+          "objectId": "g32d175f0297_0_73",
+          "type": "SHAPE",
+          "width": 546.7086614173228,
+          "height": 40.60629921259842,
+          "top": 108.14763779527559,
+          "left": 27.874015748031496,
+          "text": "Never let a lead go cold again. Our AI Sales Assistants engage, follow up, and qualify leads automatically, so your sales team only focuses on the hottest prospects."
+        },
+        {
+          "objectId": "g32d175f0297_0_77",
+          "type": "SHAPE",
+          "width": 639.6614173228346,
+          "height": 46.181102362204726,
+          "top": 299.6496062992126,
+          "left": 40.175196850393704,
+          "text": ""
+        },
+        {
+          "objectId": "g32d175f0297_1_57",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 164.20570866141733,
+          "left": 40.17913385826772,
+          "rows": 1,
+          "columns": 2
+        },
+        {
+          "objectId": "g32d175f0297_0_80",
+          "type": "SHAPE",
+          "width": 595.2047244094488,
+          "height": 28.275590551181104,
+          "top": 308.6023622047244,
+          "left": 64.78740157480316,
+          "text": "RESULTS: Businesses using AI Sales Assistants see up to 38% more closed deals in 60 days."
+        }
+      ]
+    },
+    {
+      "slideId": "g32d175f0297_2_0",
+      "slideNumber": 37,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g32d175f0297_2_1",
+          "type": "SHAPE",
+          "width": 650.7637795275591,
+          "height": 44.83464566929134,
+          "top": 40.74409448818898,
+          "left": 29.078740157480315,
+          "text": "24/7 support without the overhead"
+        },
+        {
+          "objectId": "g32d175f0297_2_2",
+          "type": "SHAPE",
+          "width": 546.7086614173228,
+          "height": 40.60629921259842,
+          "top": 84.87795275590551,
+          "left": 27.874015748031496,
+          "text": "Faster response times. Happier customers. Lower costs. AI-powered call centers handle customer inquiries, FAQs, and even complex support requests."
+        },
+        {
+          "objectId": "g32d175f0297_2_3",
+          "type": "SHAPE",
+          "width": 639.6614173228346,
+          "height": 46.181102362204726,
+          "top": 287.6496062992126,
+          "left": 40.175196850393704,
+          "text": ""
+        },
+        {
+          "objectId": "g32d175f0297_2_5",
+          "type": "SHAPE",
+          "width": 595.2047244094488,
+          "height": 28.275590551181104,
+          "top": 296.6023622047244,
+          "left": 64.78740157480316,
+          "text": "RESULTS: Businesses using AI for customer service see up to 60% lower support costs."
+        },
+        {
+          "objectId": "g32d175f0297_2_8",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 147.16830708661416,
+          "left": 40.17913385826772,
+          "rows": 1,
+          "columns": 2
+        },
+        {
+          "objectId": "g32d175f0297_2_10",
+          "type": "SHAPE",
+          "width": 304.79527559055117,
+          "height": 24.236220472440944,
+          "top": 22.393700787401574,
+          "left": 29.078740157480315,
+          "text": "AI CALL CENTRES & CUSTOMER SERVICE"
+        }
+      ]
+    },
+    {
+      "slideId": "g32d175f0297_2_11",
+      "slideNumber": 38,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g32d175f0297_2_12",
+          "type": "SHAPE",
+          "width": 650.7637795275591,
+          "height": 44.83464566929134,
+          "top": 40.74409448818898,
+          "left": 29.078740157480315,
+          "text": "Faster transactions, fewer errors"
+        },
+        {
+          "objectId": "g32d175f0297_2_13",
+          "type": "SHAPE",
+          "width": 595.2047244094488,
+          "height": 26.669291338582678,
+          "top": 85.57874015748031,
+          "left": 29.078740157480315,
+          "text": "No more late payments, missed invoices, or manual billing errors. AI streamlines your entire payment process."
+        },
+        {
+          "objectId": "g32d175f0297_2_14",
+          "type": "SHAPE",
+          "width": 639.6614173228346,
+          "height": 46.181102362204726,
+          "top": 287.6496062992126,
+          "left": 40.175196850393704,
+          "text": ""
+        },
+        {
+          "objectId": "g32d175f0297_2_15",
+          "type": "SHAPE",
+          "width": 633.9212598425197,
+          "height": 28.275590551181104,
+          "top": 296.6023622047244,
+          "left": 43.0492125984252,
+          "text": "RESULTS: Businesses using AI-powered billing solutions see up to 40% faster payments and fewer disputes."
+        },
+        {
+          "objectId": "g32d175f0297_2_16",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 132.61811023622047,
+          "left": 40.17913385826772,
+          "rows": 2,
+          "columns": 2
+        },
+        {
+          "objectId": "g32d175f0297_2_17",
+          "type": "SHAPE",
+          "width": 304.79527559055117,
+          "height": 24.236220472440944,
+          "top": 22.393700787401574,
+          "left": 29.078740157480315,
+          "text": "AI PAYMENT & BILLING AUTOMATION"
+        }
+      ]
+    },
+    {
+      "slideId": "g32d175f0297_2_26",
+      "slideNumber": 39,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g32d175f0297_2_27",
+          "type": "SHAPE",
+          "width": 661.8425196850394,
+          "height": 45.09448818897638,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "ROI Breakdown – AI vs. Traditional Teams"
+        },
+        {
+          "objectId": "g32d175f0297_2_28",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 87.22637795275591,
+          "left": 40.173228346456696,
+          "rows": 5,
+          "columns": 4
+        },
+        {
+          "objectId": "g32d175f0297_1_101",
+          "type": "SHAPE",
+          "width": 639.6614173228346,
+          "height": 36.70866141732284,
+          "top": 323.2185039370079,
+          "left": 40.175196850393704,
+          "text": "AI delivers more revenue, faster growth & lower costs."
+        }
+      ]
+    },
+    {
+      "slideId": "g32d57dccbdf_0_20",
+      "slideNumber": 40,
+      "notes": "Need steps 1, 2 etc etc\n",
+      "elements": [
+        {
+          "objectId": "g32d57dccbdf_0_22",
+          "type": "SHAPE",
+          "width": 650.7637795275591,
+          "height": 44.83464566929134,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "Simple, Fast & Hassle-Free"
+        },
+        {
+          "objectId": "g32d57dccbdf_0_23",
+          "type": "SHAPE",
+          "width": 304.79527559055117,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "HOW IT WORKS"
+        },
+        {
+          "objectId": "g32d57dccbdf_0_26",
+          "type": "SHAPE",
+          "width": 473.5275590551181,
+          "height": 40.60629921259842,
+          "top": 85.57874015748031,
+          "left": 29.078740157480315,
+          "text": "Getting started with Quickly.ai is effortless. We’ve designed our process to be fast, flexible, and results-drive, so you see value in days, not months."
+        },
+        {
+          "objectId": "g354723d346a_0_110",
+          "type": "SHAPE",
+          "width": 196.13385826771653,
+          "height": 87.96850393700787,
+          "top": 135.68503937007873,
+          "left": 39.104330708661415,
+          "text": "Strategy Call\u000bWe analyze your biggest pain points and identify automation opportunities."
+        },
+        {
+          "objectId": "g354723d346a_0_111",
+          "type": "IMAGE",
+          "width": 25.03740472440945,
+          "height": 25.037404724409456,
+          "top": 151.10629921259843,
+          "left": 52.261810629921264,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfvYjmnw2_-ckSzd1mXiGt-vWib70E5RnWDYEiTGJVpB_K8iHNSAg_Jgj3LUFqR54H0kY3l0h9Ke7G6xmIYvRFKTBd4Zmqyb17M0d-ls5liOLFFZhqQ-qY-AtiorJI5hZZ1RLGs0AoT9RubDnI-Ly3Y9w=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g354723d346a_0_112",
+          "type": "SHAPE",
+          "width": 196.13385826771653,
+          "height": 87.96850393700787,
+          "top": 135.68503937007873,
+          "left": 261.93307086614175,
+          "text": "AI Solution Design\u000bWe customize an AI-powered plan tailored to your business goals."
+        },
+        {
+          "objectId": "g354723d346a_0_114",
+          "type": "SHAPE",
+          "width": 196.13385826771653,
+          "height": 87.96850393700787,
+          "top": 135.68503937007873,
+          "left": 484.76181102362204,
+          "text": "Seamless Integration\u000bAI is deployed with zero disruptions to your current workflow."
+        },
+        {
+          "objectId": "g354723d346a_0_116",
+          "type": "LINE",
+          "width": 26.69291338582677,
+          "height": 0,
+          "top": 179.66929133858267,
+          "left": 235.23818897637796
+        },
+        {
+          "objectId": "g354723d346a_0_117",
+          "type": "LINE",
+          "width": 26.69291338582677,
+          "height": 0,
+          "top": 179.66929133858267,
+          "left": 458.06692913385825
+        },
+        {
+          "objectId": "g354723d346a_0_119",
+          "type": "IMAGE",
+          "width": 29.520025196850394,
+          "height": 29.51997480314962,
+          "top": 151.10531496062993,
+          "left": 497.9186177165354,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcYAltMn0WYbnFu6c8W3lBJOW7FHvbBg06GRAvWBgqVUmJuhllFZAQfWB67usU3AKvtCK8_Ng5uKJnaNQ0sEyS01nhaVRiqyCbY_wBIRpzIek92jHN7l3ihMhp-GzB8pUJvzPdRUWDlqRv5FEUzeeo=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g354723d346a_0_121",
+          "type": "IMAGE",
+          "width": 29.633864566929148,
+          "height": 29.633864566929148,
+          "top": 151.04822834645668,
+          "left": 272.7916492125984,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdud-mzWr7nsfRw8sDx60d8IYsrSFCRd_FjBR5j1__JvcBIOZJBAYHvIQWYEhqgP95g0MLPUJDCd4XBrYrLyW7-LWTOXU8Fg7-wRvBUHmTeSip1MMdPMxSWFAWopK3zFVC-oryER0V6C7b1FQXqGNc=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g354723d346a_0_122",
+          "type": "SHAPE",
+          "width": 196.13385826771653,
+          "height": 87.96850393700787,
+          "top": 244.7755905511811,
+          "left": 39.104330708661415,
+          "text": "Scale & Grow\u000bAs your business expands, \u000bAI scales effortlessly, without increasing costs."
+        },
+        {
+          "objectId": "g354723d346a_0_124",
+          "type": "SHAPE",
+          "width": 196.13385826771653,
+          "height": 87.96850393700787,
+          "top": 244.7755905511811,
+          "left": 261.93307086614175,
+          "text": "Performance Tracking\u000bWe monitor, tweak, and \u000boptimize AI performance \u000bfor maximum ROI."
+        },
+        {
+          "objectId": "g354723d346a_0_125",
+          "type": "SHAPE",
+          "width": 196.13385826771653,
+          "height": 87.96850393700787,
+          "top": 244.7755905511811,
+          "left": 484.76181102362204,
+          "text": "Go Live & Optimize\u000bAI starts working immediately, automating tasks 24/7."
+        },
+        {
+          "objectId": "g354723d346a_0_126",
+          "type": "LINE",
+          "width": 26.69291338582677,
+          "height": 0,
+          "top": 288.75984251968504,
+          "left": 235.23818897637796
+        },
+        {
+          "objectId": "g354723d346a_0_127",
+          "type": "LINE",
+          "width": 26.69291338582677,
+          "height": 0,
+          "top": 288.75984251968504,
+          "left": 458.06692913385825
+        },
+        {
+          "objectId": "g354723d346a_0_130",
+          "type": "LINE",
+          "width": 18.75,
+          "height": 109.08661417322834,
+          "top": 179.66929133858267,
+          "left": 680.8956692913385
+        },
+        {
+          "objectId": "g354723d346a_0_131",
+          "type": "IMAGE",
+          "width": 29.520025196850394,
+          "height": 29.51997480314962,
+          "top": 260.1968755905512,
+          "left": 50.020669291338585,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUebF7WrVfJ5n9ojf6_RVIKEI1DqTQC12no0rfaXXzgzLsmLPShCXQxA6t0Yo7BUV95VJiAQa7STbyJ02T6uGa2iSeaSkpTcoScYrCjLfHWraKw1I2I8EsoEF5S8o1bkqHZCXQjp-KvwnsJFHTvritc=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g354723d346a_0_132",
+          "type": "IMAGE",
+          "width": 29.520025196850394,
+          "height": 29.520025196850394,
+          "top": 261.01574803149606,
+          "left": 273.9704724409449,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcCUTpfhAV4HVWrEU8_52P7LNa7uSIfo0M8qbPmfkFGlT9QVF7Gk_3xYB-hyO8Kco5HOP9iVh-QshigXkENShQjQ7qO5CgJr1G8oZU91fn1xnDo66x5AF0CjMVGX583YCe2OhlYdWeKJajK4kNUcqw=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g354723d346a_0_134",
+          "type": "IMAGE",
+          "width": 33.36612283464569,
+          "height": 33.36612283464566,
+          "top": 255.38974153543307,
+          "left": 495.9960440944882,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdS4cT87XmNl_yhUZSYrRj-zbhUqhekWLMjv2hCmRvdJFcHaDdbe4PH6JiTgGv-uRhq3mCEd0tdAAG9FijUbtQeWIyAlcrVfDxoDvuzx4H40zHuEBoO98PLC41LM3H-XPSDbBdJKnc0RVUoHTnblQDFzg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g354723d346a_0_135",
+          "type": "SHAPE",
+          "width": 328.62992125984255,
+          "height": 33.354330708661415,
+          "top": 353.86614173228344,
+          "left": 195.69291338582678,
+          "text": "No red tape. No complex setup. Just results."
+        }
+      ]
+    },
+    {
+      "slideId": "g354723d346a_0_90",
+      "slideNumber": 41,
+      "notes": "Need steps 1, 2 etc etc\n",
+      "elements": [
+        {
+          "objectId": "g354723d346a_0_91",
+          "type": "SHAPE",
+          "width": 650.7637795275591,
+          "height": 44.83464566929134,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "Simple, Fast & Hassle-Free"
+        },
+        {
+          "objectId": "g354723d346a_0_92",
+          "type": "SHAPE",
+          "width": 304.79527559055117,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "HOW IT WORKS"
+        },
+        {
+          "objectId": "g354723d346a_0_93",
+          "type": "SHAPE",
+          "width": 473.5275590551181,
+          "height": 40.60629921259842,
+          "top": 85.57874015748031,
+          "left": 29.078740157480315,
+          "text": "Getting started with Quickly.ai is effortless. We’ve designed our process to be fast, flexible, and results-drive, so you see value in days, not months."
+        },
+        {
+          "objectId": "g354723d346a_0_94",
+          "type": "SHAPE",
+          "width": 639.6614173228346,
+          "height": 46.181102362204726,
+          "top": 319.59765826771655,
+          "left": 40.175196850393704,
+          "text": "No red tape. No complex setup. Just results."
+        },
+        {
+          "objectId": "g354723d346a_0_95",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 138.61811023622047,
+          "left": 40.17913385826772,
+          "rows": 2,
+          "columns": 3
+        },
+        {
+          "objectId": "g354723d346a_0_96",
+          "type": "IMAGE",
+          "width": 25.037404724409452,
+          "height": 25.037404724409456,
+          "top": 145.11614173228347,
+          "left": 29.078739763779527,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfvYjmnw2_-ckSzd1mXiGt-vWib70E5RnWDYEiTGJVpB_K8iHNSAg_Jgj3LUFqR54H0kY3l0h9Ke7G6xmIYvRFKTBd4Zmqyb17M0d-ls5liOLFFZhqQ-qY-AtiorJI5hZZ1RLGs0AoT9RubDnI-Ly3Y9w=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g354723d346a_0_97",
+          "type": "IMAGE",
+          "width": 29.63386456692912,
+          "height": 29.633864566929148,
+          "top": 145.11614173228347,
+          "left": 243.2837751968504,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdud-mzWr7nsfRw8sDx60d8IYsrSFCRd_FjBR5j1__JvcBIOZJBAYHvIQWYEhqgP95g0MLPUJDCd4XBrYrLyW7-LWTOXU8Fg7-wRvBUHmTeSip1MMdPMxSWFAWopK3zFVC-oryER0V6C7b1FQXqGNc=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g354723d346a_0_98",
+          "type": "IMAGE",
+          "width": 29.520025196850394,
+          "height": 29.51997480314962,
+          "top": 145.17322834645668,
+          "left": 455.1203893700787,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcYAltMn0WYbnFu6c8W3lBJOW7FHvbBg06GRAvWBgqVUmJuhllFZAQfWB67usU3AKvtCK8_Ng5uKJnaNQ0sEyS01nhaVRiqyCbY_wBIRpzIek92jHN7l3ihMhp-GzB8pUJvzPdRUWDlqRv5FEUzeeo=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g354723d346a_0_99",
+          "type": "IMAGE",
+          "width": 29.519974803149605,
+          "height": 29.51997480314962,
+          "top": 228.28742677165354,
+          "left": 29.135826771653544,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdS4cT87XmNl_yhUZSYrRj-zbhUqhekWLMjv2hCmRvdJFcHaDdbe4PH6JiTgGv-uRhq3mCEd0tdAAG9FijUbtQeWIyAlcrVfDxoDvuzx4H40zHuEBoO98PLC41LM3H-XPSDbBdJKnc0RVUoHTnblQDFzg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g354723d346a_0_100",
+          "type": "IMAGE",
+          "width": 29.520025196850394,
+          "height": 29.51997480314962,
+          "top": 228.28742677165354,
+          "left": 455.12007874015745,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUebF7WrVfJ5n9ojf6_RVIKEI1DqTQC12no0rfaXXzgzLsmLPShCXQxA6t0Yo7BUV95VJiAQa7STbyJ02T6uGa2iSeaSkpTcoScYrCjLfHWraKw1I2I8EsoEF5S8o1bkqHZCXQjp-KvwnsJFHTvritc=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g354723d346a_0_101",
+          "type": "IMAGE",
+          "width": 29.520025196850394,
+          "height": 29.520025196850394,
+          "top": 228.28740157480314,
+          "left": 243.34055118110237,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcCUTpfhAV4HVWrEU8_52P7LNa7uSIfo0M8qbPmfkFGlT9QVF7Gk_3xYB-hyO8Kco5HOP9iVh-QshigXkENShQjQ7qO5CgJr1G8oZU91fn1xnDo66x5AF0CjMVGX583YCe2OhlYdWeKJajK4kNUcqw=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        }
+      ]
+    },
+    {
+      "slideId": "g354723d346a_0_49",
+      "slideNumber": 42,
+      "notes": "\n",
+      "elements": [
+        {
+          "objectId": "g354723d346a_0_50",
+          "type": "SHAPE",
+          "width": 650.7637795275591,
+          "height": 44.83464566929134,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "Simple, Fast & Hassle-Free"
+        },
+        {
+          "objectId": "g354723d346a_0_51",
+          "type": "SHAPE",
+          "width": 268.6062992125984,
+          "height": 54.54330708661417,
+          "top": 229.80708661417322,
+          "left": 60.66587913385827,
+          "text": "Go Live\u000bAI starts working immediately, automating tasks 24/7."
+        },
+        {
+          "objectId": "g354723d346a_0_52",
+          "type": "SHAPE",
+          "width": 304.79527559055117,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "HOW IT WORKS"
+        },
+        {
+          "objectId": "g354723d346a_0_53",
+          "type": "SHAPE",
+          "width": 473.5275590551181,
+          "height": 40.60629921259842,
+          "top": 85.57874015748031,
+          "left": 29.078740157480315,
+          "text": "Getting started with Quickly.ai is effortless. We’ve designed our process to be fast, flexible, and results-drive, so you see value in days, not months."
+        },
+        {
+          "objectId": "g354723d346a_0_54",
+          "type": "IMAGE",
+          "width": 29.520025196850394,
+          "height": 29.51997480314959,
+          "top": 230.67767007874016,
+          "left": 345.43307086614175,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcCKHqMVYb7BppaZW1fUpf3IhJMnE4mpKB4SmQo0sfJM9qr4I8a3KWgc7-ZeaHAY-dnx4JTMzES6EzQCqBFO88bNuIh0UnOJDVLJkZfXHeAHXHD4YOjB_rtyBRSGOB3tbqxTJrD0n6j62ix7TIdrYIJJw=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g354723d346a_0_55",
+          "type": "SHAPE",
+          "width": 270.68503937007875,
+          "height": 82.41732283464567,
+          "top": 138.71456692913387,
+          "left": 58.59842519685039,
+          "text": "Discovery\u000bWe analyze your business and category to and identify automation opportunity. Scrape your website, unlimited documentation, sales calls and insights from best sellers"
+        },
+        {
+          "objectId": "g354723d346a_0_56",
+          "type": "IMAGE",
+          "width": 29.633864566929148,
+          "height": 29.633864566929148,
+          "top": 140.86285118110237,
+          "left": 345.37629488188975,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUf1dbdu6L1dlgfQLSciSLmgMLAXNvv28Q9OMHKIrxoXT3sZFNEu8bWo9naNINl6W_7MGCoo30bhv1HaaLnOJvjsXk9iLeRZMjYV2yPPp8VBXoz1RBeTwjDABfzgB0IxZjRXB6w-j-esu4yEtyuGrZn70g=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g354723d346a_0_57",
+          "type": "IMAGE",
+          "width": 29.520025196850394,
+          "height": 29.520025196850394,
+          "top": 140.91977086614173,
+          "left": 35.49409448818898,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcSINYPq6y8WXrewDKC6-Vhg8_FFblyP_Pvd5OYMeK9kaeMxVadSFLy9kFTg0Hw_mXSPjB4ikf8ad113AYOT6ptDHR0zt5M-uIn8xzC4rFetBrvP9GyVLxCkOHFf_NecbFsem_wBHe8Cp8l4fArtOvwWA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g354723d346a_0_58",
+          "type": "SHAPE",
+          "width": 294.2834645669291,
+          "height": 82.41732283464567,
+          "top": 138.71456692913387,
+          "left": 371.82086614173227,
+          "text": "Training\u000bWe build, integrate and train your AI Agents. Ensuring they speak, sell and troubleshoot as well as your best staff. Beta testing allows your team and stakeholders to share feedback."
+        },
+        {
+          "objectId": "g354723d346a_0_59",
+          "type": "IMAGE",
+          "width": 29.519974803149605,
+          "height": 29.51997480314959,
+          "top": 230.2426307086614,
+          "left": 35.49409448818898,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfl9Pw_c-pU5p5au-HNSnw0TWzCThoUGEzto_WDgrQsp7_UNntTc_sPN_SWbMwGbhrHHWrep7Wd6vKfsMZHFWwnEGh_DL_EXH9tp3sF3Yr7E75VB-y1fPR5wuZqvagF-RdRUUuTXhwdks3Mmv735YM=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g354723d346a_0_60",
+          "type": "SHAPE",
+          "width": 297.4251968503937,
+          "height": 68.48031496062993,
+          "top": 229.80708661417322,
+          "left": 368.6751968503937,
+          "text": "Performance Tracking\u000bWe actively monitor and optimize AI performance. Sharing monthly reporting and consistent optimisation of triggers, scripts and interactions."
+        },
+        {
+          "objectId": "g354723d346a_0_61",
+          "type": "SHAPE",
+          "width": 639.6614173228346,
+          "height": 46.181102362204726,
+          "top": 319.59765826771655,
+          "left": 40.175196850393704,
+          "text": "No red tape. No complex setup. Just results."
+        }
+      ]
+    },
+    {
+      "slideId": "g3593a8c04aa_0_103",
+      "slideNumber": 43,
+      "notes": "Ditch Manual Dialing | More leads. Less manual work. Our AI Sales Caller uses your sales knowledge to automatically connect with leads instantly, handling outreach, follow-ups, and sales calls—on autopilot.\n\n\n",
+      "elements": [
+        {
+          "objectId": "g3593a8c04aa_0_104",
+          "type": "SHAPE",
+          "width": 487.2283464566929,
+          "height": 48.47244094488189,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "AI Sales Caller"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_105",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_106",
+          "type": "SHAPE",
+          "width": 677.2677165354331,
+          "height": 26.669291338582678,
+          "top": 78.44094488188976,
+          "left": 29.078740157480315,
+          "text": "DETAILS"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_107",
+          "type": "SHAPE",
+          "width": 156.11811023622047,
+          "height": 28.275590551181104,
+          "top": 34.62992125984252,
+          "left": 544.7351679133858,
+          "text": "$1,487 AUD +GST \nper month"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_108",
+          "type": "SHAPE",
+          "width": 341.74015748031496,
+          "height": 147.8503937007874,
+          "top": 105.11023622047244,
+          "left": 35.07874015748032,
+          "text": "✅ Target the Right Prospects. AI identifies high-intent leads based on real-time data.\n✅ Personalized Outreach at Scale. AI customises messaging for each prospect.\n✅ Automated Follow-Ups. AI keeps leads engaged until they’re ready to buy.\n✅ Cold Call or Qualify. AI reaches out, engages prospects, and filters out time-wasters"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_109",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 53.173228346456696,
+          "top": 306.503937007874,
+          "left": 25.291338582677167,
+          "text": "Companies using AI for lead generation see up to\u000b50% more sales-qualified leads."
+        },
+        {
+          "objectId": "g3593a8c04aa_0_110",
+          "type": "VIDEO",
+          "width": 292.752,
+          "height": 164.67321259842524,
+          "top": 131.9763779527559,
+          "left": 415.248031496063,
+          "videoId": "1VlmATvIW4robwhC3BTRCWq6CHLVWaWeP",
+          "source": "UNSUPPORTED"
+        }
+      ]
+    },
+    {
+      "slideId": "g3593a8c04aa_0_125",
+      "slideNumber": 44,
+      "notes": "Add a follow up message on the text. Thank you etc etc\n\n",
+      "elements": [
+        {
+          "objectId": "g3593a8c04aa_0_126",
+          "type": "SHAPE",
+          "width": 487.2283464566929,
+          "height": 48.47244094488189,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "AI Finance Agent"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_127",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_128",
+          "type": "SHAPE",
+          "width": 347.74015748031496,
+          "height": 26.669291338582678,
+          "top": 78.44094488188976,
+          "left": 29.078740157480315,
+          "text": "DETAILS"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_129",
+          "type": "SHAPE",
+          "width": 156.11811023622047,
+          "height": 28.275590551181104,
+          "top": 34.62992125984252,
+          "left": 544.7351679133858,
+          "text": "$897 AUD +GST \nper month"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_130",
+          "type": "SHAPE",
+          "width": 341.74015748031496,
+          "height": 111.49606299212599,
+          "top": 105.11023622047244,
+          "left": 35.07874015748032,
+          "text": "✅ Automated Invoice Processing. AI generates and sends invoices without human intervention.\n✅ Error-Free Transactions. AI detects and prevents billing mistakes before they happen.\n✅ Smart Payment Reminders. AI follows up cross platform on overdue payments without annoying customers."
+        },
+        {
+          "objectId": "g3593a8c04aa_0_131",
+          "type": "IMAGE",
+          "width": 149.1496062992126,
+          "height": 306.755905511811,
+          "top": 72.70866141732283,
+          "left": 430.95669291338584,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfjSBbyKdYuQ67bd_iqif7LYirC_32ytStvv7gqWvY6HUEosuIEAdqMpj3iBDhlLXrhjRY7RdswNZwROHeU5QkGRB2KUitJFi4Efg1zHxM5pngbNR64ZIvEUqPKFBOy3p-yLa9PZg35DS3KWJ3Hgig=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_132",
+          "type": "SHAPE",
+          "width": 132.54330708661416,
+          "height": 279.59055118110234,
+          "top": 90.68897637795276,
+          "left": 439.2303149606299,
+          "text": ""
+        },
+        {
+          "objectId": "g3593a8c04aa_0_133",
+          "type": "IMAGE",
+          "width": 132.54330708661416,
+          "height": 26.669291338582678,
+          "top": 339.50984251968504,
+          "left": 439.2244094488189,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeY3NGNDzwKOpgH5pgy0bog0DWUG5brAF-S1YMAxQT-kEvFeX6RQoFQEDQdYxXGn3YrZ-xRKO6t7TxtWg2UoZ6XwFqNoVWAovjpHnxhume1hCH7iRBLYcjKxmKWjobFOtGUq_uAl_FVFhBpx7Qm2-8foA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_134",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 53.173228346456696,
+          "top": 306.503937007874,
+          "left": 25.291338582677167,
+          "text": "Businesses using AI-powered billing solutions see up to 40% faster payments and fewer disputes."
+        },
+        {
+          "objectId": "g3593a8c04aa_0_135",
+          "type": "IMAGE",
+          "width": 132.54330708661416,
+          "height": 170.0551181102362,
+          "top": 90.68897598425197,
+          "left": 439.248031496063,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfg9lQma9DVwgaALViIMfWRpLtMbRyys53O1QlTcobWjFTbgE7k0FZIuiBMz2aQy1JLSz4Yhh76AvlwRVdHvebavJ8xLkH1sQ4-V65cMwpKWRgq6zitQVCoPHAMj70uULk4UgkqKFx2bQevl_PuJ37wEg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        }
+      ]
+    },
+    {
+      "slideId": "g3593a8c04aa_0_113",
+      "slideNumber": 45,
+      "notes": "Automate building your reputation Boost your reputation without lifting a finger. Our AI Reviews Agent helps you get more 5-star ratings, respond instantly, and manage feedback like a pro.\n\n",
+      "elements": [
+        {
+          "objectId": "g3593a8c04aa_0_114",
+          "type": "SHAPE",
+          "width": 487.2283464566929,
+          "height": 48.47244094488189,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "AI Review Agent"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_115",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_116",
+          "type": "SHAPE",
+          "width": 677.2677165354331,
+          "height": 26.669291338582678,
+          "top": 78.44094488188976,
+          "left": 29.078740157480315,
+          "text": "DETAILS"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_117",
+          "type": "SHAPE",
+          "width": 156.11811023622047,
+          "height": 28.275590551181104,
+          "top": 34.62992125984252,
+          "left": 544.7351679133858,
+          "text": "$497 AUD +GST \nper month"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_118",
+          "type": "SHAPE",
+          "width": 341.74015748031496,
+          "height": 123.61417322834646,
+          "top": 105.11023622047244,
+          "left": 35.07874015748032,
+          "text": "✅ Auto-Request 5-Star Reviews. AI follows up with happy customers and can encourage or incentivise them to leave glowing feedback.\n✅ Intercept Negative Reviews. AI detects unhappy customers and so you can engage them privately\n✅ Instant Reply. Echo and thank reviews with personalized, on-brand messages - no copy-pasting required."
+        },
+        {
+          "objectId": "g3593a8c04aa_0_119",
+          "type": "IMAGE",
+          "width": 278.0550937007874,
+          "height": 65.15749370078741,
+          "top": 229.99212598425197,
+          "left": 403.90157480314963,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcEsqIMofJ5KSecePUK9WAMHZnqEIE8VjXKUl911ddgpkbVPO1Z6Xl4sCqANzdUyVVZBrqINvyhlDh_WcfW2FaGoIG-8lDv83v6TlOGChl2YtrPRNKfhU_yCkCM881azHYjV2RT87Td92ddeDzJbj3bdw=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_120",
+          "type": "IMAGE",
+          "width": 173.90551181102362,
+          "height": 63.8503937007874,
+          "top": 156.5029527559055,
+          "left": 403.90157480314963,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeypObAjRvOYZQl9H6i5XINIiITms0vA0wFujQ0mrH8tFugJAdZSea5AVomOYgU87QePLobdX_DxMPgqCEXUSEuQjOUDjZVCVHvon_Zv3I-B47NAlRM_EAWuxCrT6oj3ngJWlwwM1l3m1_fLJUzjBp15A=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_121",
+          "type": "SHAPE",
+          "width": 30.141732283464567,
+          "height": 48.47244094488189,
+          "top": 202.5,
+          "left": 601.8740157480315,
+          "text": ""
+        },
+        {
+          "objectId": "g3593a8c04aa_0_122",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 53.173228346456696,
+          "top": 306.503937007874,
+          "left": 25.291338582677167,
+          "text": "Companies using AI for Review Management up to a 25% increase in referrals."
+        }
+      ]
+    },
+    {
+      "slideId": "g3593a8c04aa_0_138",
+      "slideNumber": 46,
+      "notes": "Elevate your call handling. Elevate your call handling. AI-powered call centers answer all inbound calls promptly,  handle customer inquiries, FAQs and connects to your team seamlessly.\n\n",
+      "elements": [
+        {
+          "objectId": "g3593a8c04aa_0_139",
+          "type": "SHAPE",
+          "width": 487.2283464566929,
+          "height": 48.47244094488189,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "AI Reception"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_140",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_141",
+          "type": "SHAPE",
+          "width": 677.2677165354331,
+          "height": 26.669291338582678,
+          "top": 80.49409448818898,
+          "left": 29.078740157480315,
+          "text": "DETAILS"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_142",
+          "type": "SHAPE",
+          "width": 156.11811023622047,
+          "height": 28.275590551181104,
+          "top": 34.62992125984252,
+          "left": 544.7351679133858,
+          "text": "$1,497 AUD +GST \nper month"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_143",
+          "type": "SHAPE",
+          "width": 341.74015748031496,
+          "height": 147.8503937007874,
+          "top": 105.11023622047244,
+          "left": 35.07874015748032,
+          "text": "✅ Answer Every Call in Seconds. No wait times, no calls ever missed again.\n✅ Handles 80% of Customer Queries. AI resolves common issues, so your team only handles complex cases.\n✅ 24/7 Availability. AI never takes a break, ensuring round-the-clock support.\n✅ Seamless Handoff to Human Agents. AI ensures a smooth transition when human support is needed."
+        },
+        {
+          "objectId": "g3593a8c04aa_0_144",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 53.173228346456696,
+          "top": 306.503937007874,
+          "left": 25.291338582677167,
+          "text": "Businesses using AI for customer service see up to\u000b82% lower support costs."
+        },
+        {
+          "objectId": "g3593a8c04aa_0_145",
+          "type": "VIDEO",
+          "width": 319.18110236220474,
+          "height": 179.53937007874015,
+          "top": 119.16338582677166,
+          "left": 388.81889763779526,
+          "videoId": "1e0u-u8SBYko7hYMvAiP52tyG04GN8idb",
+          "source": "UNSUPPORTED"
+        }
+      ]
+    },
+    {
+      "slideId": "g3593a8c04aa_0_149",
+      "slideNumber": 47,
+      "notes": "Customer Service 24/7 Faster response times. Happier customers. Lower costs. Turn website visitors into paying customers with an AI-powered live chat that engages, supports, and sells.\n\n\n",
+      "elements": [
+        {
+          "objectId": "g3593a8c04aa_0_150",
+          "type": "SHAPE",
+          "width": 487.2283464566929,
+          "height": 48.47244094488189,
+          "top": 34.62992125984252,
+          "left": 29.078740157480315,
+          "text": "AI Live Chat"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_151",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 16.507874015748033,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_152",
+          "type": "SHAPE",
+          "width": 677.2677165354331,
+          "height": 26.669291338582678,
+          "top": 78.44094488188976,
+          "left": 29.078740157480315,
+          "text": "DETAILS"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_153",
+          "type": "SHAPE",
+          "width": 156.11811023622047,
+          "height": 28.275590551181104,
+          "top": 34.62992125984252,
+          "left": 544.7351679133858,
+          "text": "$97 AUD +GST \nper month"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_154",
+          "type": "SHAPE",
+          "width": 341.74015748031496,
+          "height": 191.50393700787401,
+          "top": 105.11023622047244,
+          "left": 35.07874015748032,
+          "text": "✅ Instant Customer Responses. No wait times, AI answers in seconds.\n✅ 24/7 Availability. Ensure always on instant support anytime and drive sales.\n✅ Trained on the best of your business. AI learns from your site and your best closers to answer questions accurately and guide visitors effortlessly.\n✅Seamless Handoff to Human Agents. Proactively assist, recommend, and upsell in real time."
+        },
+        {
+          "objectId": "g3593a8c04aa_0_155",
+          "type": "IMAGE",
+          "width": 156.11808897637792,
+          "height": 289.3878779527559,
+          "top": 67.27748031496063,
+          "left": 441.791525,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcQf6DIIatIwuU2LVFUcXJSJeATcFrIo6uo5X3jZHIJr3kqvdUUYqpvypFBUU3M_mIP_TNtYk5ZPpLNMUowmy6SEatwf-c0e9vTCMBOMcqSTeanMp1i2A4viXgZWXxqwvBLRQW970hPwFt-4fOw3ldkgA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_156",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 53.173228346456696,
+          "top": 306.503937007874,
+          "left": 25.291338582677167,
+          "text": "Businesses using AI chatbots see up to 25% higher conversion and 71% increase in Customer Satisfaction."
+        }
+      ]
+    },
+    {
+      "slideId": "g354c82bd132_0_415",
+      "slideNumber": 48,
+      "notes": "Your AI Agents are created within days by scraping all your insights from website, Sales and Customer Support documentation\n\n",
+      "elements": [
+        {
+          "objectId": "g354c82bd132_0_417",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 100.82874015748031,
+          "left": 29.315944881889763,
+          "rows": 5,
+          "columns": 7
+        },
+        {
+          "objectId": "g3552fba8c4a_16_64",
+          "type": "SHAPE",
+          "width": 406.01574803149606,
+          "height": 59.00787401574803,
+          "top": 290.1496062992126,
+          "left": 156.99409448818898,
+          "text": "6 month program. \nBundle any 2x or more services and pay only one set-up fee\n12 month program and set-up fees are waived"
+        },
+        {
+          "objectId": "g354c82bd132_0_418",
+          "type": "SHAPE",
+          "width": 650.7637795275591,
+          "height": 44.83464566929134,
+          "top": 36.05708661417323,
+          "left": 23.52755905511811,
+          "text": "No Hidden Costs"
+        },
+        {
+          "objectId": "g354c82bd132_0_419",
+          "type": "SHAPE",
+          "width": 88.46456692913385,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 25.328740157480315,
+          "text": "PRICING"
+        },
+        {
+          "objectId": "g354c82bd132_0_420",
+          "type": "SHAPE",
+          "width": 333.3070866141732,
+          "height": 32.78740157480315,
+          "top": 373.0532844488189,
+          "left": 386.68897637795277,
+          "text": "Prices shown in AUD +GST\u000bVoice charges from per min based on the LLM and Voice TTS preferences"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_26",
+          "type": "SHAPE",
+          "width": 291.99212598425197,
+          "height": 66.23622047244095,
+          "top": 14.655511811023622,
+          "left": 406.8956692913386,
+          "text": "Launch Pricing Pre May 2025"
+        }
+      ]
+    },
+    {
+      "slideId": "g3593a8c04aa_0_44",
+      "slideNumber": 49,
+      "notes": "AI Sales Assistants work to lift conversion rate 24/7 wherever your customers are. Answering inquiries, following up, and qualifying leads automatically - so your sales team only focuses on the hottest prospects.\n",
+      "elements": [
+        {
+          "objectId": "g3593a8c04aa_0_45",
+          "type": "IMAGE",
+          "width": 149.1496062992126,
+          "height": 306.755905511811,
+          "top": 58.75590551181102,
+          "left": 429.998031496063,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfjSBbyKdYuQ67bd_iqif7LYirC_32ytStvv7gqWvY6HUEosuIEAdqMpj3iBDhlLXrhjRY7RdswNZwROHeU5QkGRB2KUitJFi4Efg1zHxM5pngbNR64ZIvEUqPKFBOy3p-yLa9PZg35DS3KWJ3Hgig=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_46",
+          "type": "IMAGE",
+          "width": 132.55803759842522,
+          "height": 229.16340944881887,
+          "top": 102.96510236220472,
+          "left": 438.23953248031495,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfOVbUyORo9Yia6j3NylAhBWd-E5o_jTjJtW08qfyEeITsnZZLCIBUhcjeZvIyT6RUkoIozYVV89Be1Jc-N8cQF7aRwqtLSmdaHBxbQOErS4pF6FfbD0mQXJlW3SynNgb6lth1pqmIX6InkaXVz-0XpvA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_47",
+          "type": "SHAPE",
+          "width": 294.56692913385825,
+          "height": 48.47244094488189,
+          "top": 34.62992125984252,
+          "left": 29.078740157480315,
+          "text": "AI Sales Agent"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_48",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_49",
+          "type": "SHAPE",
+          "width": 677.2677165354331,
+          "height": 26.669291338582678,
+          "top": 78.44094488188976,
+          "left": 29.078740157480315,
+          "text": "DETAILS"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_50",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 53.173228346456696,
+          "top": 306.503937007874,
+          "left": 25.291338582677167,
+          "text": "Businesses using AI Sales Assistants see up to\u000b38% more closed deals in 60 days."
+        },
+        {
+          "objectId": "g3593a8c04aa_0_51",
+          "type": "SHAPE",
+          "width": 156.11811023622047,
+          "height": 28.275590551181104,
+          "top": 34.62992125984252,
+          "left": 544.7351679133858,
+          "text": "$897 AUD +GST \nper month"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_52",
+          "type": "IMAGE",
+          "width": 132.8740157480315,
+          "height": 27.330708661417322,
+          "top": 76.62795275590551,
+          "left": 438.24015748031496,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfuZFI16m2PyCYZilfvPUUSaNgNcHlMd52MSp6NLZL4LKyL37gFkEKFnUtCKDPKFJlaY0byLMu0AHU6HLaPBaH3XimYTadhvBki2XGkHmh2Jwu3S0PRsPv0lSD6p9SWcxPMa_HLcdKnmYHA10OHOLcwxg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_53",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 192.68503937007873,
+          "top": 102.96456692913385,
+          "left": 31.291338582677167,
+          "text": "Instant Lead Follow-Ups AI engages leads within seconds across any channel; SMS, Whatsapp, Messenger, Instagram \n\nAutomated Lead Nurturing Keep prospects engaged with continuous data-led optimisation improving closing rates.\n\nInstant Scheduling AI syncs with your team’s calendar and books appointment with your closers in real time\n\nSeamless CRM Integration Free CRM included or AI sync with your existing sales process for smooth operations.\n\nAnswer Objections in real time AI tackles FAQs, overcomes hesitations, and provides the information leads need to convert faster"
+        },
+        {
+          "objectId": "g35ec59d507d_3_143",
+          "type": "SHAPE",
+          "width": 333.3070866141732,
+          "height": 42.54330708661417,
+          "top": 372.21273326771654,
+          "left": 386.6929133858268,
+          "text": "*WhatsApp messing incurs an additional cost of $15.60 AUD a month"
+        }
+      ]
+    },
+    {
+      "slideId": "g354c82bd132_0_329",
+      "slideNumber": 50,
+      "notes": "Elevate your call handling. Elevate your call handling. AI-powered call centers answer all inbound calls promptly,  handle customer inquiries, FAQs and connects to your team seamlessly.\n\n",
+      "elements": [
+        {
+          "objectId": "g354c82bd132_0_330",
+          "type": "SHAPE",
+          "width": 487.2283464566929,
+          "height": 48.47244094488189,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "AI Reception - Archive"
+        },
+        {
+          "objectId": "g354c82bd132_0_331",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS"
+        },
+        {
+          "objectId": "g354c82bd132_0_332",
+          "type": "SHAPE",
+          "width": 677.2677165354331,
+          "height": 26.669291338582678,
+          "top": 80.49409448818898,
+          "left": 29.078740157480315,
+          "text": "VOICE AGENT DETAILS"
+        },
+        {
+          "objectId": "g354c82bd132_0_335",
+          "type": "SHAPE",
+          "width": 156.11811023622047,
+          "height": 28.275590551181104,
+          "top": 34.62992125984252,
+          "left": 544.7351679133858,
+          "text": "$1,497 AUD +GST \nper month"
+        },
+        {
+          "objectId": "g354c82bd132_0_336",
+          "type": "SHAPE",
+          "width": 341.74015748031496,
+          "height": 193.91338582677164,
+          "top": 105.11023622047244,
+          "left": 35.07874015748032,
+          "text": "Answer Every Call in Seconds. No wait times, no calls ever missed again.\nHandles 80% of Customer Queries. AI resolves common issues, so your team only handles complex cases.\n24/7 Availability. AI never takes a break, ensuring round-the-clock support.\nSeamless Handoff to Human Agents. AI ensures a smooth transition when human support is needed.\nCreation of AI Agent\nVoice selection and training \nMonthly Reporting and Optimisation Test Plan\nOngoing Quality Assurance and Training \n$50 text credit included per month"
+        },
+        {
+          "objectId": "g3552fba8c4a_18_12",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 53.173228346456696,
+          "top": 306.503937007874,
+          "left": 25.291338582677167,
+          "text": "Businesses using AI for customer service see up to\u000b82% lower support costs."
+        },
+        {
+          "objectId": "g35d3f2352d1_15_1",
+          "type": "VIDEO",
+          "width": 273.8366102362205,
+          "height": 273.83661023622045,
+          "top": 89.56299212598425,
+          "left": 415.5295275590551,
+          "videoId": "1GcFxhaJDcAA245G43IM0B3Q5rr6Sdm7l",
+          "source": "UNSUPPORTED"
+        }
+      ]
+    },
+    {
+      "slideId": "g354c82bd132_0_340",
+      "slideNumber": 51,
+      "notes": "Customer Service 24/7 Faster response times. Happier customers. Lower costs. Turn website visitors into paying customers with an AI-powered live chat that engages, supports, and sells.\n\n\n",
+      "elements": [
+        {
+          "objectId": "g354c82bd132_0_341",
+          "type": "SHAPE",
+          "width": 487.2283464566929,
+          "height": 48.47244094488189,
+          "top": 34.62992125984252,
+          "left": 29.078740157480315,
+          "text": "AI Live Chat - Archive"
+        },
+        {
+          "objectId": "g354c82bd132_0_342",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 16.507874015748033,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS"
+        },
+        {
+          "objectId": "g354c82bd132_0_343",
+          "type": "SHAPE",
+          "width": 677.2677165354331,
+          "height": 26.669291338582678,
+          "top": 78.44094488188976,
+          "left": 29.078740157480315,
+          "text": "CONVERSATIONAL AGENT DETAILS"
+        },
+        {
+          "objectId": "g354c82bd132_0_346",
+          "type": "SHAPE",
+          "width": 156.11811023622047,
+          "height": 28.275590551181104,
+          "top": 34.62992125984252,
+          "left": 544.7351679133858,
+          "text": "$97 AUD +GST \nper month"
+        },
+        {
+          "objectId": "g354c82bd132_0_347",
+          "type": "SHAPE",
+          "width": 341.74015748031496,
+          "height": 207.8503937007874,
+          "top": 105.11023622047244,
+          "left": 35.07874015748032,
+          "text": "Instant Customer Responses. No wait times, AI answers in seconds.\n24/7 Availability. Ensure always on instant support anytime and drive sales.\nTrained on the best of your business. AI learns from your site and your best closers to answer questions accurately and guide visitors effortlessly.\nSeamless Handoff to Human Agents. Proactively assist, recommend, and upsell in real time.\nCreation of AI Agent\nIntegration to meeting scheduler\nCreation of custom FAQs\nMonthly Reporting and Performance Test Plan\nOngoing Quality Assurance and Training"
+        },
+        {
+          "objectId": "g3552fba8c4a_18_13",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 53.173228346456696,
+          "top": 318.503937007874,
+          "left": 25.291338582677167,
+          "text": "Businesses using AI chatbots see up to 25% higher conversion and 71% increase in Customer Satisfaction."
+        },
+        {
+          "objectId": "g35db2b95471_15_4",
+          "type": "IMAGE",
+          "width": 169.2302598425197,
+          "height": 305.7263149606299,
+          "top": 75.42519783464567,
+          "left": 446.023624015748,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfaGegWv6cmoDsv5geJ2I19-ExpejbJRyNIEjm2O8MBk49wzKjgUDztQJSKLQ_Ep5ip_S-DDXUkc3dDxn8RMHPAJp6Mb_l_jMmMOS2V_mXUmiUA2JsX1S6INdmi3iQdczsW4aLgX_RKyN6qiuSQhSpFJQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        }
+      ]
+    },
+    {
+      "slideId": "g354c82bd132_0_318",
+      "slideNumber": 52,
+      "notes": "Add a follow up message on the text. Thank you etc etc\n\n",
+      "elements": [
+        {
+          "objectId": "g354c82bd132_0_319",
+          "type": "SHAPE",
+          "width": 487.2283464566929,
+          "height": 48.47244094488189,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "AI Finance Agent"
+        },
+        {
+          "objectId": "g354c82bd132_0_320",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS"
+        },
+        {
+          "objectId": "g354c82bd132_0_321",
+          "type": "SHAPE",
+          "width": 347.74015748031496,
+          "height": 26.669291338582678,
+          "top": 78.44094488188976,
+          "left": 29.078740157480315,
+          "text": "DETAILS"
+        },
+        {
+          "objectId": "g354c82bd132_0_324",
+          "type": "SHAPE",
+          "width": 296.244094488189,
+          "height": 28.275590551181104,
+          "top": 34.62992125984252,
+          "left": 404.60350846456697,
+          "text": "$897 AUD +GST \nper month"
+        },
+        {
+          "objectId": "g354c82bd132_0_325",
+          "type": "SHAPE",
+          "width": 341.74015748031496,
+          "height": 190.2755905511811,
+          "top": 105.11023622047244,
+          "left": 35.07874015748032,
+          "text": "Automated Invoice Processing. AI generates and sends invoices without human intervention.\nSmart Payment Reminders. AI follows up cross platform on overdue payments without annoying customers.\nCreation of AI Agent\nSynchronization with current finance programs\nCreation of Payment reminder journey\nMonthly Reporting and Performance Test Plan\nOngoing Quality Assurance and Training \n$50 text credit included per month"
+        },
+        {
+          "objectId": "g3552fba8c4a_16_59",
+          "type": "IMAGE",
+          "width": 149.1496062992126,
+          "height": 306.755905511811,
+          "top": 72.70866141732283,
+          "left": 430.95669291338584,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfjSBbyKdYuQ67bd_iqif7LYirC_32ytStvv7gqWvY6HUEosuIEAdqMpj3iBDhlLXrhjRY7RdswNZwROHeU5QkGRB2KUitJFi4Efg1zHxM5pngbNR64ZIvEUqPKFBOy3p-yLa9PZg35DS3KWJ3Hgig=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3552fba8c4a_16_60",
+          "type": "SHAPE",
+          "width": 132.54330708661416,
+          "height": 279.59055118110234,
+          "top": 90.68897637795276,
+          "left": 439.2303149606299,
+          "text": ""
+        },
+        {
+          "objectId": "g3552fba8c4a_18_35",
+          "type": "IMAGE",
+          "width": 132.54330708661416,
+          "height": 26.669291338582678,
+          "top": 339.50984251968504,
+          "left": 439.2244094488189,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeY3NGNDzwKOpgH5pgy0bog0DWUG5brAF-S1YMAxQT-kEvFeX6RQoFQEDQdYxXGn3YrZ-xRKO6t7TxtWg2UoZ6XwFqNoVWAovjpHnxhume1hCH7iRBLYcjKxmKWjobFOtGUq_uAl_FVFhBpx7Qm2-8foA=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g3552fba8c4a_18_37",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 53.173228346456696,
+          "top": 306.503937007874,
+          "left": 25.291338582677167,
+          "text": "Businesses using AI-powered billing solutions see up to 40% faster payments and fewer disputes."
+        },
+        {
+          "objectId": "g355fa69fa04_5_28",
+          "type": "IMAGE",
+          "width": 132.54330708661416,
+          "height": 170.0551181102362,
+          "top": 90.68897598425197,
+          "left": 439.248031496063,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfg9lQma9DVwgaALViIMfWRpLtMbRyys53O1QlTcobWjFTbgE7k0FZIuiBMz2aQy1JLSz4Yhh76AvlwRVdHvebavJ8xLkH1sQ4-V65cMwpKWRgq6zitQVCoPHAMj70uULk4UgkqKFx2bQevl_PuJ37wEg=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g35a8bc5bdf0_0_0",
+          "type": "SHAPE",
+          "width": 193.13385826771653,
+          "height": 136.08661417322836,
+          "top": 243.3779527559055,
+          "left": 503.6023622047244,
+          "text": "Embargo:\nProduct On Hold"
+        }
+      ]
+    },
+    {
+      "slideId": "g354c82bd132_0_295",
+      "slideNumber": 53,
+      "notes": "Ditch Manual Dialing | More leads. Less manual work. Our AI Sales Caller uses your sales knowledge to automatically connect with leads instantly, handling outreach, follow-ups, and sales calls—on autopilot.\n\n\n",
+      "elements": [
+        {
+          "objectId": "g354c82bd132_0_296",
+          "type": "SHAPE",
+          "width": 487.2283464566929,
+          "height": 48.47244094488189,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "AI Sales Caller - Archive"
+        },
+        {
+          "objectId": "g354c82bd132_0_297",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS"
+        },
+        {
+          "objectId": "g354c82bd132_0_298",
+          "type": "SHAPE",
+          "width": 677.2677165354331,
+          "height": 26.669291338582678,
+          "top": 78.44094488188976,
+          "left": 29.078740157480315,
+          "text": "VOICE AGENT DETAILS"
+        },
+        {
+          "objectId": "g354c82bd132_0_301",
+          "type": "SHAPE",
+          "width": 156.11811023622047,
+          "height": 28.275590551181104,
+          "top": 34.62992125984252,
+          "left": 544.7351679133858,
+          "text": "$1,497 AUD +GST \nper month"
+        },
+        {
+          "objectId": "g354c82bd132_0_302",
+          "type": "SHAPE",
+          "width": 372.37795275590554,
+          "height": 207.8503937007874,
+          "top": 105.11023622047244,
+          "left": 35.07874015748032,
+          "text": "AI reaches out, engages prospects, and filters out time-wasters\nAI customises messaging for each prospect\nCold call or qualify users before sales calls\nCreation of AI Agent\nTraining to connect to leads instantly, handle outreach, follow-ups and pre sales calling\nInstant scheduling syncs with your calendar and books appointment with your closers in real time\nManagement of Cold List upload\nAccess to 24/7 Reporting Dashboards\nUnlimited Customer Support\nMonthly Reporting and Performance Test Plan\nOngoing Quality Assurance and Training\n$50 calling credit included per month"
+        },
+        {
+          "objectId": "g3552fba8c4a_18_10",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 53.173228346456696,
+          "top": 318.503937007874,
+          "left": 25.291338582677167,
+          "text": "Companies using AI for lead generation see up to\u000b50% more sales-qualified leads."
+        },
+        {
+          "objectId": "g35d3f2352d1_15_2",
+          "type": "VIDEO",
+          "width": 262.0787086614173,
+          "height": 262.0787086614173,
+          "top": 97.59840984251969,
+          "left": 444.26771653543307,
+          "videoId": "1Gn_FTYD5wUR4Nue11faCcAt0oY0tLGA8",
+          "source": "UNSUPPORTED"
+        }
+      ]
+    },
+    {
+      "slideId": "g3593a8c04aa_0_64",
+      "slideNumber": 54,
+      "notes": "AI Sales Assistants work to lift conversion rate 24/7 wherever your customers are. Answering inquiries, following up, and qualifying leads automatically - so your sales team only focuses on the hottest prospects.\n",
+      "elements": [
+        {
+          "objectId": "g3593a8c04aa_0_65",
+          "type": "SHAPE",
+          "width": 537.0944881889764,
+          "height": 48.47244094488189,
+          "top": 34.62992125984252,
+          "left": 29.078740157480315,
+          "text": "AI Sales Agent - Archive"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_66",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_67",
+          "type": "SHAPE",
+          "width": 156.11811023622047,
+          "height": 28.275590551181104,
+          "top": 34.62992125984252,
+          "left": 544.7351679133858,
+          "text": "$897 AUD +GST \nper month"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_72",
+          "type": "SHAPE",
+          "width": 432.25984251968504,
+          "height": 194.95275590551182,
+          "top": 102.96456692913385,
+          "left": 31.291338582677167,
+          "text": "Instant follow up AI engages leads within seconds to tackle FAQs, overcomes hesitations, and provides the information leads need to convert faster\n24/7 Engagement across SMS, WhatsApp, Facebook Messenger and Instagram\nInstant scheduling syncs with your calendar and books appointment with your closers in real time\nCreation of AI agent\nCreation of custom AI sales journey\nAccess to 24/7 reporting dashboards\nUnlimited customer support\nMonthly reporting and performance optimization\nOngoing Quality Assurance and Training \n$50 text credit included per month"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_73",
+          "type": "SHAPE",
+          "width": 677.2677165354331,
+          "height": 26.669291338582678,
+          "top": 78.44094488188976,
+          "left": 29.078740157480315,
+          "text": "CONVERSATIONAL AGENT DETAILS"
+        },
+        {
+          "objectId": "g3593a8c04aa_0_78",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 53.173228346456696,
+          "top": 306.503937007874,
+          "left": 25.291338582677167,
+          "text": "Businesses using AI Sales Assistants see up to\u000b38% more closed deals in 60 days."
+        },
+        {
+          "objectId": "g35db2b95471_15_2",
+          "type": "IMAGE",
+          "width": 156.11803937007875,
+          "height": 307.5021496062992,
+          "top": 72.83460374015748,
+          "left": 502.64173405511815,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeJK__HCoZ9uEDi3eYTS64j0q8YBobQRGzsLy5PCrtPnwOJSWr3H3lBiD_91x98dtOtxm7EpU3Nq6R1KdzqcBl5Ts_YAL_TxwZuvuREokksIddZl3cNu6Y6nb_nRquiJ4Dz2oCULY-1RyQL6ZPA4JMXEQ=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        },
+        {
+          "objectId": "g35ec59d507d_3_144",
+          "type": "SHAPE",
+          "width": 333.3070866141732,
+          "height": 42.54330708661417,
+          "top": 372.21273326771654,
+          "left": 386.6929133858268,
+          "text": "*WhatsApp messing incurs an additional cost of $15.60 AUD a month"
+        }
+      ]
+    },
+    {
+      "slideId": "g354c82bd132_0_306",
+      "slideNumber": 55,
+      "notes": "Intercept Negative Reviews. AI detects unhappy customers and so you can engage them privately\nAutomate building your reputation Boost your reputation without lifting a finger. Our AI Reviews Agent helps you get more 5-star ratings, respond instantly, and manage feedback like a pro.\nAI Review Agent\nThe AI Review Agent automates the process of collecting positive reviews and managing feedback, leading to up to a 25% increase in referrals for companies.\nAuto-Request 5-Star Reviews: The AI follows up with happy customers and can encourage or incentivize them to leave glowing feedback.\nIntercept Negative Reviews: It detects unhappy customers, allowing you to engage with them privately to resolve issues.\nInstant Reply: The AI echoes and thanks reviews with personalized, on-brand messages, eliminating manual copy-pasting.\nPricing: $497 AUD + GST per month, with a $997 AUD + GST onboarding investment.\nIncluded Credit: $50 text credit per month. \n\n\n",
+      "elements": [
+        {
+          "objectId": "g354c82bd132_0_307",
+          "type": "SHAPE",
+          "width": 487.2283464566929,
+          "height": 48.47244094488189,
+          "top": 34.74409448818898,
+          "left": 29.078740157480315,
+          "text": "AI Review Agent"
+        },
+        {
+          "objectId": "g354c82bd132_0_308",
+          "type": "SHAPE",
+          "width": 230.38582677165354,
+          "height": 24.236220472440944,
+          "top": 16.393700787401574,
+          "left": 29.078740157480315,
+          "text": "QUICKLY.AI AGENTS"
+        },
+        {
+          "objectId": "g354c82bd132_0_309",
+          "type": "SHAPE",
+          "width": 677.2677165354331,
+          "height": 26.669291338582678,
+          "top": 78.44094488188976,
+          "left": 29.078740157480315,
+          "text": "CONVERSATIONAL AGENT DETAILS"
+        },
+        {
+          "objectId": "g354c82bd132_0_312",
+          "type": "SHAPE",
+          "width": 156.11811023622047,
+          "height": 28.275590551181104,
+          "top": 34.62992125984252,
+          "left": 544.7351679133858,
+          "text": "$497 AUD +GST \nper month"
+        },
+        {
+          "objectId": "g354c82bd132_0_313",
+          "type": "SHAPE",
+          "width": 341.74015748031496,
+          "height": 193.91338582677164,
+          "top": 105.11023622047244,
+          "left": 35.07874015748032,
+          "text": "Auto-Request 5-Star Reviews. AI follows up with happy customers and can encourage or incentivise them to leave glowing feedback.\nInstant Reply. Echo and thank reviews with personalized, on-brand messages - no copy-pasting required.\nCreation of AI Agent\nTraining of persuasive language and incentives to encourage positive feedback \nEcho and thank reviews with personalized, on-brand messages\nMonthly Reporting and Performance Test Plan\nOngoing Quality Assurance and Training  \n$50 text credit included per month"
+        },
+        {
+          "objectId": "g3552fba8c4a_18_11",
+          "type": "SHAPE",
+          "width": 351.5196850393701,
+          "height": 53.173228346456696,
+          "top": 306.503937007874,
+          "left": 25.291338582677167,
+          "text": "Companies using AI for Review Management up to a 25% increase in referrals."
+        },
+        {
+          "objectId": "g35db2b95471_15_5",
+          "type": "IMAGE",
+          "width": 305.2205433070866,
+          "height": 214.5275433070866,
+          "top": 129.34645787401575,
+          "left": 406.8484218503937,
+          "sourceUrl": null,
+          "contentUrl": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcnexEX1yLLQQ1N9zx4oGWGxVh8CLgAADYRUBRVxZnKVH3LnO5ZjWRUrob0hnYKYLSYNe-ROLeYGf682Lor24UjwLeML0mnfquSU0OM_plTJbpxyfj9qlhiJ74oE94qh6Omag8yWOIy29dlkjU7QVI=s2048?key=6PvuckMZC0HwFzBLsiHr-2kA"
+        }
+      ]
+    },
+    {
+      "slideId": "g32d175f0297_0_44",
+      "slideNumber": 56,
+      "notes": "First point. Don’t get it. Your challenge, quicklys ai solution?\n",
+      "elements": [
+        {
+          "objectId": "g32d175f0297_0_46",
+          "type": "SHAPE",
+          "width": 661.8425196850394,
+          "height": 45.09448818897638,
+          "top": 28.744094488188978,
+          "left": 29.078740157480315,
+          "text": "Your challenges. Our AI-powered solutions."
+        },
+        {
+          "objectId": "g32d175f0297_1_54",
+          "type": "TABLE",
+          "width": null,
+          "height": null,
+          "top": 94.54330708661418,
+          "left": 75,
+          "rows": 6,
+          "columns": 2
+        }
+      ]
+    }
+  ]
+}
