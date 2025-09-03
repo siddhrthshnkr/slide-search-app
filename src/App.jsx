@@ -837,8 +837,37 @@ export default function App() {
       {/* Main Content */}
       <div className="flex-1 flex flex-col min-h-screen">
         <main className="flex-1 px-6 py-8">
+          <header className="text-center mb-8">
+            <h1 className="text-4xl md:text-5xl font-bold text-slate-900">Knowledge Base Search</h1>
+            <p className="text-slate-600 mt-2">Instantly search across all your presentations.</p>
+          </header>
 
-        <div className="space-y-4">
+          <div className="relative mb-8" ref={searchWrapperRef}>
+            <SearchIcon />
+            <input type="text" value={query} onChange={(e) => handleSearch(e.target.value)} onFocus={() => setIsAutocompleteVisible(true)} placeholder={`Search across ${allSlides.length} slides by content, category, or topic...`} className="w-full pl-12 pr-4 py-3 text-lg border-2 border-slate-300 rounded-full focus:ring-4 focus:ring-blue-200 focus:border-blue-500 outline-none transition-shadow"/>
+            {isAutocompleteVisible && suggestions.length > 0 && query.length > 0 && (
+              <div className="absolute top-full mt-2 w-full bg-white border border-slate-200 rounded-lg shadow-lg z-10 overflow-hidden">
+                <ul>{suggestions.map((s, i) => (<li key={i} onClick={() => handleAutocompleteClick(s)} className="px-4 py-2 hover:bg-slate-100 cursor-pointer text-slate-700">{highlightText(s, query)}</li>))}</ul>
+              </div>
+            )}
+          </div>
+          
+          <div className="bg-white/60 border border-blue-200 rounded-xl p-5 mb-10 shadow-sm">
+               <div className="flex items-center mb-3"><SparklesIcon className="h-6 w-6 text-blue-500 mr-3"/><h2 className="text-xl font-bold text-slate-800">AI Assistant</h2></div>
+              <p className="text-slate-600 mb-4 text-sm">Ask a question to find relevant slides from all decks.</p>
+              <div className="flex flex-col sm:flex-row gap-2">
+                  <input type="text" value={aiQuery} onChange={(e) => setAiQuery(e.target.value)} placeholder="e.g., 'show case studies for content marketing'" className="flex-grow pl-4 pr-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-200 outline-none" onKeyDown={(e) => e.key === 'Enter' && handleAiSearch()}/>
+                  <button onClick={handleAiSearch} disabled={isAiLoading || !Fuse} className="bg-blue-600 text-white font-semibold px-5 py-2 rounded-lg hover:bg-blue-700 transition-colors disabled:bg-slate-400 disabled:cursor-not-allowed flex items-center justify-center">
+                      {isAiLoading ? (<div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>) : 'Find Slides'}
+                  </button>
+              </div>
+              {aiError && <p className="text-red-500 text-sm mt-2">{aiError}</p>}
+          </div>
+
+          {isLoading && <div className="text-center text-slate-500">Loading knowledge base...</div>}
+          {error && <div className="text-center text-red-500 bg-red-100 p-4 rounded-lg">{error}</div>}
+
+          <div className="space-y-4">
           {!isAiLoading && results.length > 0 ? (
             <div className="mb-4">
               <p className="text-sm text-slate-600">
