@@ -34,6 +34,10 @@ export default function App() {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [selectedDeck, setSelectedDeck] = useState('All');
   const [selectedService, setSelectedService] = useState('All');
+  const [selectedOffice, setSelectedOffice] = useState('All');
+  const [selectedClient, setSelectedClient] = useState('All');
+  const [selectedBusinessType, setSelectedBusinessType] = useState('All');
+  const [selectedIndustry, setSelectedIndustry] = useState('All');
   const [expandedSlides, setExpandedSlides] = useState(new Set());
   const searchWrapperRef = useRef(null);
 
@@ -50,10 +54,16 @@ export default function App() {
     if (allSlides.length === 0 || !Fuse) return null;
     return new Fuse(allSlides, {
       keys: [
-        { name: 'text', weight: 0.7 },
-        { name: 'category', weight: 0.2 },
-        { name: 'deckDisplayName', weight: 0.1 },
-        { name: 'notes', weight: 0.1 }
+        { name: 'enrichedText', weight: 0.5 },
+        { name: 'text', weight: 0.3 },
+        { name: 'client', weight: 0.2 },
+        { name: 'industry', weight: 0.15 },
+        { name: 'category', weight: 0.1 },
+        { name: 'indexService', weight: 0.1 },
+        { name: 'businessType', weight: 0.1 },
+        { name: 'office', weight: 0.05 },
+        { name: 'deckDisplayName', weight: 0.05 },
+        { name: 'notes', weight: 0.05 }
       ],
       includeScore: true,
       includeMatches: true,
@@ -71,17 +81,45 @@ export default function App() {
         if (!decksResponse.ok) throw new Error('Could not load decks.json configuration.');
         const decks = await decksResponse.json();
 
-        // 2. Fetch all individual slide decks in parallel
+        // 2. Load index data for global case studies if available
+        let indexData = null;
+        try {
+          const indexResponse = await fetch('/global-case-studies-index.json');
+          if (indexResponse.ok) {
+            indexData = await indexResponse.json();
+          }
+        } catch (err) {
+          console.log('No index file found, proceeding without index data');
+        }
+
+        // 3. Fetch all individual slide decks in parallel
         const slidePromises = decks.map(deck =>
           fetch(`/${deck.fileName}`)
             .then(res => res.ok ? res.json() : Promise.reject(`Failed to load ${deck.fileName}`))
             .then(deckData => {
               const slides = deckData.slides || [];
-              return slides.map(slide => ({
-                ...slide,
-                deckDisplayName: deck.displayName, // Add display name to each slide
-                presentationId: deck.presentationId, // Add presentation ID to each slide
-              }));
+              return slides.map(slide => {
+                // Find corresponding index data for this slide
+                let slideIndex = null;
+                if (indexData && deck.fileName === 'global-case-studies.json') {
+                  slideIndex = indexData.find(index => index.slide_number === slide.slideNumber);
+                }
+                
+                return {
+                  ...slide,
+                  deckDisplayName: deck.displayName,
+                  presentationId: deck.presentationId,
+                  // Add index metadata if available
+                  ...(slideIndex && {
+                    office: slideIndex.office,
+                    client: slideIndex.client,
+                    indexService: slideIndex.service, // Rename to avoid conflict with extracted services
+                    businessType: slideIndex.type,
+                    industry: slideIndex.industry,
+                    indexNotes: slideIndex.notes
+                  })
+                };
+              });
             })
         );
 
@@ -94,11 +132,18 @@ export default function App() {
           
           const extractedText = textElements.map(element => element.text).join(' ');
           
-          // Enhanced categorization with better detection
-          const categorizeSlide = (text, notes, deckName, elements) => {
+          // Enhanced categorization with index data integration
+          const categorizeSlide = (text, notes, deckName, elements, indexData) => {
             const content = (text + ' ' + (notes || '') + ' ' + deckName).toLowerCase();
             
-            // Deck-based categorization first
+            // Use index data for more accurate categorization if available
+            if (indexData) {
+              if (indexData.businessType === 'eCommerce') return 'eCommerce';
+              if (indexData.businessType === 'Lead Generation') return 'Lead Generation';
+              if (indexData.industry && indexData.industry.toLowerCase().includes('case stud')) return 'Case Studies';
+            }
+            
+            // Deck-based categorization
             if (deckName.toLowerCase().includes('case stud')) return 'Case Studies';
             if (deckName.toLowerCase().includes('sales')) {
               if (content.includes('pricing') || content.includes('cost') || content.includes('$') || content.includes('price')) return 'Pricing';
@@ -143,11 +188,25 @@ export default function App() {
             return servicesString.split(/[|,&]/).map(s => s.trim()).filter(s => s);
           };
           
+          // Create enriched text for better searchability
+          const enrichText = (baseText, slide) => {
+            let enriched = baseText;
+            if (slide.client) enriched += ` ${slide.client}`;
+            if (slide.industry) enriched += ` ${slide.industry}`;
+            if (slide.indexService) enriched += ` ${slide.indexService}`;
+            if (slide.businessType) enriched += ` ${slide.businessType}`;
+            if (slide.office) enriched += ` ${slide.office}`;
+            return enriched;
+          };
+
+          const enrichedText = enrichText(extractedText, slide);
+          
           // Create a more structured slide object
           const enhancedSlide = {
             ...slide,
             text: extractedText,
-            category: categorizeSlide(extractedText, slide.notes, slide.deckDisplayName, slide.elements),
+            enrichedText: enrichedText, // For search purposes
+            category: categorizeSlide(extractedText, slide.notes, slide.deckDisplayName, slide.elements, slide),
             metrics: extractMetrics(slide.elements),
             services: extractServices(slide.elements),
             elementCount: textElements.length,
@@ -183,10 +242,10 @@ export default function App() {
 
   const handleSearch = (newQuery) => {
     setQuery(newQuery);
-    applyFilters(newQuery, selectedCategory, selectedDeck, selectedService);
+    applyFilters(newQuery, selectedCategory, selectedDeck, selectedService, selectedOffice, selectedClient, selectedBusinessType, selectedIndustry);
   };
 
-  const applyFilters = (searchQuery, category, deck, service) => {
+  const applyFilters = (searchQuery, category, deck, service, office, client, businessType, industry) => {
     let filteredSlides = allSlides;
     
     // Apply all filters
@@ -198,6 +257,18 @@ export default function App() {
     }
     if (service !== 'All') {
       filteredSlides = filteredSlides.filter(slide => slide.services && slide.services.includes(service));
+    }
+    if (office !== 'All') {
+      filteredSlides = filteredSlides.filter(slide => slide.office === office);
+    }
+    if (client !== 'All') {
+      filteredSlides = filteredSlides.filter(slide => slide.client === client);
+    }
+    if (businessType !== 'All') {
+      filteredSlides = filteredSlides.filter(slide => slide.businessType === businessType);
+    }
+    if (industry !== 'All') {
+      filteredSlides = filteredSlides.filter(slide => slide.industry && slide.industry.toLowerCase().includes(industry.toLowerCase()));
     }
     
     if (!searchQuery.trim()) {
@@ -220,6 +291,18 @@ export default function App() {
       if (service !== 'All') {
         finalResults = finalResults.filter(result => result.item.services && result.item.services.includes(service));
       }
+      if (office !== 'All') {
+        finalResults = finalResults.filter(result => result.item.office === office);
+      }
+      if (client !== 'All') {
+        finalResults = finalResults.filter(result => result.item.client === client);
+      }
+      if (businessType !== 'All') {
+        finalResults = finalResults.filter(result => result.item.businessType === businessType);
+      }
+      if (industry !== 'All') {
+        finalResults = finalResults.filter(result => result.item.industry && result.item.industry.toLowerCase().includes(industry.toLowerCase()));
+      }
       
       setResults(finalResults);
       const autocompleteSuggestions = finalResults.slice(0, 5).map(res => res.matches[0].value.substring(0, 60) + '...');
@@ -229,17 +312,37 @@ export default function App() {
 
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
-    applyFilters(query, category, selectedDeck, selectedService);
+    applyFilters(query, category, selectedDeck, selectedService, selectedOffice, selectedClient, selectedBusinessType, selectedIndustry);
   };
   
   const handleDeckChange = (deck) => {
     setSelectedDeck(deck);
-    applyFilters(query, selectedCategory, deck, selectedService);
+    applyFilters(query, selectedCategory, deck, selectedService, selectedOffice, selectedClient, selectedBusinessType, selectedIndustry);
   };
   
   const handleServiceChange = (service) => {
     setSelectedService(service);
-    applyFilters(query, selectedCategory, selectedDeck, service);
+    applyFilters(query, selectedCategory, selectedDeck, service, selectedOffice, selectedClient, selectedBusinessType, selectedIndustry);
+  };
+  
+  const handleOfficeChange = (office) => {
+    setSelectedOffice(office);
+    applyFilters(query, selectedCategory, selectedDeck, selectedService, office, selectedClient, selectedBusinessType, selectedIndustry);
+  };
+  
+  const handleClientChange = (client) => {
+    setSelectedClient(client);
+    applyFilters(query, selectedCategory, selectedDeck, selectedService, selectedOffice, client, selectedBusinessType, selectedIndustry);
+  };
+  
+  const handleBusinessTypeChange = (businessType) => {
+    setSelectedBusinessType(businessType);
+    applyFilters(query, selectedCategory, selectedDeck, selectedService, selectedOffice, selectedClient, businessType, selectedIndustry);
+  };
+  
+  const handleIndustryChange = (industry) => {
+    setSelectedIndustry(industry);
+    applyFilters(query, selectedCategory, selectedDeck, selectedService, selectedOffice, selectedClient, selectedBusinessType, industry);
   };
 
   const handleAutocompleteClick = (suggestion) => {
@@ -411,6 +514,118 @@ export default function App() {
               );
             })()
             }
+            
+            {/* Office Filter */}
+            {(() => {
+              const allOffices = Array.from(new Set(allSlides.map(slide => slide.office).filter(Boolean))).sort();
+              return allOffices.length > 0 && (
+                <div>
+                  <h3 className="text-sm font-semibold text-slate-600 mb-3">Filter by Office</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {['All', ...allOffices].map(office => (
+                      <button
+                        key={office}
+                        onClick={() => handleOfficeChange(office)}
+                        className={`px-3 py-1.5 text-sm font-medium rounded-full transition-colors ${
+                          selectedOffice === office
+                            ? 'bg-orange-600 text-white'
+                            : 'bg-orange-50 text-orange-700 hover:bg-orange-100 border border-orange-200'
+                        }`}
+                      >
+                        {office} ({office === 'All' ? allSlides.filter(s => s.office).length : allSlides.filter(slide => slide.office === office).length})
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              );
+            })()
+            }
+            
+            {/* Business Type Filter */}
+            {(() => {
+              const allBusinessTypes = Array.from(new Set(allSlides.map(slide => slide.businessType).filter(Boolean))).sort();
+              return allBusinessTypes.length > 0 && (
+                <div>
+                  <h3 className="text-sm font-semibold text-slate-600 mb-3">Filter by Business Type</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {['All', ...allBusinessTypes].map(businessType => (
+                      <button
+                        key={businessType}
+                        onClick={() => handleBusinessTypeChange(businessType)}
+                        className={`px-3 py-1.5 text-sm font-medium rounded-full transition-colors ${
+                          selectedBusinessType === businessType
+                            ? 'bg-indigo-600 text-white'
+                            : 'bg-indigo-50 text-indigo-700 hover:bg-indigo-100 border border-indigo-200'
+                        }`}
+                      >
+                        {businessType} ({businessType === 'All' ? allSlides.filter(s => s.businessType).length : allSlides.filter(slide => slide.businessType === businessType).length})
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              );
+            })()
+            }
+            
+            {/* Industry Filter */}
+            {(() => {
+              const allIndustries = Array.from(new Set(allSlides.flatMap(slide => 
+                slide.industry ? slide.industry.split(/[,&]/).map(i => i.trim()).filter(i => i) : []
+              ))).sort();
+              return allIndustries.length > 0 && (
+                <div>
+                  <h3 className="text-sm font-semibold text-slate-600 mb-3">Filter by Industry</h3>
+                  <div className="flex flex-wrap gap-2 max-h-32 overflow-y-auto">
+                    {['All', ...allIndustries.slice(0, 15)].map(industry => (
+                      <button
+                        key={industry}
+                        onClick={() => handleIndustryChange(industry)}
+                        className={`px-3 py-1.5 text-sm font-medium rounded-full transition-colors ${
+                          selectedIndustry === industry
+                            ? 'bg-teal-600 text-white'
+                            : 'bg-teal-50 text-teal-700 hover:bg-teal-100 border border-teal-200'
+                        }`}
+                      >
+                        {industry} ({industry === 'All' ? allSlides.filter(s => s.industry).length : allSlides.filter(slide => slide.industry && slide.industry.toLowerCase().includes(industry.toLowerCase())).length})
+                      </button>
+                    ))}
+                    {allIndustries.length > 15 && (
+                      <span className="text-sm text-slate-500 self-center">+{allIndustries.length - 15} more...</span>
+                    )}
+                  </div>
+                </div>
+              );
+            })()
+            }
+            
+            {/* Client Filter (for global case studies) */}
+            {(() => {
+              const allClients = Array.from(new Set(allSlides.map(slide => slide.client).filter(Boolean))).sort();
+              return allClients.length > 0 && (
+                <div>
+                  <h3 className="text-sm font-semibold text-slate-600 mb-3">Filter by Client</h3>
+                  <div className="flex flex-wrap gap-2 max-h-32 overflow-y-auto">
+                    {['All', ...allClients.slice(0, 20)].map(client => (
+                      <button
+                        key={client}
+                        onClick={() => handleClientChange(client)}
+                        className={`px-3 py-1.5 text-sm font-medium rounded-full transition-colors ${
+                          selectedClient === client
+                            ? 'bg-pink-600 text-white'
+                            : 'bg-pink-50 text-pink-700 hover:bg-pink-100 border border-pink-200'
+                        }`}
+                      >
+                        {client} ({client === 'All' ? allSlides.filter(s => s.client).length : allSlides.filter(slide => slide.client === client).length})
+                      </button>
+                    ))}
+                    {allClients.length > 20 && (
+                      <span className="text-sm text-slate-500 self-center">+{allClients.length - 20} more...</span>
+                    )}
+                  </div>
+                </div>
+              );
+            })()
+            }
           </div>
         )}
 
@@ -420,8 +635,12 @@ export default function App() {
               <p className="text-sm text-slate-600">
                 Showing {results.length} result{results.length !== 1 ? 's' : ''}
                 {selectedDeck !== 'All' ? ` from ${selectedDeck}` : ''}
+                {selectedOffice !== 'All' ? ` from ${selectedOffice}` : ''}
+                {selectedClient !== 'All' ? ` for ${selectedClient}` : ''}
                 {selectedCategory !== 'All' ? ` in ${selectedCategory}` : ''}
+                {selectedBusinessType !== 'All' ? ` (${selectedBusinessType})` : ''}
                 {selectedService !== 'All' ? ` using ${selectedService}` : ''}
+                {selectedIndustry !== 'All' ? ` in ${selectedIndustry}` : ''}
                 {query ? ` for "${query}"` : ''}
               </p>
             </div>
@@ -474,6 +693,16 @@ export default function App() {
                               🔧 {item.services.length} Service{item.services.length !== 1 ? 's' : ''}
                             </span>
                           )}
+                          {item.office && (
+                            <span className="inline-flex items-center px-2 py-0.5 rounded-md text-xs bg-orange-50 text-orange-600 border border-orange-200">
+                              🏢 {item.office}
+                            </span>
+                          )}
+                          {item.businessType && (
+                            <span className="inline-flex items-center px-2 py-0.5 rounded-md text-xs bg-indigo-50 text-indigo-600 border border-indigo-200">
+                              📈 {item.businessType}
+                            </span>
+                          )}
                         </div>
                       </div>
                       <div className="ml-auto flex items-center gap-4 flex-shrink-0">
@@ -516,6 +745,32 @@ export default function App() {
                             );
                           })()
                           }
+                        </div>
+                      </div>
+                    )}
+                    {item.client && (
+                      <div className="mt-3 pt-3 border-t border-slate-100">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                          <div>
+                            <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-2">Client Information</p>
+                            <div className="space-y-1">
+                              <p className="text-sm"><span className="font-medium">Client:</span> {highlightText(item.client, query)}</p>
+                              {item.industry && <p className="text-sm"><span className="font-medium">Industry:</span> {highlightText(item.industry, query)}</p>}
+                              {item.businessType && <p className="text-sm"><span className="font-medium">Type:</span> {item.businessType}</p>}
+                            </div>
+                          </div>
+                          {item.indexService && (
+                            <div>
+                              <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-2">Services Delivered</p>
+                              <div className="flex flex-wrap gap-1">
+                                {item.indexService.split(/[,|&]/).map((service, serviceIdx) => (
+                                  <span key={serviceIdx} className="inline-flex items-center px-2 py-1 rounded-md text-xs font-medium bg-gradient-to-r from-purple-50 to-pink-50 text-purple-700 border border-purple-200">
+                                    {highlightText(service.trim(), query)}
+                                  </span>
+                                ))}
+                              </div>
+                            </div>
+                          )}
                         </div>
                       </div>
                     )}
