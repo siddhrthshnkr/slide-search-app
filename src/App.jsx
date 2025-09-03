@@ -32,6 +32,7 @@ export default function App() {
   const [aiError, setAiError] = useState(null);
   const [Fuse, setFuse] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState('All');
+  const [expandedSlides, setExpandedSlides] = useState(new Set());
   const searchWrapperRef = useRef(null);
 
   useEffect(() => {
@@ -181,6 +182,21 @@ export default function App() {
     return <span>{text.split(regex).map((part, i) => regex.test(part) ? <mark key={i} className="bg-yellow-200 px-1 rounded-sm">{part}</mark> : part)}</span>;
   };
 
+  const summarizeText = (text, maxLength = 200) => {
+    if (!text || text.length <= maxLength) return text;
+    
+    // Try to break at sentence boundaries
+    const sentences = text.split(/[.!?]+/);
+    let summary = sentences[0];
+    
+    for (let i = 1; i < sentences.length; i++) {
+      if ((summary + sentences[i]).length > maxLength) break;
+      summary += sentences[i] + (sentences[i].match(/[.!?]$/) ? '' : '.');
+    }
+    
+    return summary.trim() + (summary.length < text.length ? '...' : '');
+  };
+
   const handleAiSearch = async () => {
     if (!aiQuery.trim() || allSlides.length === 0) return;
     setIsAiLoading(true);
@@ -299,8 +315,50 @@ export default function App() {
                         {slideUrl && (<a href={slideUrl} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 p-1 rounded-full hover:bg-blue-100 transition-colors" title="Open in Google Slides"><LinkIcon/></a>)}
                       </div>
                     </div>
-                    {item.content && (<div className="mb-2"><p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-1">Content</p><p className="text-slate-700 whitespace-pre-wrap">{highlightText(item.content, query)}</p></div>)}
-                    {item.notes && (<div className="mt-3 pt-3 border-t border-slate-100"><p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-1">Notes</p><p className="text-slate-600 italic whitespace-pre-wrap">{highlightText(item.notes, query)}</p></div>)}
+                    {item.text && item.text.trim() && (
+                      <div className="mb-3">
+                        <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-2">Content</p>
+                        <div className="bg-slate-50 rounded-lg p-3 border border-slate-100">
+                          {(() => {
+                            const slideKey = `${item.slideId}-${idx}`;
+                            const isExpanded = expandedSlides.has(slideKey);
+                            const shouldTruncate = item.text.length > 250;
+                            const displayText = shouldTruncate && !isExpanded ? summarizeText(item.text, 250) : item.text;
+                            
+                            return (
+                              <>
+                                <p className="text-slate-700 leading-relaxed">
+                                  {highlightText(displayText, query)}
+                                </p>
+                                {shouldTruncate && (
+                                  <button 
+                                    className="text-blue-600 hover:text-blue-800 text-sm mt-2 font-medium transition-colors"
+                                    onClick={() => {
+                                      const newExpanded = new Set(expandedSlides);
+                                      if (isExpanded) {
+                                        newExpanded.delete(slideKey);
+                                      } else {
+                                        newExpanded.add(slideKey);
+                                      }
+                                      setExpandedSlides(newExpanded);
+                                    }}
+                                  >
+                                    Show {isExpanded ? 'less' : 'more'}
+                                  </button>
+                                )}
+                              </>
+                            );
+                          })()
+                          }
+                        </div>
+                      </div>
+                    )}
+                    {item.notes && item.notes.trim() && item.notes !== '\n' && (
+                      <div className="mt-3 pt-3 border-t border-slate-100">
+                        <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-1">Notes</p>
+                        <p className="text-slate-600 italic text-sm">{highlightText(item.notes, query)}</p>
+                      </div>
+                    )}
                   </div>
                 )
             })
