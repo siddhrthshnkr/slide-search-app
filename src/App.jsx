@@ -2,19 +2,19 @@ import React, { useState, useEffect, useMemo, useRef } from 'react';
 
 // --- Helper Components for Icons ---
 const SearchIcon = ({ className = "absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
 );
 
 const BookIcon = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 text-slate-500 mr-3"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 text-slate-500 mr-3"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path></svg>
 );
 
 const SparklesIcon = ({ className }) => (
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="m12 3-1.9 5.8-5.8 1.9 5.8 1.9 1.9 5.8 1.9-5.8 5.8-1.9-5.8-1.9z"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="m12 3-1.9 5.8-5.8 1.9 5.8 1.9 1.9 5.8 1.9-5.8 5.8-1.9-5.8-1.9z"></path></svg>
 );
 
 const LinkIcon = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72"></path></svg>
 );
 
 // --- Main App Component ---
@@ -53,44 +53,57 @@ export default function App() {
     });
   }, [allSlides, Fuse]);
 
-  // --- Data loading logic ---
+  // --- Data loading and processing logic ---
   useEffect(() => {
-    async function fetchAllDecks() {
+    async function fetchAndProcessSlides() {
       try {
-        // 1. Fetch the master list of decks
-        const decksResponse = await fetch('/decks.json');
-        if (!decksResponse.ok) throw new Error('Could not load decks.json configuration.');
-        const decks = await decksResponse.json();
+        // --- FIX: Changed the file path to be relative ---
+        // The original path '/master-deck.json' caused a URL parsing error.
+        // Changing it to './master-deck.json' makes the path relative to the current location,
+        // which is a more reliable way to fetch local files.
+        const response = await fetch('./master-deck.json'); 
+        if (!response.ok) {
+          throw new Error('Could not load the presentation data file.');
+        }
+        const deckData = await response.json();
 
-        // 2. Fetch all individual slide decks in parallel
-        const slidePromises = decks.map(deck =>
-          fetch(`/${deck.fileName}`)
-            .then(res => res.ok ? res.json() : Promise.reject(`Failed to load ${deck.fileName}`))
-            .then(deckData => {
-              const slides = deckData.slides || [];
-              return slides.map(slide => ({
-                ...slide,
-                deckDisplayName: deck.displayName, // Add display name to each slide
-                presentationId: deck.presentationId, // Add presentation ID to each slide
-              }));
-            })
-        );
+        // Check for valid data structure
+        if (!deckData || !deckData.slides || deckData.slides.length === 0) {
+          throw new Error('No slides found in the provided presentation data.');
+        }
 
-        const slidesByDeck = await Promise.all(slidePromises);
-        const combinedSlides = slidesByDeck.flat(); // Combine all slides into one array
+        const deckDisplayName = deckData.presentationName || 'Presentation';
+        const presentationId = deckData.presentationId;
 
-        setAllSlides(combinedSlides);
-        // Initially show the first 10 slides before any search
-        setResults(combinedSlides.slice(0, 10).map(item => ({ item })));
+        // Transform the raw slide data into a flat, searchable structure
+        const transformedSlides = deckData.slides.map(slide => {
+          // Extract text from all 'elements' and join into a single 'content' string.
+          const content = slide.elements
+            .filter(el => el.text && typeof el.text === 'string') // Ensure the element has a text property
+            .map(el => el.text.trim()) // Get the text and remove whitespace
+            .join('\n'); // Join with newlines
+
+          return {
+            slideId: slide.slideId,
+            slideNumber: slide.slideNumber,
+            notes: slide.notes ? slide.notes.trim() : '',
+            content: content, // The newly created searchable content string
+            deckDisplayName: deckDisplayName,
+            presentationId: presentationId,
+          };
+        });
+
+        setAllSlides(transformedSlides);
+        setResults(transformedSlides.slice(0, 10).map(item => ({ item })));
 
       } catch (err) {
-        console.error("Error loading decks:", err);
-        setError(err.message || 'Failed to load slide decks. Check the console for details.');
+        console.error("Error loading slide deck:", err);
+        setError(err.message || 'Failed to load slide deck. Check the console for details.');
       } finally {
         setIsLoading(false);
       }
     }
-    fetchAllDecks();
+    fetchAndProcessSlides();
   }, []);
 
   useEffect(() => {
@@ -114,9 +127,6 @@ export default function App() {
       const searchResults = fuse.search(newQuery, { limit: 50 });
       setResults(searchResults);
       
-      // --- FIX: Safely generate autocomplete suggestions ---
-      // The original code would crash if `res.matches` was empty or undefined.
-      // This updated version filters for results that have valid matches before creating suggestions.
       const autocompleteSuggestions = searchResults
         .slice(0, 5)
         .filter(res => res.matches && res.matches.length > 0 && res.matches[0].value)
@@ -135,7 +145,6 @@ export default function App() {
   
   const highlightText = (text = '', highlight = '') => {
     if (!highlight.trim() || !text) return <span>{text}</span>;
-    // Escape special characters for regex
     const escapedHighlight = highlight.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const regex = new RegExp(`(${escapedHighlight.split(' ').join('|')})`, 'gi');
     return <span>{text.split(regex).map((part, i) => regex.test(part) ? <mark key={i} className="bg-yellow-200 px-1 rounded-sm">{part}</mark> : part)}</span>;
@@ -147,11 +156,10 @@ export default function App() {
     setAiError(null);
     setResults([]);
     try {
-      // This assumes a backend endpoint '/api/ai-search' exists
       const response = await fetch('/api/ai-search', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ query: aiQuery, context: allSlides.slice(0, 200) }), // Example: send context
+        body: JSON.stringify({ query: aiQuery, context: allSlides.slice(0, 200) }),
       });
       if (!response.ok) {
         const errorData = await response.json();
@@ -169,7 +177,7 @@ export default function App() {
             return allSlides.find(slide => 
                 slide.slideNumber === info.slideNumber && slide.deckDisplayName === info.deckDisplayName
             );
-        }).filter(Boolean); // Filter out any undefined if slide not found
+        }).filter(Boolean);
         
         setResults(relevantSlides.map(item => ({ item })));
       } else {
@@ -241,3 +249,4 @@ export default function App() {
     </div>
   );
 }
+
